@@ -1,5 +1,5 @@
 # CITI-OpenLung
-An another [IN PROGRESS] open source, low cost, low resource, quick deployment ventilator design that utilizes a Ambu-bag as a core component.  'War' against COVID-19
+An another [IN PROGRESS] open source, low cost, low resource, quick deployment ventilator design that utilizes a Ambu-bag as a core component.  'War' against COVID-19.
 
 We are expecting (here in Brazil) the peak of covid-19 in 3 weeks (April 10th). The demand for mechanical ventilator is critical, it is the biggest cause of death of the covid-19. We are fighting time to develop an open-source ventilator that can be manufactured on time.
 
@@ -12,10 +12,10 @@ We are trying to develop a ventilator that has accessible and available parts he
 # Status
 
 - March 20: Project started
-- March 21: 3D Model in progress [80%]
+- March 21: 3D Model in progress 
+- March 22: V.2.2: More options for stepper and trapezoidal thread
 
 Pending:
-- 3D model
 - Bill of materials
 - Pressure sensor? mpx4250? MPS20N0040D?
 
@@ -37,7 +37,18 @@ Pending:
 
 ## Bill Of Materials [IN PROGRESS]
 
-- 1x Acrylic sheet 50 x 50 x 0,5 cm
+Files for laser cut for 5mm thickness:
+
+2x piston V2.2.dxf	
+2x side V2.2.dxf
+1x ambu support V2.2.dxf	
+1x base support V2.2.dxf	
+1x motor plate V2.2.dxf	
+1x nut plate V2.2.dxf	
+1x piston plate V2.2.dxf	
+
+Electronic parts: 
+
 - 1x Nema 17
 - 1x Arduino nano
 - 1x Easydriver stepper driver
@@ -46,7 +57,7 @@ Pending:
 - Wires, 12v 4A power supply, etc
 
 
-## To help
+## To help or to be helped:
 
 emoretto @ usp.br
 
