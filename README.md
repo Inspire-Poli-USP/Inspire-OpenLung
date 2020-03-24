@@ -11,7 +11,7 @@ An another **[IN PROGRESS]** open source, low cost, low resource, quick deployme
 
 ![Image of CITI-OpenLung](https://github.com/HPparanhos/CITI-OpenLung/blob/master/images/WhatsApp%20Image%202020-03-24%20at%2003.14.08.jpeg)
 
-## Why another?
+## Porque mais um projeto?
 
 Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimento, pensando principalmente nas materias primas e itens disponíveis para fabricação dentro so Brasil que são de fácil acesso. Acreditamos que esse conceito **depois de validado** possa ser replicado com o menor tempo de fabricação e com menor custo comparado a outros projetos. 
 
