@@ -14,16 +14,24 @@ We are trying to develop a ventilator that has accessible and available parts he
 
 # Status
 
+
 - March 20: Project started
 - March 21: 3D Model in progress 
 - March 22: V.2.2: More options for stepper and trapezoidal thread
 - March 23: Testes na versao 2.2 com um equipamento que mede volume, pressão e velocidade, obtivemos:
+
 27 ciclos por minuto
+
 250 mL de volume (este valor precisa alcancar 600 mL)
+
 30 cm H2O de pressão
+
 
 Vamos trocar o motor para NEMA 23 15kg de torque com fuso de avanço maior.
 
+- March 24: V3:
+
+Agora projetado para motor NEMA 23 de 15kg de torque
 
 Pending:
 - Toda a parte eletronica, PCB, quais sensores utilizar
@@ -49,13 +57,20 @@ Pending:
 
 Files for laser cut for 5mm thickness:
 
-2x piston V2.2.dxf	
-2x side V2.2.dxf
-1x ambu support V2.2.dxf	
-1x base support V2.2.dxf	
-1x motor plate V2.2.dxf	
-1x nut plate V2.2.dxf	
-1x piston plate V2.2.dxf	
+2x piston V3.dxf
+
+2x side V3.dxf
+
+1x ambu support V3.dxf	
+
+2x base support V3.dxf	
+
+1x motor plate V3.dxf	
+
+1x nut plate V3.dxf	
+
+1x piston plate V3.dxf	
+
 
 Electronic parts: 
 
