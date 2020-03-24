@@ -1,7 +1,9 @@
 # CITI-OpenLung
 
 ## ATENÇÃO! ANTES DE COMPARTILHAR OU REALIZAR DOWNLOADS, ESTEJA CIENTE DOS SEGUINTES ITENS:
-**ESTE PROJETO AINDA ESTÁ EM DESENVOLVIMENTO. NAO É UM PRODUTO PRONTO E NAO ESTÁ APTO PARA FABRICAÇÃO EM ESCALA. AINDA TEMOS MUITO TRABALHO A SER FEITO, VERIFIQUE O STATUS DO PROJETO E VEJA COMO PODE COLABORAR.**
+
+**Este projeto ainda está em desenvolvimento. Não é um produto pronto e ainda não está apto a fabricação em escala. Ainda temos muito trabalho a ser feito, verifique o status do projeto e veja como pode colaborar.**
+
 
 An another **[IN PROGRESS]** open source, low cost, low resource, quick deployment ventilator design that utilizes a Ambu-bag as a core component.  'War' against COVID-19.
 
