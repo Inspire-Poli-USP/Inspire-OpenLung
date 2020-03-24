@@ -13,7 +13,7 @@ An another **[IN PROGRESS]** open source, low cost, low resource, quick deployme
 
 ## Why another?
 
-Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimento, pensando principalmente nas materias primas e itens disponíveis para fabricação dentro so Brasil que são de fácil acesso. Acreditamos que esse conceito **depois de validado** possa ser replicado com o menor tempo de favricação e com menor custo comparado a outros projetos. 
+Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimento, pensando principalmente nas materias primas e itens disponíveis para fabricação dentro so Brasil que são de fácil acesso. Acreditamos que esse conceito **depois de validado** possa ser replicado com o menor tempo de fabricação e com menor custo comparado a outros projetos. 
 
 # Status
 
@@ -23,7 +23,7 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - March 23: Testes na versao 2.2 com um equipamento que mede volume, pressão e velocidade, obtivemos:
   1. 27 ciclos por minuto
   2. 250 mL de volume (este valor precisa alcancar 600 mL)
-  3. 30 cm H2O de pressão
+  1. 30 cm H2O de pressão
 - March 24: Adaptação para NEMA 23 e ajustes para maior rigidez da estrutura.
 
 ### Em progresso:
