@@ -1,4 +1,7 @@
 # CITI-OpenLung
+
+ATENÇÃO: ESTE PROJETO AINDA ESTÁ EM DESENVOLVIMENTO. NAO É UM PRODUTO PRONTO, NAO ESTÁ APTO PARA FABRICAÇÃO. HÁ AINDA MUITO TRABALHO A SER FEITO.
+
 An another [IN PROGRESS] open source, low cost, low resource, quick deployment ventilator design that utilizes a Ambu-bag as a core component.  'War' against COVID-19.
 
 We are expecting (here in Brazil) the peak of covid-19 in 3 weeks (April 10th). The demand for mechanical ventilator is critical, it is the biggest cause of death of the covid-19. We are fighting time to develop an open-source ventilator that can be manufactured on time.
@@ -14,10 +17,17 @@ We are trying to develop a ventilator that has accessible and available parts he
 - March 20: Project started
 - March 21: 3D Model in progress 
 - March 22: V.2.2: More options for stepper and trapezoidal thread
+- March 23: Testes na versao 2.2 com um equipamento que mede volume, pressão e velocidade, obtivemos:
+27 ciclos por minuto
+250 mL de volume (este valor precisa alcancar 600 mL)
+30 cm H2O de pressão
+
+Vamos trocar o motor para NEMA 23 15kg de torque com fuso de avanço maior.
+
 
 Pending:
-- Bill of materials
-- Pressure sensor? mpx4250? MPS20N0040D?
+- Toda a parte eletronica, PCB, quais sensores utilizar
+- Toda a parte de redundancia elétrica, isso tem que funcionar 24x7
 
 
 ## Main requirements:
@@ -49,12 +59,12 @@ Files for laser cut for 5mm thickness:
 
 Electronic parts: 
 
-- 1x Nema 17
-- 1x Arduino nano
-- 1x Easydriver stepper driver
-- 20x M3 Screw 12mm lenth
-- 4x M3 Screw 16mm lenth
-- Wires, 12v 4A power supply, etc
+- 1x Nema 23 15kg
+- 1x Arduino uno
+- 1x Driver de motor de passo
+- 20x M3 Screw 16mm
+- 4x M3 Screw 12mm 
+- Wires, 12v 6A power supply, etc
 
 
 ## To help or to be helped:
