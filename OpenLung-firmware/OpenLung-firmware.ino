@@ -1,14 +1,14 @@
-// Bounce.pde
 
 #include "AccelStepper.h"
 
 
-#define Z_STEP_PIN         46
-#define Z_DIR_PIN          48
-#define Z_ENABLE_PIN       62
-#define Z_MIN_PIN          18
-#define Z_MAX_PIN          19
+#define Z_STEP_PIN         3
+#define Z_DIR_PIN          2
+#define Z_ENABLE_PIN       1
+#define Z_MIN_PIN          12
+#define Z_MAX_PIN          11
 
+int stepsPerRevFactor = 2;
 
 AccelStepper stepper(1,Z_STEP_PIN, Z_DIR_PIN);
 
@@ -52,27 +52,31 @@ void loop()
        String input(receivedChars);
 
        if(input.startsWith("v")){          
-          //Serial.println("Start");
-          int speed = input.substring(1).toInt();          
-          stepper.setMaxSpeed(speed);          
+          int value = input.substring(1).toInt();          
+          stepper.setMaxSpeed(value*stepsPerRevFactor);          
        }
 
          if(input.startsWith("c")){          
-          //Serial.println("Start");
-          int speed = input.substring(1).toInt();          
-          stepper.moveTo(speed);
-          
+          int value = input.substring(1).toInt();          
+          stepper.moveTo(value*stepsPerRevFactor);
        }
 
          if(input.startsWith("a")){          
-          //Serial.println("Start");
-          int speed = input.substring(1).toInt();          
-          stepper.setAcceleration(speed);
-          
+          int value = input.substring(1).toInt();          
+          stepper.setAcceleration(value*stepsPerRevFactor);
+       }
+
+        if(input.startsWith("m")){          
+          start = false;
+          int value = input.substring(1).toInt();
+          stepper.runToNewPosition(value*stepsPerRevFactor);
+          stepper.setCurrentPosition(0);
        }
       
 
        if(input == "i"){
+          //stepper.setCurrentPosition(0);
+          //.moveTo(-stepper.currentPosition());
           start = true;
           Serial.println("Start");
        }
@@ -93,23 +97,23 @@ void loop()
       stepper.moveTo(-stepper.currentPosition());
 
        //tempo de meio ciclo
-       Serial.print(millis() - t0);      
-       Serial.println("ms");
+       //Serial.println(millis() - t0);      
+       //Serial.println("ms");
        //Serial.println(t0);
-       t0 = millis();  
+      // t0 = millis();  
           
     }
       
     stepper.run();
     
-  }else if(stepper.currentPosition() != 0){
+  }/*else if(stepper.currentPosition() != 0){
 
       if (stepper.distanceToGo() == 0)
       stepper.moveTo(-stepper.currentPosition());
       
     stepper.run();
     
-  }
+  }*/
 }
 
 
