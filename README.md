@@ -55,12 +55,12 @@ Apenas 10 peças:
 - 1x piston plate V3.dxf	
 
 ### Partes Eletrônicas
-*1x Nema 23 15kg
-*1x Arduino uno
-*1x Driver de motor de passo
-*20x M3 Screw 16mm
-*4x M3 Screw 12mm 
-*Cabos, Fonte de 12v 6A, etc
+- 1x Nema 23 15kg
+- 1x Arduino uno
+- 1x Driver de motor de passo
+- 20x M3 Screw 16mm
+- 4x M3 Screw 12mm 
+- Cabos, Fonte de 12v 6A, etc
 
 # Como Ajudar e ser Ajudado [EM PROGRESSO]
 Contato:
