@@ -9,7 +9,7 @@ An another **[IN PROGRESS]** open source, low cost, low resource, quick deployme
  
 >We are expecting (here in Brazil) the peak of covid-19 in 3 weeks (April 10th). The demand for mechanical ventilator is critical, it is the biggest cause of death of the covid-19. We are fighting time to develop an open-source ventilator that can be manufactured on time.
  
-![Image of CITI-OpenLung](https://github.com/HPparanhos/CITI-OpenLung/blob/master/images/images/WhatsAppImage2020-03-25at19.39.54.jpeg)
+![Image of CITI-OpenLung](https://github.com/HPparanhos/CITI-OpenLung/blob/master/images/images/WhatsApp%Image%2020-03-25%at%19.39.54.jpeg)
  
 ## Porque mais um projeto?
  
