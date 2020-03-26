@@ -1,6 +1,6 @@
 // Programa : Sistema de controle AMBU
 // Autor : Fellipy Kühne
-// Última atualização : 25/03/2020
+// Última atualização : 24/03/2020
 //
 //   O programa em questão deve permitir que um usuário consiga controlar um motor de passo, sua velocidade e o avanço,
 //   para isso ele utiliza duas entradas variáveis (potenciometros), e converte sua leitura dentro de um range estipulado.
