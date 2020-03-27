@@ -41,7 +41,10 @@ Nossa abordagem é:
     250 mL de volume (este valor precisa alcancar 600 mL)
     30 cm H2O de pressão
     Conclusão: trocar o motor para NEMA 23 15kg de torque e usar um fuso de avanço maior.
-- 24 de Março: Modelagem 3D do Protótipo V3: agora projetado para motor NEMA 23 de 15kg de torque
+- 24 de Março: Modelagem 3D e testes do Protótipo V3: agora projetado para motor NEMA 23 de 15kg de torque
+- 25 de Março: Modelagem 3D e testes do Protótipo V4: Ajustes para diminuir atrito e ser mais resistente a torção
+- 26 de Março: Primeira versão, ainda incompleta, do firmware
+- 27 de Março (vulgo HOJE): Desenvolvendo o firmware para primeiros testes usando sensor de pressão para controle
 
 ### Tarefas Pendentes
 - Toda a parte eletronica, PCB, quais sensores utilizar.
