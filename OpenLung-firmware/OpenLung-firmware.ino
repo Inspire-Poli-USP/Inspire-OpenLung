@@ -1,17 +1,14 @@
-// Poli Inspira
-
-// emoretto at usp.br
-// v4
+// Bounce.pde
 
 #include "AccelStepper.h"
 
-#define Z_STEP_PIN         3
-#define Z_DIR_PIN          2
-#define Z_ENABLE_PIN       1
-#define Z_MIN_PIN          12
-#define Z_MAX_PIN          11
 
-int stepsPerRevFactor = 2;
+#define Z_STEP_PIN         46
+#define Z_DIR_PIN          48
+#define Z_ENABLE_PIN       62
+#define Z_MIN_PIN          18
+#define Z_MAX_PIN          19
+
 
 AccelStepper stepper(1,Z_STEP_PIN, Z_DIR_PIN);
 
@@ -23,14 +20,6 @@ char receivedChars[numChars];
 boolean newData = false;
 
 
-//speed in steps per second
-//acceleration in steps per second
-
-int currentSpeed = 2000;
-int currentAcc = 1000;
-int currentCourse = 500;
-float currentRate = 2; //stepper driver rate
-
 long t0=0;
 
 void setup()
@@ -40,14 +29,15 @@ void setup()
    pinMode(Z_DIR_PIN    , OUTPUT);
    pinMode(Z_ENABLE_PIN    , OUTPUT);
 
-  // start your engines
-  stepper.setMaxSpeed(currentSpeed);
-  stepper.setAcceleration(currentAcc);
-  stepper.moveTo(currentCourse*stepsPerRevFactor);
+  // Change these to suit your stepper if you want
+  stepper.setMaxSpeed(2500);
+  stepper.setAcceleration(2500);
+  stepper.moveTo(750);
 
-  // houston
+
   Serial.begin(9600);
   Serial.println("Started!");
+  
 }
 
 
@@ -61,48 +51,33 @@ void loop()
                
        String input(receivedChars);
 
-        //velocidade
        if(input.startsWith("v")){          
-          currentSpeed = input.substring(1).toInt();          
-          stepper.setMaxSpeed(currentSpeed*stepsPerRevFactor);          
+          //Serial.println("Start");
+          int speed = input.substring(1).toInt();          
+          stepper.setMaxSpeed(speed);          
        }
 
-        //curso
-       if(input.startsWith("c")){          
-          currentCourse = input.substring(1).toInt(); 
-          currentCourse = currentCourse*stepsPerRevFactor;        
-          stepper.moveTo(currentCourse);
+         if(input.startsWith("c")){          
+          //Serial.println("Start");
+          int speed = input.substring(1).toInt();          
+          stepper.moveTo(speed);
+          
        }
 
-        //aceleracao
-       if(input.startsWith("a")){          
-          currentAcc = input.substring(1).toInt();          
-          stepper.setAcceleration(currentAcc*stepsPerRevFactor);
-       }
-
-       //mover (comando manual)
-       if(input.startsWith("m")){          
-          start = false;
-          int value = input.substring(1).toInt();
-          stepper.runToNewPosition(value*stepsPerRevFactor);
-          stepper.setCurrentPosition(0);
-       }
-
-        // Inpiracao/Expiracao rate
-       if(input.startsWith("r")){          
-          start = false;
-          currentRate  = input.substring(1).toFloat();
+         if(input.startsWith("a")){          
+          //Serial.println("Start");
+          int speed = input.substring(1).toInt();          
+          stepper.setAcceleration(speed);
+          
        }
       
-        //inicio
+
        if(input == "i"){
-          stepper.setCurrentPosition(0);
-          //.moveTo(-stepper.currentPosition());
           start = true;
           Serial.println("Start");
        }
 
-        //fim
+
        if(input == "f")
           start = false;
 
@@ -114,33 +89,26 @@ void loop()
   if(start){
        
     // If at the end of travel go to the other end
-    if (stepper.currentPosition() == 0){
-
-     stepper.setMaxSpeed(currentSpeed);
-     stepper.setAcceleration(currentAcc);
-     stepper.moveTo(currentCourse);
+    if (stepper.distanceToGo() == 0){
+      stepper.moveTo(-stepper.currentPosition());
 
        //tempo de meio ciclo
-       //Serial.println(millis() - t0);      
-       //Serial.println("ms");
-      // t0 = millis();  
+       Serial.print(millis() - t0);      
+       Serial.println("ms");
+       //Serial.println(t0);
+       t0 = millis();  
           
-    }
-
-    else if (stepper.currentPosition() == currentCourse){
-
-        stepper.setMaxSpeed(currentSpeed/currentRate);
-        stepper.setAcceleration(currentAcc/currentRate);    
-        
-        stepper.moveTo(0);
     }
       
     stepper.run();
     
   }else if(stepper.currentPosition() != 0){
 
-      stepper.moveTo(0);
-      stepper.run();
+      if (stepper.distanceToGo() == 0)
+      stepper.moveTo(-stepper.currentPosition());
+      
+    stepper.run();
+    
   }
 }
 
