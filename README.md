@@ -25,6 +25,8 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
   2. 250 mL de volume (este valor precisa alcançar 600 mL)
   1. 30 cm H2O de pressão
 - March 24: Adaptação para NEMA 23 e ajustes para maior rigidez da estrutura.
+- March 25: Testes de fluxo com NEMA 23 e progrmação do CLP.
+- March 26: Programação do sistema de telemetria e controle de informações na IHM.
  
 ### Em progresso:
  
@@ -32,18 +34,21 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [x] Alteração de design para junção da fixação de guia
 - [x] Validação do motor NEMA 23
 - [x] Validar utilização de fuso de avanço rápido 6,35x25,4 (diâmetro x passo)
- 
- 
+- [x] Escolha do driver de motor de passo com foco em baixo custo e fácil acesso (Dimensionado p/ NEMA23)
+- [x] Programação arduino para controle de ciclo e fluxo via potenciômetro
+- [x] Criação da interface (espaço para 2 potenciômetros e possível tela para sensor de fluxo)
+
 ### Pendente:
 - [ ] Levantamento de sensorização do sistema (qual sensor utilizar?)
-- [ ] Escolha do driver de motor de passo com foco em baixo custo e fácil acesso (Dimensionado p/ NEMA23)
-- [ ] Programação arduino para controle de ciclo e fluxo via potenciômetro
 - [ ] Realizar testes intensivos para identificar pontos críticos nas partes de acrílico
 - [ ] Criação da case eletrônica
-- [ ] Criação da interface (espaço para 2 potenciômetros e possível tela para sensor de fluxo)
 - [ ] Criação, validação e fabricação de PCB para entrada dos sensores e saída do motor
 - [ ] Levantamento de fornecedores e estoques no Brasil dos itens de projeto
 - [ ] Projeto elétrico pensando no fácil acesso e amigável (arduino+shield)
+- [ ] Teste com válvulas solenoides para parada de emergência do sistema
+- [ ] Validação junto a um especialista
+- [ ] Preparar design para corte a água em aluminio
+- [ ] Validação do tubo de venturi para leitura de fluxo
  
  
 # Requsitos principais
