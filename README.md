@@ -29,7 +29,7 @@ Nossa abordagem é:
   - *"em que pé que está sistema de controle dos espanhóis do 'ReesistenciaTeam'?"*
   - *"o pessoal da Unicamp já começou a testar o que eles estão fazendo?"*
 - Colaborar rapidamente com desenvolvedores/testadores empenhados em ajudar
-  - *"o pessoal de Joinvile está cortando e testando nosso modelo mais rápido que a gente (risos)"
+  - *"o pessoal de Joinvile está cortando e testando nosso modelo mais rápido que a gente (risos)"*
 
 ### Status
 
