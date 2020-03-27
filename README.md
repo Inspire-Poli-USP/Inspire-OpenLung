@@ -2,88 +2,67 @@
 
 ATENÇÃO: ESTE PROJETO AINDA ESTÁ EM DESENVOLVIMENTO. NAO É UM PRODUTO PRONTO, INFELIZMENTE AINDA NAO ESTÁ APTO PARA FABRICAÇÃO. ESTAMOS FULL TIME INTEGRAL VOLTADOS PARA ESTE PROJETO.
 
-An another [IN PROGRESS] open source, low cost, low resource, quick deployment ventilator design that utilizes a Ambu-bag as a core component.  'War' against COVID-19.
+Este é mais um projeto de design de ventilador pulmonar de acesso aberto com o intuito de ser barato, de fácil transporte e utilizando poucos materiais, usando principalmente um Ambu como gerador de fluxo de ar.
 
-We are expecting (here in Brazil) the peak of covid-19 in 3 weeks (April 10th). The demand for mechanical ventilator is critical, it is the biggest cause of death of the covid-19. We are fighting time to develop an open-source ventilator that can be manufactured on time.
+A expectativa é que teremos no Brasil um pico de casos a serem tratados pelo sistema de saúde em cerca de 3 semanas (por volta de 10 de Abril). Nesse momento a demanda por ventiladores pulmonares mecânicos será crítica, sendo uma das lamentáveis causas de morte pelo novo coronavirus devido a ausência de infraestrutura suficiente para a quantidade de número de pacientes. Estamos lutando contra o tempo para desenvolver um ventilador "open source" que possa ser fabricado antes que isso aconteça.
 
 ![Image of CITI-OpenLung](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/images/Screen%20Shot%202020-03-21%20at%2004.50.34.png)
 
-## Why another?
+# Porque mais um projeto como esse?
 
-We are trying to develop a ventilator that has accessible and available parts here in brazil.
+Nós estamos tentando desenvolver um ventilador que seja acessível e possa ser disponibilizado em diferentes partes do Brasil.
 
-# Status
+### Status
 
+- 20 de Março: Início do Projeto
+- 21 de Março: Modelagem 3D do Design e Fabricação do Protótipo V1
+- 22 de Março: Testes do V1. Modelagem e Fabricação do Protótipo V2.2: ampliando posibilidades de posicionamento do motor e fuso trapezoidal.
+- 23 de Março: Testes na versao 2.2 com um equipamento que mede volume, pressão e velocidade, obtivemos:
+    27 ciclos por minuto
+    250 mL de volume (este valor precisa alcancar 600 mL)
+    30 cm H2O de pressão
+    Conclusão: trocar o motor para NEMA 23 15kg de torque e usar um fuso de avanço maior.
+- 24 de Março: Modelagem 3D do Protótipo V3: agora projetado para motor NEMA 23 de 15kg de torque
 
-- March 20: Project started
-- March 21: 3D Model in progress 
-- March 22: V.2.2: More options for stepper and trapezoidal thread
-- March 23: Testes na versao 2.2 com um equipamento que mede volume, pressão e velocidade, obtivemos:
+### Tarefas Pendentes
+- Toda a parte eletronica, PCB, quais sensores utilizar.
+- Toda a parte de redundancia elétrica, isso tem que funcionar 24x7.
 
-27 ciclos por minuto
+# Principais Especificações
 
-250 mL de volume (este valor precisa alcancar 600 mL)
+- Ser robusto. Deve funcionar continuamente sem falhas (ciclo de trabalho de 100%) por períodos de 14 dias, 24 horas por dia. Se necessário, a máquina pode ser substituída depois de cada período de 14 dias de uso ininterrupto.
 
-30 cm H2O de pressão
+- Prover ao mínimo duas possibilidades de configuração de volume de mistura de ar/O2 entregues por ciclos de respiração. Essas possibilidades devem ser 450ml +/- 10ml por respiração and 350ml +/- 10ml por respiração.
 
+- Prover essa mistura de ar/Oxigêno a até um pico de 350 mm de H2O.
 
-Vamos trocar o motor para NEMA 23 15kg de torque com fuso de avanço maior.
+- Ter a capacidade de adaptação aos materiais de tubagem, mantendo o paciente pressurizado a todo momento a 150 mm H2O. 
 
-- March 24: V3:
+- Ser ajustável para uma taxa de 12 a 20 ciclos/respirações por minuto.
 
-Agora projetado para motor NEMA 23 de 15kg de torque
+- Entregar no mínimo 400 mL de mistura de ar/Oxigênio em não mais que 1,5 segundo. A funcionalidade de mudança dessa velocidade em que o ar é empurrado dentro do paciente é desejável, mas não essencial.
 
-Pending:
-- Toda a parte eletronica, PCB, quais sensores utilizar
-- Toda a parte de redundancia elétrica, isso tem que funcionar 24x7
+# Lista de Materiais [EM PROGRESSO]
 
+### Arquivos para corte a laser de 5mm de espessura
+Apenas 10 peças:
+- 2x piston V3.dxf
+- 2x side V3.dxf
+- 1x ambu support V3.dxf	
+- 2x base support V3.dxf	
+- 1x motor plate V3.dxf	
+- 1x nut plate V3.dxf	
+- 1x piston plate V3.dxf	
 
-## Main requirements:
-
-- Be reliable. It must work continuously without failure (100% duty cycle) for blocks of 14days — 24 hours a day. If necessary, the machine may be replaced after each block of 14 days x 24 hours a day use.
-
-- Provide at least two settings for volume of air/air O2 mix delivered per cycle/breath. These settings to be 450ml +/- 10ml per breath and 350ml +/- 10ml per breath.
-
-- Provide this air/air O2 mix at a peak pressure of 350 mm H2O.
-
-- Have the capability for patient supply pipework to remain pressurised at all times to 150mm H20.
-
-- Have an adjustable rate of between 12 and 20 cycles/breaths per minute.
-
-- Deliver at least 400ml of air/air 02 mix in no more than 1.5 seconds. The ability to change the rate at which air is pushed into the patient is desirable but not essential.
-
-
-## Bill Of Materials [IN PROGRESS]
-
-Files for laser cut for 5mm thickness:
-
-2x piston V3.dxf
-
-2x side V3.dxf
-
-1x ambu support V3.dxf	
-
-2x base support V3.dxf	
-
-1x motor plate V3.dxf	
-
-1x nut plate V3.dxf	
-
-1x piston plate V3.dxf	
-
-
-Electronic parts: 
-
+### Partes Eletrônicas
 - 1x Nema 23 15kg
 - 1x Arduino uno
 - 1x Driver de motor de passo
 - 20x M3 Screw 16mm
 - 4x M3 Screw 12mm 
-- Wires, 12v 6A power supply, etc
+- Cabos, Fonte de 12v 6A, etc
 
-
-## To help or to be helped:
-
-emoretto @ usp.br
-
-wpp: +55 11 994840571
+# Como Ajudar e ser Ajudado [EM PROGRESSO]
+Contato:
+- emoretto @ usp.br
+- wpp: +55 11 994840571
