@@ -96,7 +96,7 @@ Não deixe de ler sobre o assunto e entender melhor sobre como funciona um venti
  
 - [Rapidly manufactured ventilator system specification](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
 - [Frontier Tech 4 COVID Action: emerging market ventilation systems](https://medium.com/frontier-technology-livestreaming/frontier-tech-4-covid-action-emerging-market-ventilation-systems-9c818cb46189)
- 
+- [Positive Ending Expiratory Pressure Valve](https://grabcad.com/library/positive-ending-expiratory-pressure-valve-1)
  
 # Creditos
  
