@@ -1,0 +1,70 @@
+Testes feitos na Escola Politécnica da USP no laboratório de Engenharia Biomédica
+
+Teste 1
+
+Data: 26/03/2020
+
+- Instrumentos: 
+Test Lung simulator (Michigan instruments)
+Ambu J. G. Moriya
+
+- Motor: Nema 23 - 20kg
+  Velocidade: 6000 passos/s
+  Curso: 850  passos
+  Aceleração: 7000 passos /s^2
+  Fuso 10 mm x 150 mm e 12 mm de avanço
+
+- Configurações;
+ Resistencia do sistema 7.5 cmH2O/L/s
+ BPM: 21
+ Sem valvula PEEP
+
+Arquivo
+
+Archivo .TXT dos datos mensurados de presão e fluxo do primeiro teste.
+[Arqui1](https://github.com/LEB-PoliUSP/Inspire-OpenLung/blob/master/images/bpm_21_Resis_7.5_withoutPEEP.txt)
+
+
+Gráfico pressão - fluxo
+
+![Teste1](https://github.com/LEB-PoliUSP/Inspire-OpenLung/blob/master/images/Test_20_03_2020.jpg)
+
+Pmax: 27.01 cmH2O
+Pmim: 6.95 cmH2O
+
+Imagem
+
+![Pic1](https://github.com/LEB-PoliUSP/Inspire-OpenLung/blob/master/images/Pic.jpeg)
+
+Teste 2
+
+- Instrumentos: 
+Test Lung simulator (Michigan instruments)
+Ambu J. G. Moriya
+
+- Motor: Nema 23 - 20kg
+  Velocidade: 6000 passos /s^2
+  Curso: 700  passos
+  Aceleração: 6000 passos /s^2
+  Fuso 10 mm x 150 mm e 12 mm de avanço
+
+- Configurações;
+ Resistencia do sistema 7.5 cmH2O/L/s
+ BPM: 26
+ Com valvula PEEP 
+
+Pmax: 29.85 cmH2O
+Pmim: 19.45 cmH2O
+
+
+Gráfico pressão - fluxo
+
+![Teste2](https://github.com/LEB-PoliUSP/Inspire-OpenLung/blob/master/images/Test_2_20_03_2020.jpg)
+
+Imagem
+![Test_2_20_03_2020](https://user-images.githubusercontent.com/60894625/77698923-3269f500-6f90-11ea-80ef-1f68ba14b67c.jpg)
+
+Arquivo
+
+Archivo .TXT dos datos mensurados de presão e fluxo do segundo teste.
+[Arqui2](https://github.com/LEB-PoliUSP/Inspire-OpenLung/blob/master/images/Test_2_20_03_2020.jpg)
