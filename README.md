@@ -4,12 +4,12 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire). Em
 ![Image of CITI-OpenLung](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/images/Screen%20Shot%202020-03-21%20at%2004.50.34.png)
 
 ## ATENÇÃO
-- *Este é um projeto em andamento, não é um produto pronto.*
-- *O projeto em seu atual estado NÃO DEVE SER USADO EM HUMANOS.*
-- *O projeto em seu estado autal NÃO DEVE SER USADO EM ANIMAIS sem aprovação de comitês de ética legítimos.*
-- *Caso futuramente aprovado por autoridades competentes, o projeto NÃO DEVE SER FABRICADO E DISTRIBUÍDO SEM OS CONTROLES DE QUALIDADE necessários para seu uso.*
-- *As entidades e pessoas envolvidas no desenvolvimento desse projeto NÃO SE RESPONSABILIZAM pelo uso de má fé das informações deste projeto ou de projetos derivados deste, que possam por exemplo, mas não limitando-se a, ferir, prejudicar, ludibriar, adoecer, contaminar ou lesar quaisquer pessoas. Caso você julgue ter observado o mau uso deste projeto em quaisquer circunstâncias, nos informe imediatamente pelo contato inspirepoliusp@gmail.com. Sua colaboração é importante para a segurança deste projeto.*
-- *Este projeto usa a licença [CERN-OHL-S 2.0](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/License.md).
+- **Este é um projeto em andamento, não é um produto pronto.**
+- **O projeto em seu atual estado NÃO DEVE SER USADO EM HUMANOS.**
+- **O projeto em seu estado autal NÃO DEVE SER USADO EM ANIMAIS sem aprovação de comitês de ética legítimos.**
+- **Caso futuramente aprovado por autoridades competentes, o projeto NÃO DEVE SER FABRICADO E DISTRIBUÍDO SEM OS CONTROLES DE QUALIDADE necessários para seu uso.**
+- **As entidades e pessoas envolvidas no desenvolvimento desse projeto NÃO SE RESPONSABILIZAM pelo uso de má fé das informações deste projeto ou de projetos derivados deste, que possam por exemplo, mas não limitando-se a, ferir, prejudicar, ludibriar, adoecer, contaminar ou lesar quaisquer pessoas. Caso você julgue ter observado o mau uso deste projeto em quaisquer circunstâncias, nos informe imediatamente pelo contato inspirepoliusp@gmail.com. Sua colaboração é importante para a segurança deste projeto.**
+- **Este projeto usa a licença [CERN-OHL-S 2.0](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/License.md).**
 
 # Porque mais um projeto como esse?
 
@@ -19,15 +19,17 @@ A expectativa é que teremos no Brasil um pico de casos a serem tratados pelo si
 
 Nossa abordagem é:
 - Construir e testar rapidamente
-    *"mais mão-na-massa"*
+  - *"mais mão-na-massa"*
 - Basear decisões de projeto principalmente em dados de testes
-    *"o argumento mais forte é a evidência"*
+  - *"o argumento mais forte é a evidência"*
 - Garantir a qualidade do produto final
-    *"feito não é melhor que perfeito... é um equipamento para manter gente viva"*
+  - *"feito não é melhor que perfeito... é um equipamento para manter gente viva"*
 - Considerar todos os projetos sendo feitos para encurtar trabalho
-    *"o porco do MIT E-VENT ficou vivo?"* *"em que pé que está sistema de controle dos espanhóis do 'ReesistenciaTeam'?"* *"o pessoal da Unicamp já começou a testar?"*
-- Colaborar rapidamente com desenvolvedores/testadores independentes empenhados em ajudar
-    *"o pessoal de Joinvile está testando nosso modelo mais rápido que a gente (risos)"
+  - *"o porco do MIT E-VENT ficou vivo?"*
+  - *"em que pé que está sistema de controle dos espanhóis do 'ReesistenciaTeam'?"*
+  - *"o pessoal da Unicamp já começou a testar o que eles estão fazendo?"*
+- Colaborar rapidamente com desenvolvedores/testadores empenhados em ajudar
+  - *"o pessoal de Joinvile está cortando e testando nosso modelo mais rápido que a gente (risos)"
 
 ### Status
 
