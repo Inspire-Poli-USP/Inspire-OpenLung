@@ -1,5 +1,5 @@
 # CITI-OpenLung
-Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire). Em breve este repositório será transferido para o perfil organizacional [Inspire Poli-USP](https://github.com/Inspire-Poli-USP).
+Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 
 ![Image of CITI-OpenLung](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/images/Screen%20Shot%202020-03-21%20at%2004.50.34.png)
 
