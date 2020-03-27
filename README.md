@@ -86,5 +86,5 @@ Apenas 10 peças:
 
 # Como Ajudar e ser Ajudado [EM PROGRESSO]
 Contato:
-- emoretto @ usp.br
-- wpp: +55 11 994840571
+- inspirepoliusp@gmail.com
+- wpp: +55 11 983227866 (provisório)
