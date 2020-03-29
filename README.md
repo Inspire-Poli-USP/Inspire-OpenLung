@@ -44,7 +44,7 @@ Nossa abordagem é:
 - 24 de Março: Modelagem 3D e testes do Protótipo V3: agora projetado para motor NEMA 23 de 15kg de torque
 - 25 de Março: Modelagem 3D e testes do Protótipo V4: Ajustes para diminuir atrito e ser mais resistente a torção
 - 26 de Março: Primeira versão, ainda incompleta, do firmware
-- 27 de Março (vulgo HOJE): Desenvolvendo o firmware para primeiros testes usando sensor de pressão para controle
+- 27 de Março: Desenvolvendo o firmware para primeiros testes usando sensor de pressão para controle
 
 ### Tarefas Pendentes
 - Toda a parte eletronica, PCB, quais sensores utilizar.
