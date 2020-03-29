@@ -107,3 +107,18 @@ Não deixe de ler sobre o assunto e entender melhor sobre como funciona um venti
    > É preciso alinhar a expectativa de todos! Estamos trabalhando duro no processo de validação e rápida modificação para um projeto 100% confiável e esperamos ao máximo que isso possa salvar muitas vidas!
 
 Colabore para o rápido avanço do projeto em - [VAKINHA](https://www.vakinha.com.br/vaquinha/acelerar-o-desenvolvimento-do-respirador-mecanico-opensource)
+
+# Empresas que apoiam essa causa
+
+- AMS Acrílicos
+- Pollux Automation
+- Neoyama
+- Bold acrílicos
+- Unimed Joinville
+- OBR Equipamentos industriais
+- Igus do Brasil
+- JN Ferramentaria
+- Docol
+- Valgri
+- Nidec (Embraco)
+- TEX Equipamentos Eletrônicos
