@@ -88,4 +88,3 @@ Apenas 10 peças:
 Contato:
 - Preferencialmente, preencher [esse formulário rápido](https://docs.google.com/forms/d/e/1FAIpQLSfJmSH-XnRPcUmkUvS9ZdUzZxjUVUDR-olO96t6SzpphNBRpQ/viewform).
 - inspirepoliusp@gmail.com
-- wpp: +55 11 983227866 (provisório)
