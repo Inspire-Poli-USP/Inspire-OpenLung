@@ -84,6 +84,5 @@ Apenas 10 peças:
 - 4x M3 Screw 12mm 
 - Cabos, Fonte de 12v 6A, etc
 
-# Como Ajudar e ser Ajudado [EM PROGRESSO]
-Contato:
+# Contato
 - Preencher [esse formulário rápido](https://docs.google.com/forms/d/e/1FAIpQLSfJmSH-XnRPcUmkUvS9ZdUzZxjUVUDR-olO96t6SzpphNBRpQ/viewform).
