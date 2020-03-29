@@ -86,5 +86,4 @@ Apenas 10 peças:
 
 # Como Ajudar e ser Ajudado [EM PROGRESSO]
 Contato:
-- Preferencialmente, preencher [esse formulário rápido](https://docs.google.com/forms/d/e/1FAIpQLSfJmSH-XnRPcUmkUvS9ZdUzZxjUVUDR-olO96t6SzpphNBRpQ/viewform).
-- inspirepoliusp@gmail.com
+- Preencher [esse formulário rápido](https://docs.google.com/forms/d/e/1FAIpQLSfJmSH-XnRPcUmkUvS9ZdUzZxjUVUDR-olO96t6SzpphNBRpQ/viewform).
