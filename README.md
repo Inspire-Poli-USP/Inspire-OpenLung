@@ -27,6 +27,11 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - March 24: Adaptação para NEMA 23 e ajustes para maior rigidez da estrutura.
 - March 25: Testes de fluxo com NEMA 23 e progrmação do CLP.
 - March 26: Programação do sistema de telemetria e controle de informações na IHM.
+- March 27: Teste intenso do sistema e fadiga do equipamento
+- March 28: Instalação do sensor MPX 2010 e teste de pressão
+- March 29: Programação do sistema de falhas por pressão e IHM display 128x64
+- March 30: Junção dos programas e limpeza do código + Aferição de fluxo e pressão com equipamento de calibração
+
  
 ### Em progresso:
  
@@ -37,15 +42,16 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [x] Escolha do driver de motor de passo com foco em baixo custo e fácil acesso (Dimensionado p/ NEMA23)
 - [x] Programação arduino para controle de ciclo e fluxo via potenciômetro
 - [x] Criação da interface (espaço para 2 potenciômetros e possível tela para sensor de fluxo)
+- [x] Levantamento de sensorização do sistema (qual sensor utilizar?)
+- [ ] Realizar testes intensivos para identificar pontos críticos nas partes de acrílico
+- [ ] Teste com válvulas solenoides para parada de emergência do sistema
 
 ### Pendente:
-- [ ] Levantamento de sensorização do sistema (qual sensor utilizar?)
-- [ ] Realizar testes intensivos para identificar pontos críticos nas partes de acrílico
+
 - [ ] Criação da case eletrônica
 - [ ] Criação, validação e fabricação de PCB para entrada dos sensores e saída do motor
 - [ ] Levantamento de fornecedores e estoques no Brasil dos itens de projeto
 - [ ] Projeto elétrico pensando no fácil acesso e amigável (arduino+shield)
-- [ ] Teste com válvulas solenoides para parada de emergência do sistema
 - [ ] Validação junto a um especialista
 - [ ] Preparar design para corte a água em aluminio
 - [ ] Validação do tubo de venturi para leitura de fluxo
@@ -83,10 +89,14 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - 1x Nema 23 15kg
 - 1x Arduino uno
 - 1x Driver de motor de passo **(DM322E)**
+- 1x CLP Panasonic FP0R-C16T
+- 2X Módulos de entrada/saída (8 canais)
 - 20x Parafuso M3 16mm
 - 4x Parafuso M3 12mm 
 - 2x Potênciometro 1K
-- Fonte 12V 5A
+- 1x Display 128x64
+- 1x Encoder KY040
+- 1x Fonte 12V 5A
 - Fiação
 - Perfil de acabamento para acrilico 5mm [FOTO](https://http2.mlstatic.com/borracha-u-c-8-metros-acabamento-gabinete-acrilico--D_NQ_NP_21608-MLB20213569630_122014-F.jpg)
  
@@ -122,3 +132,4 @@ Colabore para o rápido avanço do projeto em - [VAKINHA](https://www.vakinha.co
 - Valgri
 - Nidec (Embraco)
 - TEX Equipamentos Eletrônicos
+- Termica Solutions
