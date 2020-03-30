@@ -87,6 +87,8 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 ### Eletrônica: 
  
 - 1x Nema 23 15kg
+- 1x Fuso DST-LS-10X25-R-ES (140mm)
+- 1X Castanha DST-JFRM-C-01-DS10X25
 - 1x Arduino uno
 - 1x Driver de motor de passo **(DM322E)**
 - 1x CLP Panasonic FP0R-C16T
