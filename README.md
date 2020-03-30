@@ -30,7 +30,7 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - March 27: Teste intenso do sistema e fadiga do equipamento
 - March 28: Instalação do sensor MPX 2010 e teste de pressão
 - March 29: Programação do sistema de falhas por pressão e IHM display 128x64
-- March 30: Junção dos programas e limpeza do código + Aferição de fluxo e pressão com equipamento de calibração
+- March 30: Junção dos programas e limpeza do código + ~~Aferição de fluxo e pressão com equipamento de calibração~~
 
  
 ### Em progresso:
