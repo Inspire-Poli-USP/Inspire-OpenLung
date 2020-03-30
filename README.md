@@ -133,3 +133,4 @@ Colabore para o rápido avanço do projeto em - [VAKINHA](https://www.vakinha.co
 - Nidec (Embraco)
 - TEX Equipamentos Eletrônicos
 - Termica Solutions
+- Perini Business Park
