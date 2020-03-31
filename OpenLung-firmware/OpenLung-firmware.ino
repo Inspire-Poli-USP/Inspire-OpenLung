@@ -4,18 +4,22 @@
 // v4
 
 #include "AccelStepper.h"
+#include <TimerOne.h>
 
-#define Z_STEP_PIN         3
-#define Z_DIR_PIN          2
-#define Z_ENABLE_PIN       1
+#define Z_ENABLE_PIN       2
+#define Z_DIR_PIN          3
+#define Z_STEP_PIN         4
 #define Z_MIN_PIN          12
-#define Z_MAX_PIN          11
+#define POSITION_PIN          11
+
+#define PRESSURE_PIN A0
 
 int stepsPerRevFactor = 2;
 
-AccelStepper stepper(1,Z_STEP_PIN, Z_DIR_PIN);
+AccelStepper stepper(AccelStepper::DRIVER,Z_STEP_PIN, Z_DIR_PIN);
 
 bool start = false;
+float pressure = 0.0;
 
 //Connection stuff
 const byte numChars = 32;
@@ -26,9 +30,9 @@ boolean newData = false;
 //speed in steps per second
 //acceleration in steps per second
 
-int currentSpeed = 2000;
-int currentAcc = 1000;
-int currentCourse = 500;
+int currentSpeed = 1500;
+int currentAcc = 10000;
+int currentCourse = 350;
 float currentRate = 2; //stepper driver rate
 
 long t0=0;
@@ -39,14 +43,21 @@ void setup()
    pinMode(Z_STEP_PIN  , OUTPUT);
    pinMode(Z_DIR_PIN    , OUTPUT);
    pinMode(Z_ENABLE_PIN    , OUTPUT);
+   pinMode(PRESSURE_PIN, INPUT);
+   pinMode(POSITION_PIN, OUTPUT);
+
+   digitalWrite( Z_ENABLE_PIN, HIGH);
 
   // start your engines
   stepper.setMaxSpeed(currentSpeed);
   stepper.setAcceleration(currentAcc);
   stepper.moveTo(currentCourse*stepsPerRevFactor);
 
+  //Timer1.initialize(1000);
+  //Timer1.attachInterrupt(doStep); // blinkLED to run every 0.0015 seconds
+
   // houston
-  Serial.begin(9600);
+  Serial.begin(115200);
   Serial.println("Started!");
 }
 
@@ -54,6 +65,8 @@ void setup()
 
 void loop()
 {
+
+  //start = true;
   recvWithStartEndMarkers();
 
    //Incoming info
@@ -77,7 +90,7 @@ void loop()
         //aceleracao
        if(input.startsWith("a")){          
           currentAcc = input.substring(1).toInt();          
-          stepper.setAcceleration(currentAcc*stepsPerRevFactor);
+          //stepper.setAcceleration(currentAcc*stepsPerRevFactor);
        }
 
        //mover (comando manual)
@@ -99,7 +112,6 @@ void loop()
           stepper.setCurrentPosition(0);
           //.moveTo(-stepper.currentPosition());
           start = true;
-          Serial.println("Start");
        }
 
         //fim
@@ -110,41 +122,51 @@ void loop()
         newData = false;
     }
     
+  
+  if(start){ 
 
-  if(start){
-       
+  if(millis() % 100){
+      //Serial.println(map(stepper.currentPosition(),0,1460,0,255));
+      analogWrite(POSITION_PIN, (int) map(stepper.currentPosition(),0,1460,0,255));
+    }
+
+    
     // If at the end of travel go to the other end
     if (stepper.currentPosition() == 0){
 
-     stepper.setMaxSpeed(currentSpeed);
-     stepper.setAcceleration(currentAcc);
-     stepper.moveTo(currentCourse);
-
-       //tempo de meio ciclo
-       //Serial.println(millis() - t0);      
-       //Serial.println("ms");
-      // t0 = millis();  
-          
-    }
-
-    else if (stepper.currentPosition() == currentCourse){
+      stepper.setMaxSpeed(currentSpeed);
+      //stepper.setAcceleration(currentAcc);
+      stepper.moveTo(currentCourse);
+      
+    }else if (stepper.currentPosition() == currentCourse){// || pressure >= 200){
 
         stepper.setMaxSpeed(currentSpeed/currentRate);
-        stepper.setAcceleration(currentAcc/currentRate);    
-        
+        //stepper.setAcceleration(currentAcc/currentRate);    
         stepper.moveTo(0);
     }
-      
+    
     stepper.run();
     
   }else if(stepper.currentPosition() != 0){
-
       stepper.moveTo(0);
-      stepper.run();
+        stepper.run();
   }
+
+ /* if(millis() %10 == 0){
+     pressure = analogRead(PRESSURE_PIN);
+    
+     pressure = pressure - 225.28;
+      //Serial.println(pressure);
+    Serial.println(map(pressure,0,1024,0,37.037));
+    
+  }*/
+        
 }
 
-
+void doStep(){ 
+  if(start)
+  stepper.run();
+}
 
 void recvWithStartEndMarkers() {
     static boolean recvInProgress = false;
