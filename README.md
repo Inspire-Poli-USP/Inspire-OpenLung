@@ -1,4 +1,4 @@
-# CITI-OpenLung
+# Inspire-OpenLung
 Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 
 ![Image of CITI-OpenLung](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/images/Screen%20Shot%202020-03-21%20at%2004.50.34.png)
@@ -45,6 +45,9 @@ Nossa abordagem é:
 - 25 de Março: Modelagem 3D e testes do Protótipo V4: Ajustes para diminuir atrito e ser mais resistente a torção
 - 26 de Março: Primeira versão, ainda incompleta, do firmware
 - 27 de Março: Desenvolvendo o firmware para primeiros testes usando sensor de pressão para controle
+- 29 de Março: Implementação do controlador PID
+- 30 de Março: Implementação e testes do firmware com controlador PID duplo (Gain Scheduling)
+- 31 de Março: Versão 5, com ajustes para atingir uma maior área do ambú
 
 ### Tarefas Pendentes
 - Toda a parte eletronica, PCB, quais sensores utilizar.
@@ -67,22 +70,26 @@ Nossa abordagem é:
 # Lista de Materiais [EM PROGRESSO]
 
 ### Arquivos para corte a laser de 5mm de espessura
-Apenas 10 peças:
-- 2x piston V3.dxf
-- 2x side V3.dxf
-- 1x ambu support V3.dxf	
-- 2x base support V3.dxf	
-- 1x motor plate V3.dxf	
-- 1x nut plate V3.dxf	
-- 1x piston plate V3.dxf	
+Apenas 12 peças:
+- 2x piston support V5.dxf	
+- 2x piston V5.dxf	
+- 2x side V5.dxf	
+- 1x plate motor V5.dxf	
+- 1x plate nut V5.dxf	
+- 1x plate piston V5.dxf	
+- 1x ambu support V5.dxf	
+- 2x bottom plate V5.dxf	
+- cut V5.ai	(arquivo com corte completo)
+- cut V5.dxf (arquivo com corte completo)
+- cut V5.pdf (arquivo com corte completo)
 
 ### Partes Eletrônicas
 - 1x Nema 23 15kg
 - 1x Arduino uno
 - 1x Driver de motor de passo
 - 20x M3 Screw 16mm
-- 4x M3 Screw 12mm 
-- Cabos, Fonte de 12v 6A, etc
+- 4x M4 Screw 16mm 
+- Cabos, Fonte de 12v 5A, etc
 
 # Contato
 - Preencher [esse formulário rápido](https://docs.google.com/forms/d/e/1FAIpQLSfJmSH-XnRPcUmkUvS9ZdUzZxjUVUDR-olO96t6SzpphNBRpQ/viewform).
