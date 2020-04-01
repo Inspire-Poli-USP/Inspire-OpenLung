@@ -1,7 +1,7 @@
 # Inspire-OpenLung
 Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 
-![Image of CITI-OpenLung](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/images/Screen%20Shot%202020-03-21%20at%2004.50.34.png)
+![Image of CITI-OpenLung](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/OpenLung_2020-Apr-01_05-59-26AM-000_CustomizedView25005130231_crop.png)
 
 ## ATENÇÃO
 - **Este é um projeto em andamento, não é um produto pronto.**
