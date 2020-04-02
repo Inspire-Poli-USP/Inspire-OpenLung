@@ -99,3 +99,10 @@ Apenas 12 peças:
 - 4x M4 Screw 16mm 
 - Cabos, Fonte de 12v 5A, etc
 
+# Como Contribuir
+
+Veja nossa documentação de como contribuir no arquivo
+[CONTRIBUTING.md](CONTRIBUTING.md). Temos também um
+[Código de Conduta](CODE_OF_CONDUCT.md) e documentação para
+[Princípios de Design](DESIGN_PRINCIPLES.md).
+
