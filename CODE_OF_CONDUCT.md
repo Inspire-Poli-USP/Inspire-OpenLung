@@ -4,6 +4,14 @@ Este é o Código de Conduta para a contribuição no projeto Inspire OpenLung.
 
 # Índice
 
+  1. [Introdução](#introdução)
+  2. [Princípios Gerais](#princípios-gerais)
+  	2.1. [Escutar as pessoas](#escutar-as-pessoas)
+	2.2. [Praticar consentimento](#praticar-consentimento)
+  3. [Guia de Boas Práticas](#guia-de-boas-praticas)
+  4. [Como reportar um problema](#como-reportar-um-problema)
+  5. [Consequências a violações](#consequencias-a-violações)
+  6. [Referências deste Código de Conduta](#referências-deste-código-de-conduta)
 
 ---
 
@@ -31,7 +39,7 @@ Nós interagimos na comunidade reconhecendo que somos membros dela, compartilhan
   - Temos consciência que é desrespeitoso manter comportamentos danosos repetitivos após sermos notificados a respeito.
   - Evitamos nós mesmos e ajudamos outros a identificar quando estão se comportando inadequadamente.
 
-## Pŕatica de Consentimento
+## Praticar consentimento
 
   Nem todo mundo se sente confortável com o mesmo tipo de contato online. Nesses casos vale:
   - Perguntar primeiro se você pode compartilhar informações envolvendo a pessoa ou organização,
@@ -40,15 +48,17 @@ Nós interagimos na comunidade reconhecendo que somos membros dela, compartilhan
 	
   Muitas formas de assédio não se parecem com abusos, mas ainda podem cair nessa categoria. Não consentimento pode incluir exibir imagens de outros em espaços públicos, intimidação deliberada, perseguição, “stalking”, fotografar ou gravar sem permissão, interrupção frequente de conversações, contato com mensagens impróprias e galanteios sexuais não solicitados.
 
-## Exemplos de Boas Pŕaticas
+# Guia de Boas Pŕaticas
 
-Online modes of interaction involve large numbers of people without the helpful presence of visual cues. Because of this, respectful and self-aware online conduct is especially important and difficult.
+Maneiras de interagir via internet envolvem um número grande de pessoas sem a útil presença de pistas visuais que a comunicação em pessoa tem. Por isso uma conduta auto-consciente e respeitosa é especialmente importante e dífícil.
+
+Nossa comunidade tem recomendações específicas sobre interações online, que estão principalmente representadas de maneira bem prática na tabela de "faça" e "não faça" abaixo:
 
 | Pode Fazer                                                                                                                                                                                                            | Não Pode Fazer                                                                                                                                                                                                                                  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Peça permissão para tirar fotos de outros e postar em redes sociais                                                                                                                                                   | Não faça upload de fotos, taguear ou mencionar outros online sem consentimento                                                                                                                                                                  |
 | Falar em sua própria narrativa, a partir de suas experiências particulares e cultura                                                                                                                                  | Não imite expressões culturais de grupos sociais os quais você não é membro, ou ignore as experiências pessoais das pessoas como algo ilegítimo ou “meramente pessoal”                                                                          |
-| Use linguagem acessível para falar sobre sua área de especialidade. Se outros do grupo parecerem confusos, vá mais devagar, pare e pergunte como está sendo entendido.                                                | Não apresente informação de um jeito ou linguagem que ninguém na sala pode entender, sem nenhuma tentativa de incluir outros na discussão. Linguagem acessível é parte da nossa tradição.                                                       |
+| Use linguagem acessível para falar sobre sua área de especialidade. Se outros do grupo parecerem confusos, vá mais devagar, pare e pergunte como está sendo entendido.                                                | Não apresente informação de um jeito ou linguagem que ninguém na sala pode entender, se If someone violates these guidelines, someone from the Moderators group (currently GOSH organizers) will place them into moderation by changing that person’s posting permission on the relevant list or forum, on the website, or both.m nenhuma tentativa de incluir outros na discussão. Linguagem acessível é parte da nossa tradição.                                                       |
 | Dê a todos uma chance de se expressar, apenas interrompendo se absolutamente necessário - por exemplo, para violações do Código de Conduta.                                | Não interrompa repetidamente uma discussão.                                                                                                                                                                                                     |
 | Pare o que está fazendo, ouça e pergunte por esclarecimentos se alguém perceber que seu comportamento ou apresentação está violando o Código de Conduta.                                                              | Não ignore ou argumente contra o pedido de alguém para parar um comportamento potencialmente danoso, mesmo se foi um acidente ou se você não tinha a intenção ser interpretado da maneira como foi.                                             |
 | Use palavras que descrevam com precisão uma determinada coisa, ao invés de usar termos socialmente ou politicamente carregados. Por exemplo: “O vento estava ridiculamente forte!” ao invés de “O vento está louco!”. | Não use termos potencialmente preconceituosos, politicamente pejorativos, simplificadores, com referência a deficiências ou condições mentais/emocionais para descrever uma situação metaforicamente, mesmo se parecer normal usar tais termos. |
@@ -58,3 +68,30 @@ Online modes of interaction involve large numbers of people without the helpful 
 | Se mantenha no tópico para que façamos longas discussões fáceis de seguir.                                                                                                                                            | Não mande respostas desnecessárias que na verdade "spamam" dezenas de pessoas e diminuem a qualidade geral da discussão. Exceção: expressões de apreciação e encorajamento!                                                                     |
 | Comece um novo tópico (na lista de email, nos Issues etc) para ajudar outras pessoas a te acompanhar quando suas respostas começarem a divergir muito do tópico de discussão inicial.                                 | Não responda discussões com informações fora de tópico, tornando mais difícil para um grupo maior de leitores seguir a discussão.                                                                                                               |
 | Escreva os títulos dos seus tópicos de discussão (na lista de emails, nos Issues etc) com frases breves e literais, para ajudar os administradores a organizar melhor o volume de comunicação.                        | Humor e eufemismo nos títulos podem ser facilmente mal entendidos, apesar de todo entusiasmo ser bem vindo!                                                                                                                                     |
+
+Se alguém violar expressamente essas recomendações, algum moderador (da organização da iniciativa Inspire) vai colocar essa pessoa "em moderação" através da mudança de permissão de postagem em listas de emails, chats ou sites oficiais do projeto Inspire.
+
+Temos um sistema interno de tripla notificação antes de tomada de medidas, o que significa que se deliberada alguma violação, um moderador irá em algum momento:
+1. Mandar uma mensagem direta para a pessoa sendo notificada com uma breve explicação de qual violação foi cometida;
+2. Mandar um resumo das ações sendo tomadas para o grupo do resto dos moderadores que deliberou sobre o assunto;
+3. Se a violação aconteceu em algum lugar de acesso público (lista de email, chat, repositório do github etc), notificar nesse mesmo espaço que um dos participantes foi colocado em moderação com uma pequena explicação do que não foi tolerado.
+
+Se você foi colocado em moderação e gostaria de sair dessa situação, responda ao email enviado a você por inspire@usp.br.
+
+# Como reportar um problema
+ 
+ - Através do perfil pessoal de um membro moderador nos espaços de comunicação online, ou através do email pessoal de um membro moderador.
+ - Através do email inspire@pusp.br
+ - **Nunca** reportar um problema através de mensagens não-privadas em redes sociais.
+ 
+ # Consequências a violações
+ 
+   - Qualquer um a que for solicitado para o comportamento que viola este Código de Conduta é esperado que o mesmo obedeça imediatamente, mesmo discordando da solicitação
+   - Os moderadores podem tomar qualquer ação decidida como necessária e apropriada como consequẽncia das ações violadoras deste Código, sem desrespeitar quaisquer leis que possam se aplicar e dentro dos seus poderes, podendo por exemplo explusar a pessoa violadora sem qualquer aviso.
+   - Os organizadores do projeto Inspire Poli-USP se reservam no direito de poder proibir a participação de qualquer um que tenha violado sériamente o disposto neste Código de Conduta, seja no presente projeto deste repositório (Inspire OpenLung) ou em quaisquer projetos futuros.
+ 
+ **AO POSTAR QUAISQUER CONTEÚDOS EM NOSSO REPOSITÓRIO DO GITHUB OU EM QUAISQUER LOCAIS DE COMUNICÃO ONLINE, BEM COMO SE INSCREVER EM QUAISQUER FERRAMENTAS DE RECEBIMENTO AUTOMÁTICO DE INFORMAÇÕES, VOCÊ ESTÁ CONCORDANDO EM SEGUIR ESTE CÓDIGO DE CONDUTA**
+ 
+# Referências deste Código de Conduta
+
+  Este código de conduta é baseado no [Código de Conduta do Gathering for Open Source Hardware (GOSH) de 2017](http://openhardware.science/gosh-2017/gosh-code-of-conduct/), que por sua vez foi baseado em vários outros de diferentes comunidades de open source software, hardware e ciência aberta.
