@@ -8,14 +8,14 @@ Este é o Código de Conduta para a contribuição no projeto Inspire OpenLung.
 
   1. [Introdução](#introdução)
   2. [Princípios Gerais](#princípios-gerais)
-    
-    2.1. [Escutar as pessoas](#escutar-as-pessoas)
-    
-    2.2. [Praticar consentimento](#praticar-consentimento)
+   
+      2.1. [Escutar as pessoas](#escutar-as-pessoas)
+   
+      2.2. [Praticar consentimento](#praticar-consentimento)
   
-  3. [Guia de Boas Práticas](#guia-de-boas-praticas)
+  3. [Guia de Boas Práticas](#guia-de-boas-práticas)
   4. [Como reportar um problema](#como-reportar-um-problema)
-  5. [Consequências a violações](#consequencias-a-violações)
+  5. [Consequências a violações](#consequências-a-violações)
   6. [Referências deste Código de Conduta](#referências-deste-código-de-conduta)
 
 ---
@@ -53,7 +53,7 @@ Nós interagimos na comunidade reconhecendo que somos membros dela, compartilhan
 	
   Muitas formas de assédio não se parecem com abusos, mas ainda podem cair nessa categoria. Não consentimento pode incluir exibir imagens de outros em espaços públicos, intimidação deliberada, perseguição, “stalking”, fotografar ou gravar sem permissão, interrupção frequente de conversações, contato com mensagens impróprias e galanteios sexuais não solicitados.
 
-# Guia de Boas Pŕaticas
+# Guia de Boas Práticas
 
 Maneiras de interagir via internet envolvem um número grande de pessoas sem a útil presença de pistas visuais que a comunicação em pessoa tem. Por isso uma conduta auto-consciente e respeitosa é especialmente importante e dífícil.
 
