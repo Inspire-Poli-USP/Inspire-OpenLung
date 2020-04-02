@@ -7,9 +7,9 @@ Organizando direitinho, podemos conseguir fazer juntos muito mais do que jamais 
 
 ## Índice
 1. [Guiando sua ajuda](#guiando-sua-ajuda)
-2. [No que precisamos que você contribua por aqui](#no-que-precisamos-que-voce-ajude-aqui)
-2. [Como fazer as contribuições?](#como-contribuir?)
-
+2. [No que precisamos que você contribua por aqui](#no-que-precisamos-que-você-contribua-por-aqui)
+3. [Como fazer as contribuições?](#como-fazer-as-contribuições)
+4. [Convenções](#convenções)
 
 ---
 
@@ -86,7 +86,10 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
 ## Convenções Gerais
 
 - Todos os textos e mensagens de commit deste repositório são escritos em Português.
-- Código de Conduta
+- Ado criar novos arquivos, ao invés de usar espaço entre palavras, use underline: _ .
+- Ao nomear arquivos, use a primeira letra maiúscula e as restantes minúsculas.
+   - Exceções para "arquivos-padrão" do github, como o README, LAYOUT, CODE_OF_CONDUCT, LICENSE etc.
+- Todos devem seguir o nosso [Código de Conduta](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/CODE_OF_CONDUCT.md).
 
 ## Convenções sobre mensagens de commit
 
