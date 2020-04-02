@@ -2,12 +2,17 @@
 
 Este é o Código de Conduta para a contribuição no projeto Inspire OpenLung.
 
+**AO POSTAR QUAISQUER CONTEÚDOS EM NOSSO REPOSITÓRIO DO GITHUB OU EM QUAISQUER LOCAIS DE COMUNICÃO ONLINE, BEM COMO SE INSCREVER EM QUAISQUER FERRAMENTAS DE RECEBIMENTO AUTOMÁTICO DE INFORMAÇÕES, VOCÊ ESTÁ CONCORDANDO EM SEGUIR ESTE CÓDIGO DE CONDUTA**
+
 # Índice
 
   1. [Introdução](#introdução)
   2. [Princípios Gerais](#princípios-gerais)
-  	2.1. [Escutar as pessoas](#escutar-as-pessoas)
-	2.2. [Praticar consentimento](#praticar-consentimento)
+    
+    2.1. [Escutar as pessoas](#escutar-as-pessoas)
+    
+    2.2. [Praticar consentimento](#praticar-consentimento)
+  
   3. [Guia de Boas Práticas](#guia-de-boas-praticas)
   4. [Como reportar um problema](#como-reportar-um-problema)
   5. [Consequências a violações](#consequencias-a-violações)
@@ -89,8 +94,6 @@ Se você foi colocado em moderação e gostaria de sair dessa situação, respon
    - Qualquer um a que for solicitado para o comportamento que viola este Código de Conduta é esperado que o mesmo obedeça imediatamente, mesmo discordando da solicitação
    - Os moderadores podem tomar qualquer ação decidida como necessária e apropriada como consequẽncia das ações violadoras deste Código, sem desrespeitar quaisquer leis que possam se aplicar e dentro dos seus poderes, podendo por exemplo explusar a pessoa violadora sem qualquer aviso.
    - Os organizadores do projeto Inspire Poli-USP se reservam no direito de poder proibir a participação de qualquer um que tenha violado sériamente o disposto neste Código de Conduta, seja no presente projeto deste repositório (Inspire OpenLung) ou em quaisquer projetos futuros.
- 
- **AO POSTAR QUAISQUER CONTEÚDOS EM NOSSO REPOSITÓRIO DO GITHUB OU EM QUAISQUER LOCAIS DE COMUNICÃO ONLINE, BEM COMO SE INSCREVER EM QUAISQUER FERRAMENTAS DE RECEBIMENTO AUTOMÁTICO DE INFORMAÇÕES, VOCÊ ESTÁ CONCORDANDO EM SEGUIR ESTE CÓDIGO DE CONDUTA**
  
 # Referências deste Código de Conduta
 
