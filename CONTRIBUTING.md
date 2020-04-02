@@ -27,7 +27,7 @@ Caso o GitHub não seja exatamente algo estranho para você, existem quatro mane
 
 1. **HARDWARE** - baixe os arquivos, monte o protótipo, faça testes e proponha novas melhorias no modelo 3D. Consulte a seção [Como contribuir com o hardware](##como-contribuir-com-o-hardware) para maiores detalhes.
 2. **SOFTWARE** - avalie e proponha melhorias nos códigos do firmware e do software de interface com o usuário. Consulte a seção [Como contribuir com o software](##como-contribuir-com-o-software) para mais detalhes.
-3. **DADOS** - se você tiver acesso a equipamentos de medição de fluxo e/ou pressão de ar, mas principalmente associados a um [pulmão de testes](https://www.google.com/search?q=pulm%C3%A3o+de+teste) (ou qualquer outro equipamento que simule apropriadamente um pulmão), repita os experimentos que realizamos, melhore-os e faça outros novos experimentos que ainda não foram feitos. Consulte a seção [##como-contribuir-com-dados]
+3. **DADOS** - se você tiver acesso a equipamentos de medição de fluxo e/ou pressão de ar, mas principalmente associados a um [pulmão de testes](https://www.google.com/search?q=pulm%C3%A3o+de+teste) (ou qualquer outro equipamento que simule apropriadamente um pulmão), repita os experimentos que realizamos, melhore-os e faça outros novos experimentos que ainda não foram feitos. Consulte a seção [como contribuir com dados](#como-contribuir-com-dados).
 4. **DOCUMENTAÇÃO** - veja quais informações parecem estar faltando, o que poderia estar mais claro ou melhor organizado no repositório. Proponha Issues ou faça Pull-Requests com melhorias e correções.
 
 # Como fazer as contribuições?
