@@ -28,7 +28,7 @@ Caso o GitHub não seja exatamente algo estranho para você, existem quatro mane
 1. **HARDWARE** - baixe os arquivos, monte o protótipo, faça testes e proponha novas melhorias no modelo 3D. Consulte a seção [Como contribuir com o hardware](##como-contribuir-com-o-hardware) para maiores detalhes.
 2. **SOFTWARE** - avalie e proponha melhorias nos códigos do firmware e do software de interface com o usuário. Consulte a seção [Como contribuir com o software](##como-contribuir-com-o-software) para mais detalhes.
 3. **DADOS** - se você tiver acesso a equipamentos de medição de fluxo e/ou pressão de ar, mas principalmente associados a um [pulmão de testes](https://www.google.com/search?q=pulm%C3%A3o+de+teste) (ou qualquer outro equipamento que simule apropriadamente um pulmão), repita os experimentos que realizamos, melhore-os e faça outros novos experimentos que ainda não foram feitos. Consulte a seção [como contribuir com dados](#como-contribuir-com-dados).
-4. **DOCUMENTAÇÃO** - veja quais informações parecem estar faltando, o que poderia estar mais claro ou melhor organizado no repositório. Proponha Issues ou faça Pull-Requests com melhorias e correções.
+4. **DOCUMENTAÇÃO** - veja quais informações parecem estar faltando, o que poderia estar mais claro ou melhor organizado no repositório. Proponha Issues ou faça Pull-Requests com melhorias e correções. Consulte a seção [Como contribuir com documentação](#como-contribuir-com-documentação).
 
 # Como fazer as contribuições?
 
@@ -80,6 +80,9 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
 
   - Contribuir com documentação significa que você alterará arquivos de texto do repositório, adicionará arquivos em diferentes locais do repositório complementando informações (como imagens, pdfs etc) e apontará melhorias necessárias nos [Issues](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues).
   - Nós precisamos muito de uma documentação suficientemente detalhada sobre montagem, organização do repositório, etc. Toda ajuda neste sentido será de **extrema** importância para todos.
+  - A [Wiki do projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki) é o principal local de organização de informação técnicas do projeto, bem como informações adicionais relevantes.
+    - Você pode, por exemplo, sugerir quaisquer materiais externos ou internos (artigos, posts, reports, etc.)
+relativos ao projeto, que possam ser úteis para quem quer entender melhor sobre o que está sendo feito. 
 
 # Convenções
 
