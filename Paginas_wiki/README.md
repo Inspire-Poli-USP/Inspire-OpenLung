@@ -1,4 +1,4 @@
-#Páginas da Wiki
+# Páginas da Wiki
 
 Este repositório possui uma [Wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki). Nela, além de relatórios das nossas atividade, é o local de conteúdos explicativos, tutoriais, informaçõe, recursos gerais e etc.
 
