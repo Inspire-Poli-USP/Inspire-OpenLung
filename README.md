@@ -13,7 +13,7 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 ## ATENÇÃO
 - **Este é um projeto em andamento, não é um produto pronto.**
 - **O projeto em seu atual estado NÃO DEVE SER USADO EM HUMANOS.**
-- **O projeto em seu estado autal NÃO DEVE SER USADO EM ANIMAIS sem aprovação de comitês de ética legítimos.**
+- **O projeto em seu estado atual NÃO DEVE SER USADO EM ANIMAIS sem aprovação de comitês de ética legítimos.**
 - **Caso futuramente aprovado por autoridades competentes, o projeto NÃO DEVE SER FABRICADO E DISTRIBUÍDO SEM OS CONTROLES DE QUALIDADE necessários para seu uso.**
 - **As entidades e pessoas envolvidas no desenvolvimento desse projeto NÃO SE RESPONSABILIZAM pelo uso de má fé das informações deste projeto ou de projetos derivados deste, que possam por exemplo, mas não limitando-se a, ferir, prejudicar, ludibriar, adoecer, contaminar ou lesar quaisquer pessoas. Caso você julgue ter observado o mau uso deste projeto em quaisquer circunstâncias, nos informe imediatamente pelo contato inspire@usp.br . Sua colaboração é importante para a segurança deste projeto.**
 - **Este projeto usa a licença [CERN-OHL-S 2.0](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/License.md).**
