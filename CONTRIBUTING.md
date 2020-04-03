@@ -25,8 +25,8 @@ Preenchendo o formulário conseguimos também nos organizar melhor para falar co
 
 Caso o GitHub não seja exatamente algo estranho para você, existem quatro maneiras de contribuir com esse repositório:
 
-1. **HARDWARE** - baixe os arquivos, monte o protótipo, faça testes e proponha novas melhorias no modelo 3D. Consulte a seção [Como contribuir com o hardware](##como-contribuir-com-o-hardware) para maiores detalhes.
-2. **SOFTWARE** - avalie e proponha melhorias nos códigos do firmware e do software de interface com o usuário. Consulte a seção [Como contribuir com o software](##como-contribuir-com-o-software) para mais detalhes.
+1. **HARDWARE** - baixe os arquivos, monte o protótipo, faça testes e proponha novas melhorias no modelo 3D. Consulte a seção [Como contribuir com o hardware](#como-contribuir-com-o-hardware) para maiores detalhes.
+2. **SOFTWARE** - avalie e proponha melhorias nos códigos do firmware e do software de interface com o usuário. Consulte a seção [Como contribuir com o software](#como-contribuir-com-o-software) para mais detalhes.
 3. **DADOS** - se você tiver acesso a equipamentos de medição de fluxo e/ou pressão de ar, mas principalmente associados a um [pulmão de testes](https://www.google.com/search?q=pulm%C3%A3o+de+teste) (ou qualquer outro equipamento que simule apropriadamente um pulmão), repita os experimentos que realizamos, melhore-os e faça outros novos experimentos que ainda não foram feitos. Consulte a seção [como contribuir com dados](#como-contribuir-com-dados).
 4. **DOCUMENTAÇÃO** - veja quais informações parecem estar faltando, o que poderia estar mais claro ou melhor organizado no repositório. Proponha Issues ou faça Pull-Requests com melhorias e correções.
 
@@ -51,7 +51,7 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
 
 ## Como contribuir com o hardware
 
-  - Contribuir com o hardware significa que você vai modificar e fazer Pull-Requests dos arquivos de modelos 3D e 2D do projeto nas pastas ["2D laser cut"](https://github.com/OInspire-Poli-USP/Inspire-OpenLung/tree/master/2D%20laser%20cut) e/ou ["3D model"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/3D%20model).
+  - Contribuir com o hardware significa que você vai modificar e fazer Pull-Requests dos arquivos de modelos 3D e 2D do projeto nas pastas ["2D laser cut"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/2D%20laser%20cut) e/ou ["3D model"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/3D%20model).
   - Nossos modelos foram feitos no software de modelagem 3D Fusion, da Autodesk - que é passível de uso gratuito em algumas condições. Preferimos manter o master branch usando os arquivos de modelos 3D do Fusion para evitar problemas de compatibilidade no compartilhamento dos modelos 3D entre as pessoas da comunidade.
     - Contudo caso você consiga modelar apenas em outros softwares, podemos criar branches especificamente para modelos usando outras ferramentas de modelagem 3D (Solidworks, SketchUp, OpenScad, FreeCad etc) de sua preferência.
       - Nesse caso, o merge com o master dependerá da conversão do modelo 3D para o formato do Fusion.
@@ -108,8 +108,10 @@ exemplo do parágrafo anterior, os dois commits poderiam ter como títulos:
 
 Não utilize mensagens genéricas como "Atualizando o README".
 
-Quanto a formatação das mensagens de commit, seguimos as convenções descritas
-[aqui](http://translate.google.com/translate?js=n&sl=auto&tl=destination_language&u=https://chris.beams.io/posts/git-commit/). Em resumo:
+Quanto à formatação das mensagens de commit, seguimos as convenções descritas
+[aqui](https://chris.beams.io/posts/git-commit/) (veja a tradução para
+Português [aqui](https://translate.google.com/translate?sl=en&tl=pt&u=https%3A%2F%2Fchris.beams.io%2Fposts%2Fgit-commit%2F)).
+Em resumo:
 
 - A primeira linha é o título. Escreva-a resumindo as mudanças, no imperativo,
   e tente mantê-la em até 50 characteres.
