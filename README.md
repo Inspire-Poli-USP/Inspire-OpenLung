@@ -31,6 +31,10 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - March 28: Instalação do sensor MPX 2010 e teste de pressão
 - March 29: Programação do sistema de falhas por pressão e IHM display 128x64
 - March 30: Junção dos programas e limpeza do código + ~~Aferição de fluxo e pressão com equipamento de calibração~~
+- March 31: Testes de alarme junto ao sistema de sensoriamento
+- April 01: Liagaçaõ das válvulas e controle via CLP
+- April 02: Adicionar módulo analógico CLP e comunicar via arduino
+- April 03: Configuração dos equipamentos de medição para aferir o sistema + Programação CLP entrada analógica
 
  
 ### Em progresso:
@@ -43,18 +47,25 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [x] Programação arduino para controle de ciclo e fluxo via potenciômetro
 - [x] Criação da interface (espaço para 2 potenciômetros e possível tela para sensor de fluxo)
 - [x] Levantamento de sensorização do sistema (qual sensor utilizar?)
-- [ ] Realizar testes intensivos para identificar pontos críticos nas partes de acrílico
+- [x] Realizar testes intensivos para identificar pontos críticos nas partes de acrílico
 - [ ] Teste com válvulas solenoides para parada de emergência do sistema
+- [ ] Criação da case eletrônica
+- [ ] Programação CLP para leitura analógica
+- [ ] Controle PID do motor via CLP
+- [ ] Adaptação controle de telemetria
+- [ ] Testes com sensor de pressão industrial
 
 ### Pendente:
-
-- [ ] Criação da case eletrônica
+- [ ] Adaptação do código para utilização do ESP32
 - [ ] Criação, validação e fabricação de PCB para entrada dos sensores e saída do motor
 - [ ] Levantamento de fornecedores e estoques no Brasil dos itens de projeto
-- [ ] Projeto elétrico pensando no fácil acesso e amigável (arduino+shield)
+- [ ] ~~Projeto elétrico pensando no fácil acesso e amigável (arduino+shield)~~
 - [ ] Validação junto a um especialista
 - [ ] Preparar design para corte a água em aluminio
 - [ ] Validação do tubo de venturi para leitura de fluxo
+- [ ] Criar escopo de ligação elétrica
+- [ ] Testes de pressão máxima (sem perda de passo)
+- [ ] Sistema blender mistura de o²
  
  
 # Requsitos principais
@@ -93,6 +104,7 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - 1x Driver de motor de passo **(DM322E)**
 - 1x CLP Panasonic FP0R-C16T
 - 2X Módulos de entrada/saída (8 canais)
+- 1x Módulod analógico CLP (AFP0RA42)
 - 20x Parafuso M3 16mm
 - 4x Parafuso M3 12mm 
 - 2x Potênciometro 1K
@@ -109,6 +121,8 @@ Não deixe de ler sobre o assunto e entender melhor sobre como funciona um venti
 - [Rapidly manufactured ventilator system specification](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
 - [Frontier Tech 4 COVID Action: emerging market ventilation systems](https://medium.com/frontier-technology-livestreaming/frontier-tech-4-covid-action-emerging-market-ventilation-systems-9c818cb46189)
 - [Positive Ending Expiratory Pressure Valve](https://grabcad.com/library/positive-ending-expiratory-pressure-valve-1)
+
+![Image of CITI-OpenLung](https://github.com/HPparanhos/CITI-OpenLung/blob/master/Images/92254424_10220896892786622_3459100809759817728_n.jpg)
  
 # Creditos
  
