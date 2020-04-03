@@ -1,6 +1,23 @@
+# Abordagem de Trabalho
+
+Para entender melhor como estamos fazendo esse trabalho, nossa abordagem é:
+
+- Construir e testar rapidamente
+  - "mais mão-na-massa"
+- Basear decisões de projeto principalmente em dados de testes
+  - "o argumento mais forte é a evidência"
+- Garantir a qualidade do produto final
+  - "feito não é melhor que perfeito... é um equipamento para manter gente viva"
+- Considerar todos os projetos sendo feitos para encurtar trabalho
+  - "o porco do MIT E-VENT ficou vivo?"
+  - "em que pé que está sistema de controle dos espanhóis do 'ReesistenciaTeam'?"
+  - "o pessoal da UFRJ já começou a testar o que eles estão fazendo?"
+- Colaborar rapidamente com desenvolvedores/testadores empenhados em ajudar
+  - "o pessoal de Joinvile está cortando e testando nosso modelo mais rápido que a gente (risos)" 
+
 # Princípios de Design do Projeto
 
-Este projeto segue uma abordagem com os seguintes pontos fundamentais e suas justificativas:
+Nos baseamos nas seguintes escolhas de design e suas justificativas. Elas são pontos fundamentais que norteiam as tomadas de decisão:
 
 1. Peças fabricáveis apenas por corte a laser
     - Processos de prototipagem e de produção industrial muito semelhantes
