@@ -55,7 +55,7 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
   - Nossos modelos foram feitos no software de modelagem 3D Fusion, da Autodesk - que é passível de uso gratuito em algumas condições. Preferimos manter o master branch usando os arquivos de modelos 3D do Fusion para evitar problemas de compatibilidade no compartilhamento dos modelos 3D entre as pessoas da comunidade.
     - Contudo caso você consiga modelar apenas em outros softwares, podemos criar branches especificamente para modelos usando outras ferramentas de modelagem 3D (Solidworks, SketchUp, OpenScad, FreeCad etc) de sua preferência.
       - Nesse caso, o merge com o master dependerá da conversão do modelo 3D para o formato do Fusion.
-  - Aceitaremos apenas contribuições que se baseiam em nossos [Princípios de Design](https://github.com/OttoHeringer/Inspire-OpenLung/blob/master/DESIGN_PRINCIPLES.md).
+  - Aceitaremos apenas contribuições que se baseiam em nossos [Princípios de Design](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md).
       - Dependendo do caso, podemos excepcionalmente criar branches para designs que fujam ligeiramente dos Princípios de Design
   - Caso seu Pull-Request envolva uma proposta que apesar de seguir os Princípios de Design, julguemos precisar ser validada por fabricação do hardware, ela só será aprovada para merge caso seja construída e acompanhada de Dados documentando as melhorias.
 
