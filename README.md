@@ -65,26 +65,11 @@ Vale dar uma olhada também no nosso [Código de Conduta](https://github.com/Ins
 
 # Nossa Abordagem de Trabalho e Princípios de Design
 
-Para entender melhor como estamos fazendo esse trabalho, nossa abordagem é:
-- Construir e testar rapidamente
-  - *"mais mão-na-massa"*
-- Basear decisões de projeto principalmente em dados de testes
-  - *"o argumento mais forte é a evidência"*
-- Garantir a qualidade do produto final
-  - *"feito não é melhor que perfeito... é um equipamento para manter gente viva"*
-- Considerar todos os projetos sendo feitos para encurtar trabalho
-  - *"o porco do MIT E-VENT ficou vivo?"*
-  - *"em que pé que está sistema de controle dos espanhóis do 'ReesistenciaTeam'?"*
-  - *"o pessoal da UFRJ já começou a testar o que eles estão fazendo?"*
-- Colaborar rapidamente com desenvolvedores/testadores empenhados em ajudar
-  - *"o pessoal de Joinvile está cortando e testando nosso modelo mais rápido que a gente (risos)"*
+Acreditamos que toda as tentativas de designs possíveis de respiradoras são válidas por aumentarem as possibilidades de sucesso de ALGUM protótipo de respirador funcionar com qualidade e chegar até quem precisa. Na nossa tentativa em particular, [definirmos alguns Princípios fundamentais de Design e nossa Abordagem de Trabalho](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md) no desenvolvimento e teste deste protótipo.
+
 Se você se identifica com essa abordagem, considere [colaborar com o projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/CONTRIBUTING.md).
 
-Também seguimos [Princípios de Design](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/DESIGN_PRINCIPLES.md) muito bem definidos no desenvolvimento e teste deste protótipo, bem como no eventual escalonamento para produção industrial.
-
 Se você gostaria de contribuir usando uma abordagem de trabalho ou princípios diferentes destes, o encorajamos fortemente a desenvolver seu próprio repositório com sua nova proposta - colocando também a mão na massa!
-
-Quanto mais tentativas diferentes houver, aumentamos a chance de sucesso de ter um ventilador que funcione com qualidade para enfrentar o desafio que teremos.
 
 # Andamento do Projeto
 
