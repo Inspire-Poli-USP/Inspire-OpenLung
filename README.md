@@ -44,6 +44,12 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [ ] Criação, validação e fabricação de PCB para entrada dos sensores e saída do motor
 - [ ] Levantamento de fornecedores e estoques no Brasil dos itens de projeto
 - [ ] Projeto elétrico pensando no fácil acesso e amigável (arduino+shield)
+- [ ] Armazenar os valores nas variaveis quando retornar as configurações;
+- [ ] Corrigir bug, que faz imprimir a tela 4 antes da tela 5 quando entra em alarme de pressao pulmonar;
+- [ ] Imprimir o valor máximo quando rotaciona o encoder no sentido anti-horario na posicao minima;
+- [ ] Implementar saída analogica para controle de velocidade de avanço;
+- [ ] Implementar saída analogica para controle de velocidade de recuo;
+- [ ] Desligar as valvulas de inspiração/expiracao e ligar a valvula de backup quando estiver em pressao pulmonar alta;
  
  
 # Requsitos principais
