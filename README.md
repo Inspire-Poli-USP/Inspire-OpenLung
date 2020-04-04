@@ -35,6 +35,7 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - April 01: Liagaçaõ das válvulas e controle via CLP
 - April 02: Adicionar módulo analógico CLP e comunicar via arduino
 - April 03: Configuração dos equipamentos de medição para aferir o sistema + Programação CLP entrada analógica
+- April 04: Migração do firmware para plataforma ESP32 | Teste e análise de fluxo
 
  
 ### Em progresso:
@@ -48,12 +49,13 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [x] Criação da interface (espaço para 2 potenciômetros e possível tela para sensor de fluxo)
 - [x] Levantamento de sensorização do sistema (qual sensor utilizar?)
 - [x] Realizar testes intensivos para identificar pontos críticos nas partes de acrílico
-- [ ] Teste com válvulas solenoides para parada de emergência do sistema
+- [x] Teste com válvulas solenoides para parada de emergência do sistema
 - [ ] Criação da case eletrônica
-- [ ] Programação CLP para leitura analógica
+- [x] Programação CLP para leitura analógica
 - [ ] Controle PID do motor via CLP
-- [ ] Adaptação controle de telemetria
-- [ ] Testes com sensor de pressão industrial
+- [x] Adaptação controle de telemetria
+- [x] Testes com sensor de pressão industrial
+- [ ] Adaptação do código para utilização do ESP32
 
 ### Pendente:
 - [ ] Armazenar os valores nas variaveis quando retornar as configurações
@@ -62,7 +64,6 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [ ] Implementar saída analogica para controle de velocidade de avanço
 - [ ] Implementar saída analogica para controle de velocidade de recuo
 - [ ] Desligar as valvulas de inspiração/expiracao e ligar a valvula de backup quando estiver em pressao pulmonar alta
-- [ ] Adaptação do código para utilização do ESP32
 - [ ] Criação, validação e fabricação de PCB para entrada dos sensores e saída do motor
 - [ ] Levantamento de fornecedores e estoques no Brasil dos itens de projeto
  
