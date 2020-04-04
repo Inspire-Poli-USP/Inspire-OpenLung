@@ -65,14 +65,6 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [ ] Adaptação do código para utilização do ESP32
 - [ ] Criação, validação e fabricação de PCB para entrada dos sensores e saída do motor
 - [ ] Levantamento de fornecedores e estoques no Brasil dos itens de projeto
-- [ ] ~~Projeto elétrico pensando no fácil acesso e amigável (arduino+shield)~~
-- [ ] Validação junto a um especialista
-- [ ] Preparar design para corte a água em aluminio
-- [ ] Validação do tubo de venturi para leitura de fluxo
-- [ ] Criar escopo de ligação elétrica
-- [ ] Testes de pressão máxima (sem perda de passo)
-- [ ] Sistema blender mistura de o²
- 
  
 # Requsitos principais
  
