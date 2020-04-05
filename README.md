@@ -43,9 +43,11 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 # Porque mais um projeto como esse?
 
   Este é mais um projeto de design de ventilador pulmonar de acesso aberto com o intuito de ser barato, de fácil transporte e utilizando poucos materiais, usando principalmente um Ambu como gerador de fluxo de ar.
+  
+  Iniciamos este projeto porque até então haviam apenas propostas online com conteúdo parcialmente disponível, e apenas levando em consideração o contexto dos países em que tais propostas estavam/estão sendo desenvolvidas. Nosso projeto se baseia em [Princípios](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md) que colocam um peso maior na indisponibilidade de recursos e custo.
 
 # Motivação
-A expectativa é que teremos no Brasil um pico de casos a serem tratados pelo sistema de saúde em cerca de 3 semanas (por volta de 10 de Abril). Nesse momento a demanda por ventiladores pulmonares mecânicos será crítica, sendo uma das lamentáveis causas de morte pelo novo coronavirus devido a ausência de infraestrutura suficiente para a quantidade de número de pacientes. Estamos lutando contra o tempo para desenvolver um ventilador "open source" que possa ser fabricado antes que isso aconteça.
+A expectativa é que teremos no Brasil um pico de casos a serem tratados pelo sistema de saúde pelo final do mês de Abril. Nesse momento a demanda por ventiladores pulmonares mecânicos será crítica, sendo uma das lamentáveis causas de morte pelo novo coronavirus devido a ausência de infraestrutura suficiente para a quantidade de número de pacientes. Estamos lutando contra o tempo para desenvolver um ventilador "open source" que possa ser fabricado antes que isso aconteça.
 
 # Onde queremos chegar
 
