@@ -36,6 +36,7 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - April 02: Adicionar módulo analógico CLP e comunicar via arduino
 - April 03: Configuração dos equipamentos de medição para aferir o sistema + Programação CLP entrada analógica
 - April 04: Migração do firmware para plataforma ESP32 | Teste e análise de fluxo
+- April 05: Implementação NEXTION para leitura do gráfico + ESP32
 
  
 ### Em progresso:
@@ -56,8 +57,12 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [x] Adaptação controle de telemetria
 - [x] Testes com sensor de pressão industrial
 - [ ] Adaptação do código para utilização do ESP32
+- [ ] Testar MPX5010
+- [ ] Desenhar ligação eletrônica (Fritzing)
+
 
 ### Pendente:
+
 - [ ] Armazenar os valores nas variaveis quando retornar as configurações
 - [ ] Corrigir bug, que faz imprimir a tela 4 antes da tela 5 quando entra em alarme de pressao pulmonar
 - [ ] Imprimir o valor máximo quando rotaciona o encoder no sentido anti-horario na posicao minima
@@ -112,7 +117,19 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - 1x Fonte 12V 5A
 - Fiação
 - Perfil de acabamento para acrilico 5mm [FOTO](https://http2.mlstatic.com/borracha-u-c-8-metros-acabamento-gabinete-acrilico--D_NQ_NP_21608-MLB20213569630_122014-F.jpg)
- 
+
+ ### Itens médicos:
+
+ - 1x Reanimador manual (AMBU)
+ - 1x Adaptador para conexão válcula PEEP
+ - 3x tubo traqueia
+ - 1x Válvula para ambu PEEP (5-20cmH20)
+ - 2x Conector "Y" 22mx15F
+ - 3x Fluxômetro para oxigênio
+ - 1x Filtro HMEF
+ - 1x Filtro HEPA
+
+
 # Material para estudo
  
 Não deixe de ler sobre o assunto e entender melhor sobre como funciona um ventilador, quais suas principais funções em relação a ventilação de pacientes com COVID-19 e também alguns editais sobre:
