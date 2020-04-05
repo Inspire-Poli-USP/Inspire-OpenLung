@@ -4,17 +4,31 @@ Respiração auxiliada por máquinas é um tópico de estudo da medicina com mui
 
 As informações aqui são a nossa descrição baseada em materiais de estudo, além da síntese de diversas explicações que gentilmente nos foram feitas a respeito deste assunto por profissionais da área (médicos, fisioterapeutas e engenheiros de equipamentos de ventilação mecânica).
 
+---
+## Índice
+
+  1. [A Curva de Respiração](#a-curva-de-respiração)
+    1.1 [Intervalos](#intervalos)
+    1.2 [Pressões](#pressões)
+  2. [O que o Respirador precisa fazer](#o-que-o-respirador-precisa-fazer)
+  3. [Como a abordagem mecânica de vocês faz esse controle?](#como-a-abordagem-mecânica-de-vocês-faz-esse-controle)
+  4. [E o volume?](#e-o-volume)
+  5. [E se o paciente começar a querer respirar no meio disso tudo?](#e-se-o-paciente-começar-a-querer-respirar-no-meio-disso-tudo)
+  6. [Definição do tipo do nosso respirador](#definição-do-tipo-do-nosso-respirador)
+  
+---
+
 ## A Curva de Respiração
 A respiração é uma oscilação e pressão e volume do pulmão. Um ventilador precisa reproduzir essa oscilação pelo paciente quando ele tem dificuldade para respirar sozinho, mudando a pressão e volume de ar dentro do pulmão numa frequência específica.
 
 Na medicina existem duas tradições de escolha de variável para se observar durante a respiração auxiliada pelo respirador: a variação de volume inserido no pulmão do paciente ou a variação de pressão no pulmão do paciente. Apesar de haverem supostas vantagens na escolha de uma dessas variáveis, elas são intercambiáveis para fins de monitoramento. No nosso projeto medimos a pressão. Usamos os valores medidos para testar se nossos algoritmos de controle conseguem reproduzir uma curva de respiração com medida de pressão. A tecnologia médica de respiração artificial usa tradicionalmente medidas de milímetros de água (mmH2O) para quantificar a pressão.
 
-### Tempos
+### Intervalos
 
 A **curva de respiração** abaixo mostra as diferentes faixas temporais que a compõem:
 ![Curva de respiração baseada em pressão](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/Wiki/Wiki_Entenda_o_Problema_IMG1.jpeg)
 
-A imagem acima mostra claramente 4 inputs de tempo:
+A imagem acima mostra claramente 4 inputs de intervalos de tempo:
   * Tempo de Inspiração
   * Tempo de Pausa da Inspiração
   * Tempo de Expiração
@@ -59,7 +73,7 @@ Por isso existe **mais um "input" de pressão** do programa de controle, a **pre
 ## Definição do tipo do nosso respirador
 
   Seguindo as definições formais usadas em medicina, o que descrevemos nesta página é um projeto de respirador...
-  * Gerador de Força Constante - fluxo variável com as condições de complacência e resistência do sistema respiratório do paciente.
-  * de Ciclagem por Pressão - um sensor de pressão aciona o controle de insuflação do pulmão conforme a pressão varia.
-  * de Desinsuflação Modulada - o sistema permite uma desinsuflação passiva até um certo nível, para deixar um pouco de volume nos pulmões, mantendo um determinado nível de PEEP desejado.
-  * Assisto-Controlador de Disparo de Ciclagem E/I (Expiração/Inspiração) - o sistema pode ou não habilitar um "trigger" de detecção de esforço de respiração do paciente.
+  * **Gerador de Força Constante** - fluxo variável com as condições de complacência e resistência do sistema respiratório do paciente.
+  * de **Ciclagem por Pressão** - um sensor de pressão aciona o controle de insuflação do pulmão conforme a pressão varia.
+  * de **Desinsuflação Modulada** - o sistema permite uma desinsuflação passiva até um certo nível, para deixar um pouco de volume nos pulmões, mantendo um determinado nível de PEEP desejado.
+  * **Assisto-Controlador de Disparo de Ciclagem E/I** (Expiração/Inspiração) - o sistema pode ou não habilitar um "trigger" de detecção de esforço de respiração do paciente.
