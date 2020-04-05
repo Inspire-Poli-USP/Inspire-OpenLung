@@ -1,1 +1,1 @@
-Subpasta contendo imagens usada em páginas da Wiki.
+Subpasta contendo imagens usadas em páginas da Wiki.
