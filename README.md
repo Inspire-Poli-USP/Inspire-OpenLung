@@ -56,6 +56,8 @@ A ideia é reproduzir um respirador profissional para terapia intensiva. Ou seja
   - É um projeto para reproduzir uma curva de variação de pressão definida pelo usuário (médico ou fisioterapeuta),
   - Não queremos fazer um respirador igualmente sofisticado aos comercialmente disponíveis,
   - É um projeto para ter o mínimo necessário para manter pessoas vivas com segurança, [numa situação emergencial](#ATENÇÃO).
+  
+Para mais informações, veja a página ["Entenda o Problema"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema) para informações mais específicas sobre o escopo deste projeto.
 
 # Como Colaborar
 
