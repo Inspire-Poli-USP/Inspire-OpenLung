@@ -11,6 +11,7 @@ Não deixe também de coletar feedback com profissionais da saúde especialistas
 
   1. [A Curva de Respiração](#a-curva-de-respiração)
     1.1 [Intervalos](#intervalos)
+      1.1.1 [Como é na prática](#como-e-na-pratica)
     1.2 [Pressões](#pressões)
   2. [O que o Respirador precisa fazer](#o-que-o-respirador-precisa-fazer)
   3. [Como a abordagem mecânica de vocês faz esse controle?](#como-a-abordagem-mecânica-de-vocês-faz-esse-controle)
@@ -38,7 +39,15 @@ A imagem acima mostra claramente 4 inputs de intervalos de tempo:
   
 O tempo total desses inputs define a **frequência respiratória** (respirações por minuto). Em muitos casos os tempos individuais de cada uma dessas fases é "padrão", sendo aumentados ou diminuídos de maneira proporcional conforme input do operador do equipamento. Esse input pode ser simples, com o operador apenas definindo o tempo total da respiração através da frequência respiratória, ou mais complicado, com o operador definindo todos os tempos.
 
-A interface com o usuário que determinará o nível de especificidade desses inputs. O ideal é deixar possível o operador modificar todos os valores das variáveis de tempo caso precise.
+#### Como é na prática
+
+Uma maneira muito comum de definir a relação entre esses tempos é uma chamada "proporção" Inspiração/Expiração - em que "Inspiração" é o "Tempo de Inspiração" mais "Tempo de Pausa da Inspiração", e "Expiração" é o "Tempo de Expiração" mais o "Tempo de Pausa da Expiração". Existem por exemplo diferentes recomendações de proporções I/E sugeridas para diferentes tipos de pacientes. Por exemplo: 1:1; 1:2 e etc. 
+
+Exemplo prático: se a recomendação para um paciente é 30 ciclos de respiração por minuto, numa relação I/E de 1:2, qual tempo inspiratório e expiratório o fisioterapeuta deve colocar no painel do respirador? Vejamos: 60 segundos/30 ciclos = 2 segundos por ciclo. Como a proporção é 1:2, a inspiração será 0,66 segundos e a expiração será 1,33 segundos.
+
+A interface com o operador é que determinará o nível de especificidade desses inputs. Como essa interface [foge um pouco do nosso escopo](https://github.com/Inspire-Poli-USP/Inspire-OpenLung#onde-queremos-chegar), apenas estamos deixando possível no nosso algoritmo de controle a modificação todos os valores das variáveis de tempo indicadas no gráfico anterior.
+
+Contudo, a título de informação, entendemos pelos feedbacks com especialistas que em ventiladores mais simples o que se define em geral é o tempo total de inspiração (e a proporção entre "Tempo de Inspiração" e "Tempo de Pausa de Inspiração") e a proporção I/E. Com esses dois valores é possível se obter a frequência de respiração (ciclos por minuto) e o tempo total de expiração. Em equipamentos mais completos existe a opção de definir todos os tempos. Caso queira saber quais são esses tempos que geralmente são usados, indicamos [essa referẽncia](https://accessmedicine.mhmedical.com/content.aspx?bookid=520&sectionid=41692246#57062937).
 
 ### Pressões
 
