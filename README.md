@@ -57,7 +57,7 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [x] Adaptação controle de telemetria
 - [x] Testes com sensor de pressão industrial
 - [ ] Adaptação do código para utilização do ESP32
-- [ ] Testar MPX5010
+- [x] Testar MPX5010  (*06 April - Validado*)
 - [ ] Desenhar ligação eletrônica (Fritzing)
 
 
