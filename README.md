@@ -37,6 +37,7 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - April 03: Configuração dos equipamentos de medição para aferir o sistema + Programação CLP entrada analógica
 - April 04: Migração do firmware para plataforma ESP32 | Teste e análise de fluxo
 - April 05: Implementação NEXTION para leitura do gráfico + ESP32
+- April 06: Merge código de telemetria + IHM + CLP | Upload de fotos da montagem/dispositivos
 
  
 ### Em progresso:
