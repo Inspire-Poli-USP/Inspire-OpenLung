@@ -68,7 +68,11 @@ A ideia final é reproduzir um respirador profissional para terapia intensiva. O
 # Questão regulatória
 
   Uma questão em aberto para todos os projetos open source de ventiladores para suporte no combate à COVID-19 é se esses projetos terão aprovação regulatória para serem usados em pacientes.
+  
+  
   A expectativa é que em algum momento esse processo se torne mais facilitado por alguma ação do governo e agências reguladoras.
+  
+  
   Para saber mais a respeito das informações que temos a respeito dessa atual situação, dê uma olhada na conversa do [Issue #14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14).
 
 # Como Colaborar
