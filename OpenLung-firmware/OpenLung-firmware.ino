@@ -132,8 +132,8 @@ void loop() {
     stepper.run();
   }
   else if (stepper.currentPosition() != 0) {
-        stepper.moveTo(0);
-        stepper.run();
+    stepper.moveTo(0);
+    stepper.run();
   }
 
   /* if (millis() %10 == 0) {
