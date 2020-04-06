@@ -4,6 +4,8 @@ Respiração auxiliada por máquinas é um tópico de estudo da medicina com mui
 
 As informações aqui são a nossa descrição baseada em materiais de estudo, além da síntese de diversas explicações que gentilmente nos foram feitas a respeito deste assunto por profissionais da área (médicos, fisioterapeutas e engenheiros de equipamentos de ventilação mecânica).
 
+Não deixe também de coletar feedback com profissionais da saúde especialistas no tema que você tem alcance. Caso colete alguma informação que acha que estamos ignorando, por favor, abra um [Issue](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) sobre o assunto ou se manifeste no [chat em grupo no Telegram](https://t.me/openlungpoliusp) ou na [nossa lista de emails](https://groups.google.com/forum/#!forum/inspireopenlung).
+
 ---
 ## Índice
 
