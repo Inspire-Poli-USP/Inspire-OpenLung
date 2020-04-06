@@ -26,9 +26,10 @@
 
 long avancoMax = 800;
 long avancoMin = 40;
+long offset = 30;                                                      //offset da chave fim de curso
+float relacaoInspiracaoExpiracao = 2.0;
 float vMin = 10.0;
 float vMax = 800.0;
-long offset = 30;                                                      //offset da chave fim de curso
 float aceleracao_motor = 5.0;
 float velocidade_motor = 0.0;
 uint8_t sentido = true; //horário
@@ -70,8 +71,8 @@ void setup() {
   /* Inicia pinos */
   pinMode(pino_enable, OUTPUT);  //Define a variável pino_enable(10) como saída
   pinMode(key, INPUT);           //Define a variável key(12) como entrada
-  pinMode( A0, INPUT );
-  pinMode( A1, INPUT );
+  pinMode( A0, INPUT_PULLUP );
+  pinMode( A1, INPUT_PULLUP );
 
   /* Configuração inicial do motor */
   motor.setMaxSpeed(vMax);
@@ -97,21 +98,30 @@ void setup() {
   motor.setCurrentPosition(0);  
 }
 
+unsigned long calculoFrequencia = 0;
+
 void loop() {
   velocidade_motor = velocidade();  
   if (sentido) {
-    Serial.println("Horario");
+    Serial.print( "\tFrequencia: ");
+    Serial.println( 60000UL / calculoFrequencia );
+    calculoFrequencia = 0;
+    Serial.print("Inspira: ");
     long avancoAbs = avanco();
     motor.moveTo(avancoAbs);
     motor.setSpeed(velocidade_motor);      
   } else { // Move o motor no sentido anti-horario
-    Serial.println("anti-horario");
+    Serial.print("\tExpira:  ");
     motor.moveTo(offset);                                                           
-    motor.setSpeed(-velocidade_motor);    
-  }  
+    motor.setSpeed(-velocidade_motor / relacaoInspiracaoExpiracao);
+  }
+  unsigned long tempo = millis();
   while (motor.distanceToGo() != 0 ) {
     motor.runSpeed(); 
   }
   delay(100);
-  sentido = !sentido;    
+  sentido = !sentido;
+  tempo = millis() - tempo;
+  Serial.print(tempo );
+  calculoFrequencia += tempo;
 }
