@@ -25,15 +25,16 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
   1. [Porque mais um projeto como esse?](#porque-mais-um-projeto-como-esse)
   2. [Motivação](#motivação)
   3. [Onde queremos chegar](#onde-queremos-chegar)
-  4. [Como colaborar](#como-colaborar)
-  5. [Nossa Abordagem de Trabalho e Princícios de Design](#nossa-abordagem-de-trabalho-e-princípios-de-design)
-  6. [Andamento do projeto](#andamento-do-projeto)
-    6.1 [Tarefas pendentes](#tarefas-pendentes)
-  7. [Principais Especificações](#principais-especificações)
-  8. [Lista de Materiais](#lista-de-materiais)
-    8.1 [Arquivos para corte a laser](#arquivos-para-corte-a-laser)
-    8.2 [Partes Eletrônicas](#partes-eletrônicas)
-  9. [Contato e Ajuda](#contato-e-ajuda)
+  4. [Questão Regulatória](#questão-regulatória)
+  5. [Como colaborar](#como-colaborar)
+  6. [Nossa Abordagem de Trabalho e Princícios de Design](#nossa-abordagem-de-trabalho-e-princípios-de-design)
+  7. [Andamento do projeto](#andamento-do-projeto)
+    7.1 [Tarefas pendentes](#tarefas-pendentes)
+  8. [Principais Especificações](#principais-especificações)
+  9. [Lista de Materiais](#lista-de-materiais)
+    9.1 [Arquivos para corte a laser](#arquivos-para-corte-a-laser)
+    9.2 [Partes Eletrônicas](#partes-eletrônicas)
+  10. [Contato e Ajuda](#contato-e-ajuda)
 
 | [Nossa Wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki) | [Issues do Projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) | [Pull-Requests](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/pulls) | [Licença de Uso](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/License.md) |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
@@ -51,13 +52,24 @@ A expectativa é que teremos no Brasil um pico de casos a serem tratados pelo si
 
 # Onde queremos chegar
 
-A ideia é reproduzir um respirador profissional para terapia intensiva. Ou seja:
+A ideia final é reproduzir um respirador profissional para terapia intensiva. Ou seja:
   - Não é um projeto que se restringe a apenas apertar o Ambú ritmicamente,
   - É um projeto para reproduzir uma curva de variação de pressão definida pelo usuário (médico ou fisioterapeuta),
   - Não queremos fazer um respirador igualmente sofisticado aos comercialmente disponíveis,
   - É um projeto para ter o mínimo necessário para manter pessoas vivas com segurança, [numa situação emergencial](#ATENÇÃO).
   
-  Veja a página ["Entenda o Problema"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema) para informações mais específicas sobre o escopo deste projeto.
+  Veja a página ["Entenda o Problema"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema) para informações mais específicas sobre o escopo técnico deste projeto.
+  
+  Onde queremos chegar com este braço open source da iniciativa Inspire é desenvolver os módulos centrais do ventilador, que identificamos como sendo o "apertador de Ambu" e o algoritmo de controle.
+  Os demais módulos como eletrônica própria (sem usar arduino), interface operador-máquina e *packaging* do sistema todo **por enquanto** não são open source.
+  
+  Contudo, você pode desenvolver esses outros módulos segundo seu próprio contexto local de logística e recursos. Uma produção deslocalizada e flexível é uma possibilidade em aberto para fabricação dos respiradores a tempo. Encorajamos possíveis colaboradores deste projeto a seguir o exemplo de forks desre repositório e desenvolverem suas próprias soluções complementares ao que estamos fazendo.
+  
+# Questão regulatória
+
+  Uma questão em aberto para todos os projetos open source de ventiladores para suporte no combate à COVID-19 é se esses projetos terão aprovação regulatória para serem usados em pacientes.
+  A expectativa é que em algum momento esse processo se torne mais facilitado por alguma ação do governo e agências reguladoras.
+  Para saber mais a respeito das informações que temos a respeito dessa atual situação, dê uma olhada na conversa do [Issue #14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14).
 
 # Como Colaborar
 
