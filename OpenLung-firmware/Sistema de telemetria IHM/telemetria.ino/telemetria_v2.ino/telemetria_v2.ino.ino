@@ -28,8 +28,6 @@ unsigned long startMillis;
 unsigned long currentMillis;
 const unsigned long period = 1000; // 1000 ms = 1s
 
-//HX711 balanca;
-float calibration_factor = 42130;
 
 U8GLIB_ST7920_128X64_1X u8g(6, 5, 4 , 7); //Enable, RW, RS, RESET
 int display = 1;
@@ -100,7 +98,7 @@ float lePressao() {
   // read the analog in value:
   pressureRead = analogRead(analogPressure);
   // map it to the range of the analog out:
-  pressureValue = map(pressureRead, 180, 941, 0, 1020);
+  pressureValue = map(pressureRead, 0, 1023, 0, 1020);
 
 
   // print the results to the Serial Monitor:
