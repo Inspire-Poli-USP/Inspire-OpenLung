@@ -71,7 +71,7 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
 ## Como contribuir com dados
 
   - Contribuir com dados significa que você adicionará arquivos de texto, planilhas, imagens e etc na pasta [Dados Experimentais](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/Dados_Experimentais)
-  - Contribuir com dados implica em você ter capacidade de ao mesmo tempo poder contribuir com o hardware e o software, tendo ainda acesso a equipamentos para realizar medições, como pressão e vazão, reproduzindo as condições que profissionais de saúde encontrariam numa situação real.
+  - Contribuir com dados implica em você ter capacidade de ao mesmo tempo poder contribuir com o hardware e o software, tendo ainda acesso a equipamentos para realizar medições, como pressão e vazão, reproduzindo as condições que profissionais de saúde encontrariam numa situação real. Veja, por exemplo, o [Sistema de Testes](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Sistema-de-Testes) que usamos.
   - Antes de contribuir, veja os dados e informações que já coletamos e organizamos na [Wiki do projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki).
   - Procure nos [Issues](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) do projeto entradas sugerindo medições e experimentos que ainda não foram feitos.
   - Para ficar mais rapidamente atualizado sobre o que nós e as pessoas da comunidade estão medindo, experimentando, propondo e discutindo, entre no [grupo de chat do Telegram](https://t.me/openlungpoliusp) ou envie um email para a lista de emails (inspireopenlung@googlegroups.com).
