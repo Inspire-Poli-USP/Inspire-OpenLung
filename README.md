@@ -116,6 +116,8 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - 1x Display 128x64
 - 1x Encoder KY040
 - 1x Fonte 12V 5A
+- 1x Sensor de pressão MPX5010dp
+- 1x Tela Nextion 7pol
 - Fiação
 - Perfil de acabamento para acrilico 5mm [FOTO](https://http2.mlstatic.com/borracha-u-c-8-metros-acabamento-gabinete-acrilico--D_NQ_NP_21608-MLB20213569630_122014-F.jpg)
 
