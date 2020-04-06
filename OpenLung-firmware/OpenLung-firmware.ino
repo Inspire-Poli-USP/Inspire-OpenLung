@@ -104,8 +104,7 @@ void loop() {
     }
 
     //fim
-    if (input == "f")
-      start = false;
+    if (input == "f") start = false;
 
     //clear input
     newData = false;
