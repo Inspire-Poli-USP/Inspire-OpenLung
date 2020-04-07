@@ -148,6 +148,7 @@ Não deixe de ler sobre o assunto e entender melhor sobre como funciona um venti
 * Emerson Moretto [@emersonmoretto](https://github.com/emersonmoretto) - SP
 * Helbert Paranhos [@HPparanhos](github.com/HPparanhos) - SC
 * Fellipy Kuhne  [@kinife](https://github.com/kinife) - SC
+* José Manuel Ramirez [@tere.red](http://tere.red/) - SC
  
    > É preciso alinhar a expectativa de todos! Estamos trabalhando duro no processo de validação e rápida modificação para um projeto 100% confiável e esperamos ao máximo que isso possa salvar muitas vidas!
 
@@ -169,3 +170,4 @@ Colabore para o rápido avanço do projeto em - [VAKINHA](https://www.vakinha.co
 - TEX Equipamentos Eletrônicos
 - Termica Solutions
 - Perini Business Park
+- Tere.Red
