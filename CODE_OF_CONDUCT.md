@@ -87,6 +87,7 @@ Se você foi colocado em moderação e gostaria de sair dessa situação, respon
  
  - Através do perfil pessoal de um membro moderador nos espaços de comunicação online, ou através do email pessoal de um membro moderador.
  - Através do email inspire@usp.br
+
  - **Nunca** reportar um problema através de mensagens não-privadas em redes sociais.
  
  # Consequências a violações

@@ -115,7 +115,6 @@ Quanto à formatação das mensagens de commit, seguimos as convenções descrit
 [aqui](https://chris.beams.io/posts/git-commit/) (veja a tradução para
 Português [aqui](https://translate.google.com/translate?sl=en&tl=pt&u=https%3A%2F%2Fchris.beams.io%2Fposts%2Fgit-commit%2F)).
 Em resumo:
-
 - A primeira linha é o título. Escreva-a resumindo as mudanças, no imperativo,
   e tente mantê-la em até 50 characteres.
 - Use uma linha em branco entre o título e corpo.

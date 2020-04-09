@@ -141,6 +141,7 @@ Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/I
 
 ## Arquivos para corte a laser
 Apenas 12 peças, usando chapas de de 5mm de espessura (estamos usando acrílico, mas pode ser outros materiais):
+
 - 2x piston support V5.dxf	
 - 2x piston V5.dxf	
 - 2x side V5.dxf	
