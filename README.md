@@ -12,7 +12,7 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 
 ---
 
-## ATENÇÃO
+## :warning: ATENÇÃO :warning:
 - **Este é um projeto em andamento, não é um produto pronto.**
 - **O projeto em seu atual estado NÃO DEVE SER USADO EM HUMANOS.**
 - **O projeto em seu estado atual NÃO DEVE SER USADO EM ANIMAIS sem aprovação de comitês de ética legítimos.**
@@ -43,13 +43,13 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 
 ---
 
-  ### ATUALIZAÇÃO IMPORTANTE
+  ### :exclamation: ATUALIZAÇÃO IMPORTANTE :exclamation:
   
   Devido a questões jurídicas, o entendimento dos coordenadores do projeto é de que o software que realiza o controle do Ambu, bem como os dados experimentais associados aos testes dos algoritmos de controle, permanecerão **privados** até o término dos testes.
   
   Lamentamos essas medidas e estamos discutindo a **possibilidade** do compartilhamento restrito dessas informações com grupos de contribuidores especiais (como centros de pesquisa, universidades, empresas etc) interessados em contribuir com o projeto. Mas isso ainda não está decidido.
   
-  Existem outros repositórios **independentes da iniciativa Inspire** que estão desenvolvendo, disponibilizando ou prometem disponibilização de firmwares, como por exemplo o [OdaMV](https://github.com/eduoda/odamv), o [ReesistenciaTeam](https://gitlab.com/reesistencia/reespirator/-/tree/dev/rees_firmware), o [hitecnologia/cov19](https://github.com/hitecnologia/cov19) ou o [BMV OpenLung](https://gitlab.com/open-source-ventilator/ventilator/OpenLung/-/tree/master/). Contudo não nos responsabilizamos pelo uso destes firmwares com nosso hardware e reforçamos a atenção para os [importantes avisos no início desta página](#atenção).
+  Existem outros repositórios **independentes da iniciativa Inspire** que estão desenvolvendo, disponibilizando ou prometem disponibilização de firmwares, como por exemplo o [OdaMV](https://github.com/eduoda/odamv), o [ReesistenciaTeam](https://gitlab.com/reesistencia/reespirator/-/tree/dev/rees_firmware), o [hitecnologia/cov19](https://github.com/hitecnologia/cov19) ou o [BMV OpenLung](https://gitlab.com/open-source-ventilator/ventilator/OpenLung/-/tree/master/). Contudo não nos responsabilizamos pelo uso destes firmwares com nosso hardware e reforçamos a atenção para os [importantes avisos no início desta página](#warning-atenção-warning).
   
   Caso tenha alguma dúvida, pedido ou reclamação, entre em contato com inspire@usp.br.
   
@@ -70,7 +70,7 @@ A ideia final é reproduzir um respirador profissional para terapia intensiva. O
   - Não é um projeto que se restringe a apenas apertar o Ambú ritmicamente,
   - É um projeto para reproduzir uma curva de variação de pressão definida pelo usuário (médico ou fisioterapeuta),
   - Não queremos fazer um respirador igualmente sofisticado aos comercialmente disponíveis,
-  - É um projeto para ter o mínimo necessário para manter pessoas vivas com segurança, [numa situação emergencial](#atenção).
+  - É um projeto para ter o mínimo necessário para manter pessoas vivas com segurança, [numa situação emergencial](#warning-atenção-warning).
   
   Veja a página ["Entenda o Problema"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema) para informações mais específicas sobre o escopo técnico deste projeto.
   
