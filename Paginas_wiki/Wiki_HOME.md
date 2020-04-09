@@ -12,7 +12,7 @@ Você pode selecionar qualquer uma das páginas através do menu à direita.
 
 ## Questões ou precisando de ajuda?
 
-Entre em contato por [nosso formulário](https://forms.gle/koJ3gc2z2RKgDynZ6) ou pelo email inspirepoliusp@gmail.com
+Entre em contato por [nosso formulário](https://forms.gle/koJ3gc2z2RKgDynZ6) ou pelo email inspire@usp.com
 
 ## Quer contribuir a Wiki? 
 
