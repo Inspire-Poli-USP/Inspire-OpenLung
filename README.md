@@ -55,7 +55,7 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
   
   ---
 
-# Porque mais um projeto como esse?
+# Por que mais um projeto como esse?
 
   Este é mais um projeto de design de ventilador pulmonar de acesso aberto com o intuito de ser barato, de fácil transporte e utilizando poucos materiais, usando principalmente um Ambu como gerador de fluxo de ar.
   
