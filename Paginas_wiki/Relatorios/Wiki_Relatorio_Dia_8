@@ -1,0 +1,40 @@
+28 de Março de 2020, atividas realizadas no Laboratório de Engenharia Biomédica da Poli-USP
+
+### Objetivos
+* Reproduzir com precisão o formato da curva de pulsos de pressão num sistema de malha aberta.
+* Produzir dados relacionando volume deslocado pelo êmbolo e passos do motor.
+
+### Resultados
+
+1. Emerson Moretto conseguiu reproduzir as curvas de pulso de controle de pressão ajustando parâmetros de tamanho de curso e velocidade, considerando um ciclo em quatro fases, sendo as duas primeiras ajustadas por dois parâmetros
+[![Vídeo da curva de pressão](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/V%C3%ADdeo%20pulsa%C3%A7%C3%A3o%20press%C3%A3o.png)](https://www.youtube.com/watch?v=dq-pSlZ8i6Y&feature=youtu.be)
+
+2. Felipe Fava gerou um arquivo .mat com sinais de Pressão, Volume e Deslocamento do êmbolo em duas condições distintas de resistência de vias aéreas no pulmão mecânico; análise destes dados serão feitas amanhã. Isso é importante pois define a relação Curso-do-Êmbolo x Volume-Expulso em 20 ciclos respiratórios por minuto que será usado nos algoritmos de controle.
+
+3. Ely Mendes Lopes e Raul González geraram uma tabela de Voltas-do-Fuso x Volume-Expulso em condição estática. Isso foi feito com o Ambu sendo preenchido com água e em certos números de voltas a água expulsa foi medida numa proveta graduada.
+
+| Voltas  |  mL  |
+| ------- | ------- |
+|  3  |  135  |
+|  4  |  225  |
+|  5  |  372  |
+|  5,5  |  440  |
+|  6,25  |  520  |
+|  6,50  |  570 |
+|  6,75  |  625 |
+|  7  |  667 |
+|  7,25  |  710 |
+|  7,50  |  640 |
+|  7,75  |  740 |
+|  8  |  808  |
+|  8,25  |  860  |
+|  8,50  |  910  |
+|  8,75  |  960  |
+|  9  |  995  |
+|  9,25  |  1025  |
+|  9,50  |  1060  |
+|  9,75  |  1105  |
+|  10  |  1135  |
+|  10,25  |  1163  |
+|  10,50  |  1200  |
+

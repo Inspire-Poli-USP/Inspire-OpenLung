@@ -1,0 +1,31 @@
+29 de Março de 2020, atividades realizadas no Laboratório de Engenharia Biomédica da Poli USP
+
+### Objetivos
+- Analisar dados do dia anterior
+- Controlar a ventilação num sistema de malha fechada.
+
+### Resultados
+1. Foi trocada a válvula de PEEP de Ambu (intervalo de controle de 5 a 20 mmH2O) por uma válvula de PEEP de CPAP (intervalo de 2 a 10 mmH2O).
+
+2. Olavo Lupi, plotou um gráfico da tabela de volume por voltas do motor obtida ontem por Ely Mendes. É uma reta, e sua equação foi obtida conforme imagem abaixo:
+
+![Curva de Calibração do Ambu](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/Curva%20de%20Calibra%C3%A7%C3%A3o%20Ambu.jpeg)
+
+
+3. Felipe Fava analisou os dados coletados ontem de volume (integrando o gráfico de vazão ao longo do tempo), pressão e deslocamento do êmbolo apertando o Ambu e obteve os seguintes gráficos:
+
+![Volume expelido vs curso](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/Volume%20vs%20curso.jpeg)
+
+![Fluxo de ar vs curso](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/Vaz%C3%A3o%20vs%20curso.jpeg)
+
+Interessante observar a região próxima ao ponto de máximo no gráfico de Flow vs Position, que é quando o Ambu sofre um dobramento (visivelmente perceptível) após determinada quantidade de compressão.
+
+4. Programamos o controle em malha fechada da ventilação usando medidas da pressão. A amplitude de pressão e tempo do platô de pressão máxima foram constatadas.
+
+5. Programamos o controle em malha fechada usando medidas de vazão. A amplitude da vazão e o tempo do platô foram constatadas.
+
+6. Constatou-se um vazamento de ar numa das seguintes válvulas: válvulas de PEEP (no anel de borracha menor), válvula unidirecional e válvula de pressão máxima, conforme mostrado no vídeo abaixo:
+[![Vídeo dos vazamentos](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/Vazamentos.png)](https://youtu.be/mwwxAkmB0J0)
+
+7. Pressionamos melhor as conexões e eliminamos quase todos os vazamentos. A qualidade do perfil da curva
+[![Vídeo da nova curva pós resolver vazamentos](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/nova%20curva%20sem%20ru%C3%ADdo.png)](https://youtu.be/wBdhm9nBC6w)
