@@ -1,6 +1,6 @@
 # Inspire-OpenLung
 
-Seja muito bem vindo ao repositório do projeto OpenLung! Um respirador emergencial brasileiro para enfrentamento da COVID-19!
+Seja muito bem vindo ao repositório do projeto de hardware livre OpenLung! Um respirador emergencial brasileiro para enfrentamento da COVID-19!
 
 Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 
@@ -43,6 +43,18 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
 
 ---
 
+  ### ATUALIZAÇÃO IMPORTANTE
+  
+  Devido a questões jurídicas, o entendimento dos coordenadores do projeto é de que o software que realiza o controle do Ambu, bem como os dados experimentais associados aos testes dos algoritmos de controle, permanecerão **privados** até o término dos testes.
+  
+  Lamentamos essas medidas e estamos discutindo a **possibilidade** do compartilhamento restrito dessas informações com grupos de contribuidores especiais (como centros de pesquisa, universidades, empresas etc) interessados em contribuir com o projeto.
+  
+  Existem outros repositórios brasileiros **independentes da iniciativa Inspire** que estão desenvolvendo, disponibilizando ou prometem disponibilização de firmwares, como por exemplo o [OdaMV](https://github.com/eduoda/odamv) ou o [hitecnologia/cov19](https://github.com/hitecnologia/cov19). Contudo não nos responsabilizamos pelo uso destes firmwares com nosso hardware e reforçamos a atenção para os [importantes avisos no início desta página](#atenção).
+  
+  Caso tenha alguma dúvida, pedido ou reclamação, entre em contato com inspire@usp.br.
+  
+  ---
+
 # Porque mais um projeto como esse?
 
   Este é mais um projeto de design de ventilador pulmonar de acesso aberto com o intuito de ser barato, de fácil transporte e utilizando poucos materiais, usando principalmente um Ambu como gerador de fluxo de ar.
@@ -58,22 +70,21 @@ A ideia final é reproduzir um respirador profissional para terapia intensiva. O
   - Não é um projeto que se restringe a apenas apertar o Ambú ritmicamente,
   - É um projeto para reproduzir uma curva de variação de pressão definida pelo usuário (médico ou fisioterapeuta),
   - Não queremos fazer um respirador igualmente sofisticado aos comercialmente disponíveis,
-  - É um projeto para ter o mínimo necessário para manter pessoas vivas com segurança, [numa situação emergencial](#ATENÇÃO).
+  - É um projeto para ter o mínimo necessário para manter pessoas vivas com segurança, [numa situação emergencial](#atenção).
   
   Veja a página ["Entenda o Problema"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema) para informações mais específicas sobre o escopo técnico deste projeto.
   
   Onde queremos chegar com este braço open source da iniciativa Inspire é desenvolver os módulos centrais do ventilador, que identificamos como sendo o "apertador de Ambu" e o algoritmo de controle.
   Os demais módulos como eletrônica própria (sem usar arduino), interface operador-máquina e *packaging* do sistema todo **por enquanto** não são open source.
-  
+
   Contudo, você pode desenvolver esses outros módulos segundo seu próprio contexto local de logística e recursos. Uma produção deslocalizada e flexível é uma possibilidade em aberto para fabricação dos respiradores a tempo. Encorajamos possíveis colaboradores deste projeto a seguir o exemplo de forks desre repositório e desenvolverem suas próprias soluções complementares ao que estamos fazendo.
+
   
 # Questão regulatória
 
   Uma questão em aberto para todos os projetos open source de ventiladores para suporte no combate à COVID-19 é se esses projetos terão aprovação regulatória para serem usados em pacientes.
   
-  
   A expectativa é que em algum momento esse processo se torne mais facilitado por alguma ação do governo e agências reguladoras.
-  
   
   Para saber mais a respeito das informações que temos a respeito dessa atual situação, dê uma olhada na conversa do [Issue #14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14).
 
