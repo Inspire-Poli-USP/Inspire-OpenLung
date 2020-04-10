@@ -49,7 +49,7 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
   
   Lamentamos essas medidas e estamos discutindo a **possibilidade** do compartilhamento restrito dessas informações com grupos de contribuidores especiais (como centros de pesquisa, universidades, empresas etc) interessados em contribuir com o projeto. Mas isso ainda não está decidido.
   
-  Existem outros repositórios **independentes da iniciativa Inspire** que estão desenvolvendo, disponibilizando ou prometem disponibilização de firmwares, como por exemplo o [OdaMV](https://github.com/eduoda/odamv), o [ReesistenciaTeam](https://gitlab.com/reesistencia/reespirator/-/tree/dev/rees_firmware), o [hitecnologia/cov19](https://github.com/hitecnologia/cov19) ou o [BMV OpenLung](https://gitlab.com/open-source-ventilator/ventilator/OpenLung/-/tree/master/). Contudo não nos responsabilizamos pelo uso destes firmwares com nosso hardware e reforçamos a atenção para os [importantes avisos no início desta página](#warning-atenção-warning).
+  Existem outros repositórios **independentes da iniciativa Inspire** que estão desenvolvendo, disponibilizando ou prometem disponibilização de firmwares, como por exemplo o [OdaMV](https://github.com/eduoda/odamv), o [ReesistenciaTeam](https://gitlab.com/reesistencia/reespirator/-/tree/dev/rees_firmware), o [hitecnologia/cov19](https://github.com/hitecnologia/cov19) ou o [BMV OpenLung](https://gitlab.com/open-source-ventilator/ventilator/OpenLung/-/tree/master/) - bem como [essa lista de projetos](https://soptechint.com/ventilators). Contudo não nos responsabilizamos pelo uso destes firmwares com nosso hardware e reforçamos a atenção para os [importantes avisos no início desta página](#warning-atenção-warning).
   
   Caso tenha alguma dúvida, pedido ou reclamação, entre em contato com inspire@usp.br.
   
@@ -101,7 +101,7 @@ Vale dar uma olhada também no nosso [Código de Conduta](https://github.com/Ins
 
 # Nossa Abordagem de Trabalho e Princípios de Design
 
-Acreditamos que toda as tentativas de designs possíveis de respiradoras são válidas por aumentarem as possibilidades de sucesso de ALGUM protótipo de respirador funcionar com qualidade e chegar até quem precisa. Na nossa tentativa em particular, [definirmos alguns Princípios fundamentais de Design e nossa Abordagem de Trabalho](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md) no desenvolvimento e teste deste protótipo.
+Acreditamos que toda as tentativas de designs possíveis de respiradoras são válidas por aumentarem as possibilidades de sucesso de ALGUM protótipo de respirador funcionar com qualidade ([veja essa lista detalhada](https://soptechint.com/ventilators) de alguns projetos) e chegar até quem precisa. Na nossa tentativa em particular, [definirmos alguns Princípios fundamentais de Design e nossa Abordagem de Trabalho](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md) no desenvolvimento e teste deste protótipo.
 
 Se você se identifica com essa abordagem, considere [colaborar com o projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/CONTRIBUTING.md).
 
