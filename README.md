@@ -132,7 +132,7 @@ Essa é uma resumida linha do tempo do projeto:
 
 Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) e [Pull-Requests](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/pulls).
 
-# Principais Especificações
+# Principais Especificações Desejadas
 
 - Ser robusto. Deve funcionar continuamente sem falhas (ciclo de trabalho de 100%) por períodos de 14 dias, 24 horas por dia. Se necessário, a máquina pode ser substituída depois de cada período de 14 dias de uso ininterrupto.
 
