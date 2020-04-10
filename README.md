@@ -155,7 +155,7 @@ Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/I
 
 ## Partes Mecânicas
 - Acoplador de Garra Drylin E para eixo redondo de 10 mm de diâmetro
-- Fuso Trapezoidal de 10 mm de diâmetro, 15 cm de comprimento e passo de 2,5 mm
+- Fuso Trapezoidal de 10 mm de diâmetro, 15 cm de comprimento e passo de 25 mm
 - Castanha de Latão TR10 e passo de 2,5 mm
 - 20x parafusos M3 de 16mm de comprimento
 - 20x porcas M3
