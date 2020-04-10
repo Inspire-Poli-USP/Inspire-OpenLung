@@ -89,7 +89,7 @@ A ideia final é reproduzir um respirador profissional para terapia intensiva. O
   
   A expectativa é que em algum momento esse processo se torne mais facilitado por alguma ação do governo e agências reguladoras.
   
-  Para saber mais a respeito das informações que temos a respeito dessa atual situação, dê uma olhada na conversa do [Issue #14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14).
+  Para saber mais a respeito das informações que temos a respeito dessa atual situação, dê uma olhada na [página da wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Regulamenta%C3%A7%C3%A3o) sobre este assunto ou na conversa do [Issue #14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14).
 
 # Como Colaborar
 
