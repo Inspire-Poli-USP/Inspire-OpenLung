@@ -148,30 +148,30 @@ Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/I
 
 # Lista de Materiais
 
-*Essa lista de materiais está desatualizada. Atualizaremos assim que possível.*
-
-## Arquivos para corte a laser
-Apenas 12 peças, usando chapas de de 5mm de espessura (estamos usando acrílico, mas pode ser outros materiais):
-
-- 2x piston support V5.dxf	
-- 2x piston V5.dxf	
-- 2x side V5.dxf	
-- 1x plate motor V5.dxf	
-- 1x plate nut V5.dxf	
-- 1x plate piston V5.dxf	
-- 1x ambu support V5.dxf	
-- 2x bottom plate V5.dxf	
-- cut V5.ai	(arquivo com corte completo)
-- cut V5.dxf (arquivo com corte completo)
-- cut V5.pdf (arquivo com corte completo)
+## Partes Mecânicas
+- Acoplador de Garra Drylin E para eixo redondo de 10 mm de diâmetro
+- Fuso Trapezoidal de 10 mm de diâmetro, 15 cm de comprimento e passo de 2,5 mm
+- Castanha de Latão TR10 e passo de 2,5 mm
+- 20x parafusos M3 de 16mm de comprimento
+- 20x porcas M3
+- 4x parafusos M4 de 16mm de comprimento
+- Chapa de acrílico de 5mm com no máximo 76 cm x 40 cm  
+  - Resulta em **apenas 12 peças**:
+    - 2x "Suporte de Pistão" (V5)
+    - 2x "Pistões" (V5)
+    - 2x "Ponta do Pistão" (V5)	
+    - 1x "Chapa do Motor" (V5)	
+    - 1x "Chapa da Castanha" (V5)	
+    - 1x "Chapa do Pistão" (V5)	
+    - 1x "Suporte do Ambu" V5	
+    - 2x "Conector Inferior" (V5)	
 
 ## Partes Eletrônicas
 - 1x Nema 23 15kg
 - 1x Arduino uno
-- 1x Driver de motor de passo
-- 20x M3 Screw 16mm
-- 4x M4 Screw 16mm 
-- Cabos, Fonte de 12v 5A, etc
+- 1x Driver DW322E da Leadshine
+- Fonte de 12v 5A
+- 4x jumpers macho-macho
 
 # Contato e Ajuda
 
