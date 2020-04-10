@@ -74,7 +74,9 @@ A ideia final é reproduzir um respirador profissional para terapia intensiva. O
   
   Veja a página ["Entenda o Problema"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema) para informações mais específicas sobre o escopo técnico deste projeto.
   
-  Onde queremos chegar com este braço open source da iniciativa Inspire é desenvolver os módulos centrais do ventilador, que identificamos como sendo o "apertador de Ambu" e o algoritmo de controle.
+  Onde queremos chegar com este braço open source da iniciativa Inspire é desenvolver os módulos centrais do ventilador, que identificamos como sendo:
+  - o "apertador de Ambu",
+  - e o algoritmo de controle.
   Os demais módulos como eletrônica própria (sem usar arduino), interface operador-máquina e *packaging* do sistema todo **por enquanto** não são open source.
 
   Contudo, você pode desenvolver esses outros módulos segundo seu próprio contexto local de logística e recursos. Uma produção deslocalizada e flexível é uma possibilidade em aberto para fabricação dos respiradores a tempo. Encorajamos possíveis colaboradores deste projeto a seguir o exemplo de forks desre repositório e desenvolverem suas próprias soluções complementares ao que estamos fazendo.
@@ -125,10 +127,12 @@ Essa é uma resumida linha do tempo do projeto:
 - 29 de Março: Implementação do controlador PID
 - 30 de Março: Implementação e testes do firmware com controlador PID duplo (Gain Scheduling)
 - 31 de Março: Versão 5, com ajustes para atingir uma maior área do ambú
+- 1 de Abril a 9 de Abril: Implementações e testes de diferentes algoritmos de controle e testes de capacidade em diferentes cenários reais.
 
 ## Tarefas Pendentes
-- Toda a parte eletronica, PCB, quais sensores utilizar.
-- Toda a parte de redundancia elétrica, isso tem que funcionar 24x7.
+
+- Novos testes em simulador de respiração (que reproduz situações reais como tosse, expiração ativa etc) para aprimoramento das capacidades de controle
+- Teste em Animais (devidamente regularizado e aprovado por comitês de ética competentes)
 
 Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) e [Pull-Requests](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/pulls).
 
