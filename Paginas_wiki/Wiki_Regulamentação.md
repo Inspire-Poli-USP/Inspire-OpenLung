@@ -2,6 +2,8 @@
 
 Esta página contém informações sobre a regulamentação necessária para um respirador feito com o projeto deste repositório ser devidamente usado em pacientes com COVID-19 numa situação emergencial.
 
+As informações aqui são a síntese da discussão em aberto no [Issue nº 14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14) deste projeto e serão atualizadas conforme evolução dos acontecimentos.
+
 :warning: :warning: :warning: As informações aqui não endorsam quaisquer ações de terceiros usando tais informações ou têm a intenção de substituir qualquer orientação jurídica necessária para a validação de qualquer tentativa de regulamentação de um produto que contenha completa ou parcialmente as informações deste repositório. :warning: :warning: :warning:
 
 :exclamation::exclamation::exclamation: Esta página é responsabilidade de seus autores e não representa a opinião oficial da iniciativa Inspire até que seja explicitamente comunicado o contrário. :exclamation::exclamation::exclamation:
