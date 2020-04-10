@@ -23,10 +23,22 @@ Preenchendo o formulário conseguimos também nos organizar melhor para falar co
 
 # No que precisamos que você contribua por aqui
 
+---
+
+:warning::warning: **IMPORTANTE ATUALIZAÇÃO** :warning::warning:
+
+Nesse momento é preciso PRINCIPALMENTE de contribuidores especialistas (em materiais, qualidade, regulatório e controle de sistemas eletrônicos), com possibilidade de acesso a infraestrutura adequada de testes - POR EXEMPLO, associados a centros de pesquisa, universidades e empresas com experiência em desenvolvimento de novos processos e produtos. Se você se encaixa nesse perfil e fizer contato, falaremos com você e potencialmente poderemos compartilhar informações de cunho restrito.
+
+Entendemos que a restrição de informações vai na contramão da filosofia open source, contudo o entendimento dos coordenadores do projeto preza pela segurança das pessoas em primeiro lugar. Como a situação extraordinária que nos encontramos frente à COVID-19 instiga as pessoas a tomarem medidas extremas, nos preocupamos com o mau uso das informações deste repositório que possam colocar em risco não só o trabalho já feito até aqui, mas a vida de pessoas.
+
+Novamente, pedimos desculpas a comunidade que efusivamente contribuiu direta ou indiretamente para este projeto desde o primeiro dia de desenvolvimento.
+
+---
+
 Caso o GitHub não seja exatamente algo estranho para você, existem quatro maneiras de contribuir com esse repositório:
 
 1. **HARDWARE** - baixe os arquivos, monte o protótipo, faça testes e proponha novas melhorias no modelo 3D. Consulte a seção [Como contribuir com o hardware](#como-contribuir-com-o-hardware) para maiores detalhes.
-2. **SOFTWARE** - avalie e proponha melhorias nos códigos do firmware e do software de interface com o usuário. Consulte a seção [Como contribuir com o software](#como-contribuir-com-o-software) para mais detalhes.
+2. **SOFTWARE** - faça um fork e proponha seu próprio firmware e software de interface com o usuário em seu repositório. Consulte a seção [Como contribuir com o software](#como-contribuir-com-o-software) para mais detalhes.
 3. **DADOS** - se você tiver acesso a equipamentos de medição de fluxo e/ou pressão de ar, mas principalmente associados a um [pulmão de testes](https://www.google.com/search?q=pulm%C3%A3o+de+teste) (ou qualquer outro equipamento que simule apropriadamente um pulmão), repita os experimentos que realizamos, melhore-os e faça outros novos experimentos que ainda não foram feitos. Consulte a seção [como contribuir com dados](#como-contribuir-com-dados).
 4. **DOCUMENTAÇÃO** - veja quais informações parecem estar faltando, o que poderia estar mais claro ou melhor organizado no repositório. Proponha Issues ou faça Pull-Requests com melhorias e correções. Consulte a seção [Como contribuir com documentação](#como-contribuir-com-documentação).
 
@@ -61,10 +73,9 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
 
 ## Como contribuir com o software
 
-  - Contribuir com o software significa que você vai modificar e fazer Pull-Requests dos códigos de firmware do controle de pressão e software de interface com o usuário.
-  - Contribua com os softwares que estamos testando com o hardware. Por enquanto eles são:
-    - Nosso [firmware](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/OpenLung-firmware/OpenLung-firmware.ino) presente neste repositório.
-    - O firmware e interface de usuário [deste repositório](https://github.com/eduoda/odamv) do EduOda.
+  - IMPORTANTE: leia sobre [essa atualização crítica](https://github.com/Inspire-Poli-USP/Inspire-OpenLung#exclamation-atualiza%C3%A7%C3%A3o-importante-exclamation) sobre a manutenção do firmware do projeto neste repositório.
+  - Contribuir com o software significa que você vai fazer um fork do projeto e desenvolver em seu repositório os códigos de firmware do controle de pressão e software de interface com o usuário.
+  - Contribua com os códigos disponíveis de outras pessoas da comunidade, como descrito [aqui](https://github.com/Inspire-Poli-USP/Inspire-OpenLung#exclamation-atualiza%C3%A7%C3%A3o-importante-exclamation).
   - Como esse é um projeto que envolve hardware, precisamos especialmente de contribuições de software cuja funcionalidade **possa ser testada** por você mesmo de alguma maneira - no máximo: construindo o protótipo e [contribuindo com o hardware](#como-contribuir-com-o-hardware); no mínimo: através de simulações computacionais.
       - Podemos testar e estamos testando suas contribuições "na prática", mas o quão mais diferente é a sua contribuição do que já estamos desenvolvendo e testando, mais tempo levaremos tentando "rodar" o seu código no hardware, então encorajamos novamente a focar esforços no que já está sendo feito.
 
