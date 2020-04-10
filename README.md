@@ -77,7 +77,8 @@ A ideia final é reproduzir um respirador profissional para terapia intensiva. O
   Onde queremos chegar com este braço open source da iniciativa Inspire é desenvolver os módulos centrais do ventilador, que identificamos como sendo:
   - o "apertador de Ambu",
   - e o algoritmo de controle.
-  Os demais módulos como eletrônica própria (sem usar arduino), interface operador-máquina e *packaging* do sistema todo **por enquanto** não são open source.
+
+  Os demais módulos como eletrônica própria (sem usar arduino), interface operador-máquina e *packaging* do sistema todo **por enquanto** não são open source. O firmware e softwares associados ao algoritmo de controle **serão compartilhados de maneira restrita** com contribuidores especiais, pelas razões explicitadas [aqui](#exclamation-atualização-importante-exclamation).
 
   Contudo, você pode desenvolver esses outros módulos segundo seu próprio contexto local de logística e recursos. Uma produção deslocalizada e flexível é uma possibilidade em aberto para fabricação dos respiradores a tempo. Encorajamos possíveis colaboradores deste projeto a seguir o exemplo de forks desre repositório e desenvolverem suas próprias soluções complementares ao que estamos fazendo.
 
