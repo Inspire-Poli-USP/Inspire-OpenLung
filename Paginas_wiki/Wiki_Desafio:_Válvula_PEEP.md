@@ -56,9 +56,9 @@ Estamos desenvolvendo nossa própria solução, mas também acreditamos que a co
 
 ## Local de Discussão
 
-  Coloquem suas propostas, dados de medição, fotos, links para vídeos, desenhos, especificações e quaisquer outras informações relacionadas a este desafio no Issue #43.
+  Coloquem suas propostas, dados de medição, fotos, links para vídeos, desenhos, especificações e quaisquer outras informações relacionadas a este desafio no [Issue #43](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43).
   - Se você não tem uma conta no github, crie e uma e contribua por lá! Essa parte do repositório funciona como um fórum de internet, então não se preocupe por enquanto com "commits", "pull-requests" e outros "palavrões" do github.
-  - Você também pode discutir [pelo Telegram](https://t.me/openlungpoliusp), mas não coloque informações lá em detrimento do Issue #43. O Issue #43 é o melhor lugar para todos acompanharem de uma maneira rápida e mais organizada o que você está fazendo, além de deixar minimamente registrado neste repositório a sua contribuição.
+  - Você também pode discutir [pelo Telegram](https://t.me/openlungpoliusp), mas não coloque informações lá em detrimento do [Issue #43](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43). O [Issue #43](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43) é o melhor lugar para todos acompanharem de uma maneira rápida e mais organizada o que você está fazendo, além de deixar minimamente registrado neste repositório a sua contribuição.
   
 # Resultados
 
