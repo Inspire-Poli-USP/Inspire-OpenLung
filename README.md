@@ -135,11 +135,12 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - 1x Módulod analógico CLP (AFP0RA42)
 - 20x Parafuso M3 16mm
 - 4x Parafuso M3 12mm 
-- 2x Potênciometro 1K
-- 1x Display 128x64
+- ~~2x Potênciometro 1K~~
+- ~~1x Display 128x64~~
 - 1x Encoder KY040
 - 1x Fonte 12V 5A
 - 1x Sensor de pressão MPX5010dp
+- 1x Sensor de fluxo HAFUHH0050L4AXT
 - 1x Tela Nextion 7pol
 - Fiação
 - Perfil de acabamento para acrilico 5mm [FOTO](https://http2.mlstatic.com/borracha-u-c-8-metros-acabamento-gabinete-acrilico--D_NQ_NP_21608-MLB20213569630_122014-F.jpg)
@@ -199,3 +200,5 @@ Colabore para o rápido avanço do projeto em - [VAKINHA](https://www.vakinha.co
 - Termica Solutions
 - Perini Business Park
 - Tere.Red
+- Ocotea Filmes
+
