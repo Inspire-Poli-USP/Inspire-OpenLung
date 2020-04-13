@@ -36,8 +36,16 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - April 02: Adicionar módulo analógico CLP e comunicar via arduino
 - April 03: Configuração dos equipamentos de medição para aferir o sistema + Programação CLP entrada analógica
 - April 04: Migração do firmware para plataforma ESP32 | Teste e análise de fluxo
-- April 05: Implementação NEXTION para leitura do gráfico + ESP32
+- April 05: Implementação NEXTION para leitura do gráfico + ~~ESP32~~
 - April 06: Merge código de telemetria + IHM + CLP | Upload de fotos da montagem/dispositivos
+- April 07: Configuração da interface IHM
+- April 08: Resolução de Bug's no firmware do arduino
+- April 09: Ligação do equipamento de medição (Fluxo+pressão)
+- April 10: Debug IHM/arduino (comunicação serial)
+- April 11: Debug IHM/arduino (comunicação serial) + adaptação válvula Peep
+- April 12: Testes de sensoriamento e alarme + Mapeamento das variáveis
+- April 13: Calibração da curva de respiração 
+- April 14: Video explicativo do sistema + avaliação Dr. Glauco Westphal
 
  
 ### Em progresso:
@@ -54,25 +62,40 @@ Criamos outra vertente de projeto, diferente dos que já estão em desenvolvimen
 - [x] Teste com válvulas solenoides para parada de emergência do sistema
 - [ ] Criação da case eletrônica
 - [x] Programação CLP para leitura analógica
-- [ ] Controle PID do motor via CLP
+- [ ] ~~Controle PID do motor via CLP~~
 - [x] Adaptação controle de telemetria
 - [x] Testes com sensor de pressão industrial
-- [ ] Adaptação do código para utilização do ESP32
+- [ ] ~~Adaptação do código para utilização do ESP32~~
 - [x] Testar MPX5010  (*06 April - Validado*)
 - [ ] Desenhar ligação eletrônica (Fritzing)
+- [x] Armazenar os valores nas variaveis quando retornar as configurações
+- [x] Corrigir bug, que faz imprimir a tela 4 antes da tela 5 quando entra em alarme de pressao pulmonar
+- [x] Imprimir o valor máximo quando rotaciona o encoder no sentido anti-horario na posicao minima
+- [x] Implementar saída analogica para controle de velocidade de avanço
+- [x] Implementar saída analogica para controle de velocidade de recuo
+- [ ] Controle da curva de respiração 
 
 
 ### Pendente:
 
-- [ ] Armazenar os valores nas variaveis quando retornar as configurações
-- [ ] Corrigir bug, que faz imprimir a tela 4 antes da tela 5 quando entra em alarme de pressao pulmonar
-- [ ] Imprimir o valor máximo quando rotaciona o encoder no sentido anti-horario na posicao minima
-- [ ] Implementar saída analogica para controle de velocidade de avanço
-- [ ] Implementar saída analogica para controle de velocidade de recuo
 - [ ] Desligar as valvulas de inspiração/expiracao e ligar a valvula de backup quando estiver em pressao pulmonar alta
 - [ ] Criação, validação e fabricação de PCB para entrada dos sensores e saída do motor
 - [ ] Levantamento de fornecedores e estoques no Brasil dos itens de projeto
- 
+- [ ] Plotar gráfico de volume IHM
+- [ ] Calibração geral dos sensores (intervalos mínimos e máximos)
+- [ ] Implementação do sensor de fluxo
+- [ ] Instalar nova mecânica (Atuador enclausurado)
+- [ ] Validação das válvulas de controle I/E
+- [ ] Teste do sistema blender (2-100-6016 | Oxigel)
+- [ ] Desenvolvimento do Buffer de mistura 
+- [ ] Sensor de oxigênio (Célula de oxigênio)
+- [ ] Mapeamento do sistema de filtragem
+- [ ] Fluxograma de controle
+- [ ] Desenvolvimento do manual de operação
+- [ ] Desenvolvimento material gráfico vista explodida + apresentação
+- [ ] Diagrama de funcionamento do sistema
+- [ ] Reunir materiais de estudo em pasta compartilhada
+
 # Requsitos principais
  
 1. Be reliable. It must work continuously without failure (100% duty cycle) for blocks of 14days — 24 hours a day. If necessary, the machine may be replaced after each block of 14 days x 24 hours a day use.
@@ -140,6 +163,7 @@ Não deixe de ler sobre o assunto e entender melhor sobre como funciona um venti
 - [Rapidly manufactured ventilator system specification](https://www.gov.uk/government/publications/coronavirus-covid-19-ventilator-supply-specification/rapidly-manufactured-ventilator-system-specification)
 - [Frontier Tech 4 COVID Action: emerging market ventilation systems](https://medium.com/frontier-technology-livestreaming/frontier-tech-4-covid-action-emerging-market-ventilation-systems-9c818cb46189)
 - [Positive Ending Expiratory Pressure Valve](https://grabcad.com/library/positive-ending-expiratory-pressure-valve-1)
+- [ANVISA By Flavia G. R. Ibagy Pacheco](https://drive.google.com/open?id=1CEK9-QgvEUpADV46hfBZcp89tQX-wVuy)
 
 ![Image of CITI-OpenLung](https://github.com/HPparanhos/CITI-OpenLung/blob/master/Images/92254424_10220896892786622_3459100809759817728_n.jpg)
 
