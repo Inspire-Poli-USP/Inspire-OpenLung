@@ -142,6 +142,10 @@ Não deixe de ler sobre o assunto e entender melhor sobre como funciona um venti
 - [Positive Ending Expiratory Pressure Valve](https://grabcad.com/library/positive-ending-expiratory-pressure-valve-1)
 
 ![Image of CITI-OpenLung](https://github.com/HPparanhos/CITI-OpenLung/blob/master/Images/92254424_10220896892786622_3459100809759817728_n.jpg)
+
+# Curva de respiração
+
+![Image of CITI-OpenLung](https://github.com/HPparanhos/CITI-OpenLung/blob/master/Images/WhatsApp%20Image%202020-04-12%20at%2020.14.59.jpeg)
  
 # Creditos
  
