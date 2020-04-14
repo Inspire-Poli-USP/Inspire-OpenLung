@@ -47,7 +47,7 @@ Exemplo prático: se a recomendação para um paciente é 30 ciclos de respiraç
 
 A interface com o operador é que determinará o nível de especificidade desses inputs. Como essa interface [foge um pouco do nosso escopo](https://github.com/Inspire-Poli-USP/Inspire-OpenLung#onde-queremos-chegar), apenas estamos deixando possível no nosso algoritmo de controle a modificação todos os valores das variáveis de tempo indicadas no gráfico anterior.
 
-Contudo, a título de informação, entendemos pelos feedbacks com especialistas que em ventiladores mais simples o que se define em geral é o tempo total de inspiração (e a proporção entre "Tempo de Inspiração" e "Tempo de Pausa de Inspiração") e a proporção I/E. Com esses dois valores é possível se obter a frequência de respiração (ciclos por minuto) e o tempo total de expiração. Em equipamentos mais completos existe a opção de definir todos os tempos. Caso queira saber quais são esses tempos que geralmente são usados, indicamos [essa referẽncia](https://accessmedicine.mhmedical.com/content.aspx?bookid=520&sectionid=41692246#57062937).
+Contudo, a título de informação, entendemos pelos feedbacks com especialistas que em ventiladores mais simples o que se define em geral é o tempo total de inspiração (e a proporção entre "Tempo de Inspiração" e "Tempo de Pausa de Inspiração") e a proporção I/E. Com esses dois valores é possível se obter a frequência de respiração (ciclos por minuto) e o tempo total de expiração. Em equipamentos mais completos existe a opção de definir todos os tempos. Caso queira saber quais são esses tempos que geralmente são usados, indicamos [essa referência](https://accessmedicine.mhmedical.com/content.aspx?bookid=520&sectionid=41692246#57062937).
 
 ### Pressões
 
@@ -80,6 +80,14 @@ Durante o processo de retirada gradual do paciente sedado do aparelho de respira
 
 A PEEP acaba variando dentro de um intervalo durante a respiração sem que o paciente respire ativamente. Se o paciente tentar inspirar, mesmo que levemente, o sensor de pressão detectará uma pequena queda abrupta na PEEP. Se essa queda passar de um limiar fora do intervalo esperado de variação da PEEP, o sistema de controle deve iniciar um novo ciclo de respiração.
 Por isso existe **mais um "input" de pressão** do programa de controle, a **pressão limiar de gatilho**, ou **trigger pressure**, que pode ser ativado durante o **Tempo de Pausa da Expiração**. Se houver a ativação do "gatilho" devido a uma queda de pressão ANTES de terminar o Tempo de Pausa da Expiração, um novo ciclo de respiração deve começar imediatamente.
+
+### Variáveis "de cada paciente"
+
+Cada paciente é diferente. O sistema de controle da respiração precisa levar essas diferenças em conta. Na medicina essas diferenças são "medidas" com duas variáveis: **resistência** das vias respiratórias e **complacência** do pulmão. Ou seja: o quão fácil é para uma pessoa inspirar e expirar (resistência das vias respiratórias) e o quanto de ar alguém consegue acumular no pulmão com uma determinada diferença de pressão criada (complacência do pulmão) são coisas que variam de pessoa para pessoa.
+
+No [comentário do @alberiolima no issue #42](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/42#issuecomment-612409353), a "força" que um paciente deve fazer para expirar está relacionada com essas duas variáveis de resistẽncia e complacência.
+
+Um dos [algoritmos de controle](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/26) que usamos, por exemplo, estima através de modelos matemáticos a resistência e a complacência do paciente enquanto a respiração ocorre. Essas estimativas são usadas para **adaptar os ciclos de respiração àquele paciente em particular** - o que também responde à dúvida da comunidade no [Issue #45](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/45#issue-599523947).
 
 ## Definição do tipo do nosso respirador
 
