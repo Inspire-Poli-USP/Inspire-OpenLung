@@ -17,6 +17,7 @@ Não deixe também de coletar feedback com profissionais da saúde especialistas
   3. [Como a abordagem mecânica de vocês faz esse controle?](#como-a-abordagem-mecânica-de-vocês-faz-esse-controle)
   4. [E o volume?](#e-o-volume)
   5. [E se o paciente começar a querer respirar no meio disso tudo?](#e-se-o-paciente-começar-a-querer-respirar-no-meio-disso-tudo)
+    5.1. [Variáveis de cada paciente](#varáveis-de-cada-paciente)
   6. [Definição do tipo do nosso respirador](#definição-do-tipo-do-nosso-respirador)
   
 ---
