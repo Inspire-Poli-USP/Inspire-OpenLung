@@ -182,6 +182,14 @@ Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/I
 - Fonte de 12v 5A
 - 4x jumpers macho-macho
 
+## Partes "Médicas"
+ - 1x Ambu com capacidade de 1600 mL
+ - 2x Tubo traqueia de 1 m
+ - 1x Válvula unidirecional de CPAP com acoplamento para válvula PEEP
+ - 1x Válvula PEEP com ajuste de 5 a 15 cmH2O
+ 
+ *(OBS: as "Partes Médicas" podem variar de nome em cada região; outros produtos médicos de finalidade semelhante podem ser usados)*
+
 # Contato e Ajuda
 
 Se as informações aqui ainda não forem exatamente o que você está procurando, preencha [esse formulário rápido](https://forms.gle/2u1fxgFx3JDqjxeX7) que falaremos com você assim que possível!
