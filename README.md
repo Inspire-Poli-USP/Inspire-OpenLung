@@ -38,8 +38,9 @@ Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
     7.1 [Tarefas pendentes](#tarefas-pendentes)
   8. [Principais Especificações](#principais-especificações)
   9. [Lista de Materiais](#lista-de-materiais)
-    9.1 [Arquivos para corte a laser](#arquivos-para-corte-a-laser)
+    9.1 [Partes Mecânicas](#partes-mecânicas)
     9.2 [Partes Eletrônicas](#partes-eletrônicas)
+    9.3 [Partes "Médicas"](#partes-médicas)
   10. [Contato e Ajuda](#contato-e-ajuda)
 
 | [Nossa Wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki) | [Issues do Projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) | [Pull-Requests](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/pulls) | [Licença de Uso](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/License.md) |
