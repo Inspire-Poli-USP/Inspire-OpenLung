@@ -1,13 +1,18 @@
-# Desafio: Válvula PEEP
-
-Quer ajudar tecnicamente? Agora é uma excelente oportunidade!
+# Ajuda da Comunidade com a Válvula PEEP
 
 Estamos desenvolvendo nossa própria solução, mas também acreditamos que a comunidade pode desenvolver uma solução **mais rapidamente e talvez melhor do que a nossa**.
 
-:point_down: Dê uma olhada abaixo para entender a "missão"! :point_down:
+Dê uma olhada no [Issue #43](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43) para informações mais atualizadas sobre o desenvolvimento da válvula PEEP.
+
+## Restrições
+
+Ainda não podemos divulgar nossa solução online devido a [possíveis problemas jurídicos](https://github.com/Inspire-Poli-USP/Inspire-OpenLung#exclamation-atualiza%C3%A7%C3%A3o-importante-exclamation) envolvendo tecnologias potencialmente proprietárias, mas esperamos logo poder compartilhá-las depois de um "ok" de especialistas.
 
 ## Prazo
-:point_right: Até quarta, dia 15 de Abril :point_left:
+
+Inicialmente essa ajuda da comunidade foi lançada como um desafio, com prazo até dia 15 de Abril. Esse prazo foi dado para podermos já usar essa nova válvula [em experimentos em animais](https://www1.folha.uol.com.br/colunas/monicabergamo/2020/04/ventilador-da-poli-sera-testado-em-animais-e-pessoas-e-pode-ser-lancado-em-uma-semana.shtml?origin=folha#comentarios).
+
+Desenvolvemos uma solução que ainda pode melhorar, então por isso essa questão continua em aberto para colaboração com a comunidade.
 
 ## Descrição
    A válvula que controla a pressão PEEP ([mais info sobre a PEEP aqui](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema#press%C3%B5es)) que estamos usando não aguenta uso prolongado (você pode vê-la [nesse vídeo que fizemos](https://www.youtube.com/watch?v=mwwxAkmB0J0&feature=youtu.be) - é a parte com peças plásticas laranjas). Após cerca de 30 min de funcionamento contínuo, começa a ficar imprecisa - ou seja: ela mantém uma PEEP diferente da que indicada pelo marcador. Além disso sua resolução é muito pequena, podendo ser regulada para, por exemplo: 5 cmH2O, 10 cmH20 ou 15 cmH2O, mas não valores entre estes. 
