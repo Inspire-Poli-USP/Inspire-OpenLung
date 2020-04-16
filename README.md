@@ -2,11 +2,9 @@
 
 Seja muito bem vindo ao repositório do projeto de hardware livre OpenLung! Um respirador emergencial brasileiro para enfrentamento da COVID-19!
 
-Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire).
+Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire), uma de oito iniciativas da Universidade de São Paulo envolvendo viabilização de respiradores para enfrentamento à pandemia. Para saber mais sobre essa e outras iniciativas [veja esse link](https://prp.usp.br/usp-e-covid-19/).
 
-:point_right: Veja nosso último [**desafio para a comunidade**](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43)! :point_left:
-
-
+Considere também apoiar o financiamento de pesquisas na USP para o combate à COVID-19 [através do programa USP Vida](https://www5.usp.br/uspvida/).
 
 ![Model of CITI-OpenLung](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/OpenLung_2020-Apr-01_05-59-26AM-000_CustomizedView25005130231_crop.png)
 
@@ -133,12 +131,12 @@ Essa é uma resumida linha do tempo do projeto:
 - 29 de Março: Implementação do controlador PID
 - 30 de Março: Implementação e testes do firmware com controlador PID duplo (Gain Scheduling)
 - 31 de Março: Versão 5, com ajustes para atingir uma maior área do ambú
-- 1 de Abril a 9 de Abril: Implementações e testes de diferentes algoritmos de controle e testes de capacidade em diferentes cenários reais.
+- 1 de Abril a 12 de Abril: Implementações e testes de diferentes algoritmos de controle e testes de capacidade em diferentes cenários reais.
+- 13 de Abril a 16 de Abil: [Testes em animais](https://www1.folha.uol.com.br/colunas/monicabergamo/2020/04/ventilador-da-poli-sera-testado-em-animais-e-pessoas-e-pode-ser-lancado-em-uma-semana.shtml)
 
 ## Tarefas Pendentes
 
-- Novos testes em simulador de respiração (que reproduz situações reais como tosse, expiração ativa etc) para aprimoramento das capacidades de controle
-- Teste em Animais (devidamente regularizado e aprovado por comitês de ética competentes)
+- Testes em Humanos (devidamente regularizado e aprovado por comitês de ética competentes)
 
 Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) e [Pull-Requests](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/pulls).
 
