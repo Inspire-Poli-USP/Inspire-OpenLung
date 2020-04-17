@@ -12,7 +12,7 @@ Ainda não podemos divulgar nossa solução online devido a [possíveis problema
 
 Inicialmente essa ajuda da comunidade foi lançada como um desafio, com prazo até dia 15 de Abril. Esse prazo foi dado para podermos já usar essa nova válvula [em experimentos em animais](https://www1.folha.uol.com.br/colunas/monicabergamo/2020/04/ventilador-da-poli-sera-testado-em-animais-e-pessoas-e-pode-ser-lancado-em-uma-semana.shtml?origin=folha#comentarios).
 
-Desenvolvemos uma solução que ainda pode melhorar, então por isso essa questão continua em aberto para colaboração com a comunidade.
+Desenvolvemos uma solução que ainda pode melhorar, então por isso **essa questão continua em aberto para colaboração com a comunidade**.
 
 ## Descrição
    A válvula que controla a pressão PEEP ([mais info sobre a PEEP aqui](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema#press%C3%B5es)) que estamos usando não aguenta uso prolongado (você pode vê-la [nesse vídeo que fizemos](https://www.youtube.com/watch?v=mwwxAkmB0J0&feature=youtu.be) - é a parte com peças plásticas laranjas). Após cerca de 30 min de funcionamento contínuo, começa a ficar imprecisa - ou seja: ela mantém uma PEEP diferente da que indicada pelo marcador. Além disso sua resolução é muito pequena, podendo ser regulada para, por exemplo: 5 cmH2O, 10 cmH20 ou 15 cmH2O, mas não valores entre estes. 
@@ -34,6 +34,7 @@ Desenvolvemos uma solução que ainda pode melhorar, então por isso essa quest�
   - Ter uma resolução de controle de no mínimo 1 cmH2O - ou seja, podendo ter valores de 5,6,7,8 ..., 13, 14, 15 cmH2O;
   - Ter precisão nos valores configurados - ou seja, por exemplo: selecionar uma pressão de 7 cmH2O deve manter uma medida de pressão **real** de 7 cmH20;
   - Ter uma velocidade de mudança de valores de pressão de no mínimo 1 cmH2O por segundo;
+  - Capaz permitir uma vazão de até 600 mL por segundo
   - Garantir a performance de controle ao longo do tempo - ou seja: a exemplo da a válvula que estamos usando, o valor de pressão PEEP selecionado não pode mudar de valor depois de 30 min de uso;
   - Usar materiais baratos e acessíveis - por exemplo: peças automotivas;
   - Não violar propriedade intelectual existente.
