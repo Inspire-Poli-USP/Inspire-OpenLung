@@ -19,50 +19,50 @@ Considere também apoiar o financiamento de pesquisas na USP para o combate à C
 - **O projeto em seu atual estado NÃO DEVE SER USADO EM HUMANOS.**
 - **O projeto em seu estado atual NÃO DEVE SER USADO EM ANIMAIS sem aprovação de comitês de ética legítimos.**
 - **Caso futuramente aprovado por autoridades competentes, o projeto NÃO DEVE SER FABRICADO E DISTRIBUÍDO SEM OS CONTROLES DE QUALIDADE necessários para seu uso.**
-- **As entidades e pessoas envolvidas no desenvolvimento desse projeto NÃO SE RESPONSABILIZAM pelo uso de má fé das informações deste projeto ou de projetos derivados deste, que possam por exemplo, mas não limitando-se a, ferir, prejudicar, ludibriar, adoecer, contaminar ou lesar quaisquer pessoas. Caso você julgue ter observado o mau uso deste projeto em quaisquer circunstâncias, nos informe imediatamente pelo contato inspire@usp.br . Sua colaboração é importante para a segurança deste projeto.**
+- **As entidades e pessoas envolvidas no desenvolvimento desse projeto NÃO SE RESPONSABILIZAM pelo uso de má fé das informações deste projeto ou de projetos derivados deste, que possam por exemplo, mas não limitando-se a, ferir, prejudicar, ludibriar, adoecer, contaminar ou lesar quaisquer pessoas. Caso você julgue ter observado o mau uso deste projeto em quaisquer circunstâncias, nos informe imediatamente pelo contato [inspire@usp.br](mailto:inspire@usp.br) . Sua colaboração é importante para a segurança deste projeto.**
 - **Este projeto usa a licença [CERN-OHL-S 2.0](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/License.md).**
 
 ---
 
 # Índice
 
-  1. [Porque mais um projeto como esse?](#porque-mais-um-projeto-como-esse)
-  2. [Motivação](#motivação)
-  3. [Onde queremos chegar](#onde-queremos-chegar)
-  4. [Questão Regulatória](#questão-regulatória)
-  5. [Como colaborar](#como-colaborar)
-  6. [Nossa Abordagem de Trabalho e Princícios de Design](#nossa-abordagem-de-trabalho-e-princípios-de-design)
-  7. [Andamento do projeto](#andamento-do-projeto)
-    7.1 [Tarefas pendentes](#tarefas-pendentes)
-  8. [Principais Especificações](#principais-especificações)
-  9. [Lista de Materiais](#lista-de-materiais)
-    9.1 [Partes Mecânicas](#partes-mecânicas)
-    9.2 [Partes Eletrônicas](#partes-eletrônicas)
-    9.3 [Partes "Médicas"](#partes-médicas)
-  10. [Contato e Ajuda](#contato-e-ajuda)
+1. [Porque mais um projeto como esse?](#porque-mais-um-projeto-como-esse)
+2. [Motivação](#motivação)
+3. [Onde queremos chegar](#onde-queremos-chegar)
+4. [Questão Regulatória](#questão-regulatória)
+5. [Como colaborar](#como-colaborar)
+6. [Nossa Abordagem de Trabalho e Princícios de Design](#nossa-abordagem-de-trabalho-e-princípios-de-design)
+7. [Andamento do projeto](#andamento-do-projeto)</br>
+  7.1 [Tarefas pendentes](#tarefas-pendentes)
+8. [Principais Especificações](#principais-especificações)
+9. [Lista de Materiais](#lista-de-materiais)</br>
+  9.1 [Partes Mecânicas](#partes-mecânicas)</br>
+  9.2 [Partes Eletrônicas](#partes-eletrônicas)</br>
+  9.3 [Partes "Médicas"](#partes-médicas)
+10. [Contato e Ajuda](#contato-e-ajuda)
 
 | [Nossa Wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki) | [Issues do Projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) | [Pull-Requests](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/pulls) | [Licença de Uso](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/License.md) |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 
 ---
 
-  ### :exclamation: ATUALIZAÇÃO IMPORTANTE :exclamation:
-  
-  Devido a questões jurídicas, o entendimento dos coordenadores do projeto é de que o software que realiza o controle do Ambu, bem como os dados experimentais associados aos testes dos algoritmos de controle, permanecerão **privados** até o término dos testes.
-  
-  Lamentamos essas medidas e estamos discutindo a **possibilidade** do compartilhamento restrito dessas informações com grupos de contribuidores especiais (como centros de pesquisa, universidades, empresas etc) interessados em contribuir com o projeto. Mas isso ainda não está decidido.
-  
-  Existem outros repositórios **independentes da iniciativa Inspire** que estão desenvolvendo, disponibilizando ou prometem disponibilização de firmwares, como por exemplo o [OdaMV](https://github.com/eduoda/odamv), o [ReesistenciaTeam](https://gitlab.com/reesistencia/reespirator/-/tree/dev/rees_firmware), o [hitecnologia/cov19](https://github.com/hitecnologia/cov19) ou o [BMV OpenLung](https://gitlab.com/open-source-ventilator/ventilator/OpenLung/-/tree/master/) - bem como [essa lista de projetos](https://soptechint.com/ventilators). Contudo não nos responsabilizamos pelo uso destes firmwares com nosso hardware e reforçamos a atenção para os [importantes avisos no início desta página](#warning-atenção-warning).
-  
-  Caso tenha alguma dúvida, pedido ou reclamação, entre em contato com inspire@usp.br.
-  
-  ---
+### :exclamation: ATUALIZAÇÃO IMPORTANTE :exclamation:
+
+Devido a questões jurídicas, o entendimento dos coordenadores do projeto é de que o software que realiza o controle do Ambu, bem como os dados experimentais associados aos testes dos algoritmos de controle, permanecerão **privados** até o término dos testes.
+
+Lamentamos essas medidas e estamos discutindo a **possibilidade** do compartilhamento restrito dessas informações com grupos de contribuidores especiais (como centros de pesquisa, universidades, empresas etc) interessados em contribuir com o projeto. Mas isso ainda não está decidido.
+
+Existem outros repositórios **independentes da iniciativa Inspire** que estão desenvolvendo, disponibilizando ou prometem disponibilização de firmwares, como por exemplo o [OdaMV](https://github.com/eduoda/odamv), o [ReesistenciaTeam](https://gitlab.com/reesistencia/reespirator/-/tree/dev/rees_firmware), o [hitecnologia/cov19](https://github.com/hitecnologia/cov19) ou o [BMV OpenLung](https://gitlab.com/open-source-ventilator/ventilator/OpenLung/-/tree/master/) - bem como [essa lista de projetos](https://soptechint.com/ventilators). Contudo não nos responsabilizamos pelo uso destes firmwares com nosso hardware e reforçamos a atenção para os [importantes avisos no início desta página](#warning-atenção-warning).
+
+Caso tenha alguma dúvida, pedido ou reclamação, entre em contato com [inspire@usp.br](mailto:inspire@usp.br).
+
+---
 
 # Por que mais um projeto como esse?
 
-  Este é mais um projeto de design de ventilador pulmonar de acesso aberto com o intuito de ser barato, de fácil transporte e utilizando poucos materiais, usando principalmente um Ambu como gerador de fluxo de ar.
-  
-  Iniciamos este projeto porque até então haviam apenas propostas online com conteúdo parcialmente disponível, e apenas levando em consideração o contexto dos países em que tais propostas estavam/estão sendo desenvolvidas. Nosso projeto se baseia em [Princípios](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md) que colocam um peso maior na indisponibilidade de recursos e custo.
+Este é mais um projeto de design de ventilador pulmonar de acesso aberto com o intuito de ser barato, de fácil transporte e utilizando poucos materiais, usando principalmente um Ambu como gerador de fluxo de ar.
+
+Iniciamos este projeto porque até então haviam apenas propostas online com conteúdo parcialmente disponível, e apenas levando em consideração o contexto dos países em que tais propostas estavam/estão sendo desenvolvidas. Nosso projeto se baseia em [Princípios](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md) que colocam um peso maior na indisponibilidade de recursos e custo.
 
 # Motivação
 A expectativa é que teremos no Brasil um pico de casos a serem tratados pelo sistema de saúde pelo final do mês de Abril. Nesse momento a demanda por ventiladores pulmonares mecânicos será crítica, sendo uma das lamentáveis causas de morte pelo novo coronavirus devido a ausência de infraestrutura suficiente para a quantidade de número de pacientes. Estamos lutando contra o tempo para desenvolver um ventilador "open source" que possa ser fabricado antes que isso aconteça.
@@ -70,29 +70,29 @@ A expectativa é que teremos no Brasil um pico de casos a serem tratados pelo si
 # Onde queremos chegar
 
 A ideia final é reproduzir um respirador profissional para terapia intensiva. Ou seja:
-  - Não é um projeto que se restringe a apenas apertar o Ambú ritmicamente,
-  - É um projeto para reproduzir uma curva de variação de pressão definida pelo usuário (médico ou fisioterapeuta),
-  - Não queremos fazer um respirador igualmente sofisticado aos comercialmente disponíveis,
-  - É um projeto para ter o mínimo necessário para manter pessoas vivas com segurança, [numa situação emergencial](#warning-atenção-warning).
-  
-  Veja a página ["Entenda o Problema"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema) para informações mais específicas sobre o escopo técnico deste projeto.
-  
-  Onde queremos chegar com este braço open source da iniciativa Inspire é desenvolver os módulos centrais do ventilador, que identificamos como sendo:
-  - o "apertador de Ambu",
-  - e o algoritmo de controle.
 
-  Os demais módulos como eletrônica própria (sem usar arduino), interface operador-máquina e *packaging* do sistema todo **por enquanto** não são open source. O firmware e softwares associados ao algoritmo de controle **serão compartilhados de maneira restrita** com contribuidores especiais, pelas razões explicitadas [aqui](#exclamation-atualização-importante-exclamation).
+- Não é um projeto que se restringe a apenas apertar o Ambú ritmicamente,
+- É um projeto para reproduzir uma curva de variação de pressão definida pelo usuário (médico ou fisioterapeuta),
+- Não queremos fazer um respirador igualmente sofisticado aos comercialmente disponíveis,
+- É um projeto para ter o mínimo necessário para manter pessoas vivas com segurança, [numa situação emergencial](#warning-atenção-warning).
 
-  Contudo, você pode desenvolver esses outros módulos segundo seu próprio contexto local de logística e recursos. Uma produção deslocalizada e flexível é uma possibilidade em aberto para fabricação dos respiradores a tempo. Encorajamos possíveis colaboradores deste projeto a seguir o exemplo de forks desre repositório e desenvolverem suas próprias soluções complementares ao que estamos fazendo.
+Veja a página ["Entenda o Problema"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Entenda-o-Problema) para informações mais específicas sobre o escopo técnico deste projeto.
 
-  
+Onde queremos chegar com este braço open source da iniciativa Inspire é desenvolver os módulos centrais do ventilador, que identificamos como sendo:
+- o "apertador de Ambu",
+- e o algoritmo de controle.
+
+Os demais módulos como eletrônica própria (sem usar arduino), interface operador-máquina e *packaging* do sistema todo **por enquanto** não são open source. O firmware e softwares associados ao algoritmo de controle **serão compartilhados de maneira restrita** com contribuidores especiais, pelas razões explicitadas [aqui](#exclamation-atualização-importante-exclamation).
+
+Contudo, você pode desenvolver esses outros módulos segundo seu próprio contexto local de logística e recursos. Uma produção deslocalizada e flexível é uma possibilidade em aberto para fabricação dos respiradores a tempo. Encorajamos possíveis colaboradores deste projeto a seguir o exemplo de forks desre repositório e desenvolverem suas próprias soluções complementares ao que estamos fazendo.
+
 # Questão regulatória
 
-  Uma questão em aberto para todos os projetos open source de ventiladores para suporte no combate à COVID-19 é se esses projetos terão aprovação regulatória para serem usados em pacientes.
-  
-  A expectativa é que em algum momento esse processo se torne mais facilitado por alguma ação do governo e agências reguladoras.
-  
-  Para saber mais a respeito das informações que temos a respeito dessa atual situação, dê uma olhada na [página da wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Regulamenta%C3%A7%C3%A3o) sobre este assunto ou na conversa do [Issue #14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14).
+Uma questão em aberto para todos os projetos open source de ventiladores para suporte no combate à COVID-19 é se esses projetos terão aprovação regulatória para serem usados em pacientes.
+
+A expectativa é que em algum momento esse processo se torne mais facilitado por alguma ação do governo e agências reguladoras.
+
+Para saber mais a respeito das informações que temos a respeito dessa atual situação, dê uma olhada na [página da wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Regulamenta%C3%A7%C3%A3o) sobre este assunto ou na conversa do [Issue #14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14).
 
 # Como Colaborar
 
@@ -148,7 +148,7 @@ Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/I
 
 - Prover essa mistura de ar/Oxigêno a até um pico de 350 mm de H2O.
 
-- Ter a capacidade de adaptação aos materiais de tubagem, mantendo o paciente pressurizado a todo momento a 150 mm H2O. 
+- Ter a capacidade de adaptação aos materiais de tubagem, mantendo o paciente pressurizado a todo momento a 150 mm H2O.
 
 - Ser ajustável para uma taxa de 12 a 20 ciclos/respirações por minuto.
 
@@ -163,16 +163,16 @@ Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/I
 - 20x parafusos M3 de 16mm de comprimento
 - 20x porcas M3
 - 4x parafusos M4 de 16mm de comprimento
-- Chapa de acrílico de 5mm com no máximo 76 cm x 40 cm  
+- Chapa de acrílico de 5mm com no máximo 76 cm x 40 cm
   - Resulta em **apenas 12 peças**:
     - 2x "Suporte de Pistão" (V5)
     - 2x "Pistões" (V5)
-    - 2x "Ponta do Pistão" (V5)	
-    - 1x "Chapa do Motor" (V5)	
-    - 1x "Chapa da Castanha" (V5)	
-    - 1x "Chapa do Pistão" (V5)	
-    - 1x "Suporte do Ambu" V5	
-    - 2x "Conector Inferior" (V5)	
+    - 2x "Ponta do Pistão" (V5)
+    - 1x "Chapa do Motor" (V5)
+    - 1x "Chapa da Castanha" (V5)
+    - 1x "Chapa do Pistão" (V5)
+    - 1x "Suporte do Ambu" V5
+    - 2x "Conector Inferior" (V5)
 
 ## Partes Eletrônicas
 - 1x Nema 23 15kg
@@ -182,12 +182,12 @@ Dê também uma olhada nos nossos [Issues](https://github.com/Inspire-Poli-USP/I
 - 4x jumpers macho-macho
 
 ## Partes "Médicas"
- - 1x Ambu com capacidade de 1600 mL
- - 2x Tubo traqueia de 1 m
- - 1x Válvula unidirecional de CPAP com acoplamento para válvula PEEP
- - 1x Válvula PEEP com ajuste de 5 a 15 cmH2O
- 
- *(OBS: as "Partes Médicas" podem variar de nome em cada região; outros produtos médicos de finalidade semelhante podem ser usados)*
+- 1x Ambu com capacidade de 1600 mL
+- 2x Tubo traqueia de 1 m
+- 1x Válvula unidirecional de CPAP com acoplamento para válvula PEEP
+- 1x Válvula PEEP com ajuste de 5 a 15 cmH2O
+
+*(OBS: as "Partes Médicas" podem variar de nome em cada região; outros produtos médicos de finalidade semelhante podem ser usados)*
 
 # Contato e Ajuda
 

@@ -12,8 +12,8 @@ Você pode selecionar qualquer uma das páginas através do menu à direita.
 
 ## Questões ou precisando de ajuda?
 
-Entre em contato por [nosso formulário](https://forms.gle/koJ3gc2z2RKgDynZ6) ou pelo email inspire@usp.com
+Entre em contato por [nosso formulário](https://forms.gle/koJ3gc2z2RKgDynZ6) ou pelo email [inspire@usp.br](mailto:inspire@usp.br)
 
-## Quer contribuir a Wiki? 
+## Quer contribuir a Wiki?
 
 Saiba mais [aqui](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/Paginas_wiki).
