@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "lint-local": "remark . --use remark-lint-no-dead-urls",
+    "lint": "remark ."
+  },
+  "dependencies": {
+    "remark-cli": "^8.0.0",
+    "remark-lint-no-dead-urls": "^1.0.2",
+    "remark-lint-no-leading-spaces": "^1.0.0",
+    "remark-lint-no-trailing-spaces": "^2.0.1",
+    "remark-preset-lint-recommended": "^4.0.0"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "remark-preset-lint-recommended",
+      [
+        "remark-lint-list-item-indent",
+        false
+      ],
+      "remark-lint-no-leading-spaces",
+      "remark-lint-no-trailing-spaces"
+    ]
+  }
+}
