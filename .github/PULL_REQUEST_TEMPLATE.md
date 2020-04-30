@@ -8,7 +8,7 @@
 ### Mudanças no Hardware
 
 1. [ ] Você fez testes para assegurar que as mudanças sugeridas são compatíveis?
-2. [ ] Você está subemetendo dados juntamente com suas sugestões?
+2. [ ] Você está submetendo dados juntamente com suas sugestões?
 
 ### Mudanças no Software
 
