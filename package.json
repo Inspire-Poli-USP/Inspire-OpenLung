@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "lint-local": "remark . --use remark-lint-no-dead-urls",
-    "lint": "remark ."
+    "lint": "remark . --use remark-lint-no-dead-urls"
   },
   "dependencies": {
     "remark-cli": "^8.0.0",

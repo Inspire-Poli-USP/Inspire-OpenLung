@@ -12,7 +12,7 @@ Você também pode abrir novas issues caso encontre algum problema não solucion
 
 Não é possível construir um respirador completo com todas as informações presentes nesse repositório.
 
-Nesse braço open source da inciativa inspire pretendemos desenvolver os módulos centrais do ventilador, como o apertador de ambu e o algoritmo de controle. Nesse repositório open source você encontrará somente informações relacionadas ao apertador de ambu e outras informações (como documentação do projeto, discussões diversas sobre válvulas e sensores e esquematização do projeto). O software relacionado ao algoritmo de controle não se encontra nesse projeto por questões jurídicas, interessados em ter acesso e que possam assumir responsabilidades civis devem entrar em contato direto através do email inspire@usp.br.
+Nesse braço open source da inciativa inspire pretendemos desenvolver os módulos centrais do ventilador, como o apertador de ambu e o algoritmo de controle. Nesse repositório open source você encontrará somente informações relacionadas ao apertador de ambu e outras informações (como documentação do projeto, discussões diversas sobre válvulas e sensores e esquematização do projeto). O software relacionado ao algoritmo de controle não se encontra nesse projeto por questões jurídicas, interessados em ter acesso e que possam assumir responsabilidades civis devem entrar em contato direto através do email [inspire@usp.br](mailto:inspire@usp.br).
 
 Lembrando, esse é um projeto em desenvolvimento e não deve ser usado em humanos em seu estado atual.
 
@@ -22,4 +22,4 @@ Questões regulatórias são uma dificuldade para todos os projetos de respirado
 
 # Tenho alguma dúvida ou sugestão, onde posso entrar em contato?
 
-Pedimos que entre em contato através do nosso [chat em grupo no Telegram](https://t.me/openlungpoliusp) do nosso email inspire@usp.br ou através [desse formulário rápido](https://forms.gle/2u1fxgFx3JDqjxeX7). Nessa fase do projeto a ajuda de empresas ou especialistas é crucial para a finalização do respirador.
+Pedimos que entre em contato através do nosso [chat em grupo no Telegram](https://t.me/openlungpoliusp) do nosso email [inspire@usp.br](mailto:inspire@usp.br) ou através [desse formulário rápido](https://forms.gle/2u1fxgFx3JDqjxeX7). Nessa fase do projeto a ajuda de empresas ou especialistas é crucial para a finalização do respirador.

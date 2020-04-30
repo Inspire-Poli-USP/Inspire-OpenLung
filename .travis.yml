@@ -4,4 +4,4 @@ node_js:
 install:
     - yarn install
 script:
-    - yarn lint
+    - npx remark . --quiet --frail
