@@ -1,4 +1,3 @@
-
 ![Inspire Poli-USP](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/InspirePoli.jpg)
 
 **Inspire OpenLung é um projeto de respirador Open Source de baixo custo, fabricação rápida e de fácil montagem para uso em casos extremos, durante a ausência de respiradores comerciais.**
