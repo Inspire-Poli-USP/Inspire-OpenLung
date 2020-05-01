@@ -6,17 +6,14 @@ Este é o Código de Conduta para a contribuição no projeto Inspire OpenLung.
 
 # Índice
 
-  1. [Introdução](#introdução)
-  2. [Princípios Gerais](#princípios-gerais)
-   
-      2.1. [Escutar as pessoas](#escutar-as-pessoas)
-   
-      2.2. [Praticar consentimento](#praticar-consentimento)
-  
-  3. [Guia de Boas Práticas](#guia-de-boas-práticas)
-  4. [Como reportar um problema](#como-reportar-um-problema)
-  5. [Consequências a violações](#consequências-a-violações)
-  6. [Referências deste Código de Conduta](#referências-deste-código-de-conduta)
+1. [Introdução](#introdução)
+2. [Princípios Gerais](#princípios-gerais)</br>
+  2.1. [Escutar as pessoas](#escutar-as-pessoas)</br>
+  2.2. [Praticar consentimento](#praticar-consentimento)
+3. [Guia de Boas Práticas](#guia-de-boas-práticas)
+4. [Como reportar um problema](#como-reportar-um-problema)
+5. [Consequências a violações](#consequências-a-violações)
+6. [Referências deste Código de Conduta](#referências-deste-código-de-conduta)
 
 ---
 
@@ -31,27 +28,27 @@ Em outras palavras, nossa comunidade rejeita: racismo, sexismo, capacitismo, “
 Nossa comunidade é equitativa, e ser equitativo é diferente de ser igualitário. Entendemos igualdade como tratar a todos exatamente da mesma maneira, enquanto equidade é reconhecer que cada um não parte do mesmo contexto de vida e que portanto tratar todos da mesma maneira irá manter as mesmas desigualdades em que elas se encontram. Por essa razão nós ativamente trabalhamos para reduzir as barreiras que ficam entre a tecnologia e aqueles que a usufruem, criam e aprendem com ela.
 
 Nós levamos este código de conduta bem a sério. Assumimos que aqueles que participam da comunidade, tanto eventualmente presencialmente quanto online, se sujeitam a esse Código de Conduta. Pessoas que violarem este Código podem ter sua participação na comunidade comprometida, indo desde ser temporariamente suspenso de interações online, a até, como último recurso, sendo expulso de todos os locais de encontro presenciais ou online da comunidade.
-Se você tem qualquer dúvida sobre nosso compromisso com o disposto aqui e/ou se você sente incerto sobre quaisquer aspectos dele, entre em contato pelo email inspire@usp.br ou mande mensagem privada para os administradores do grupo do telegram e lista de emails, e nós poderemos prover maiores esclarecimentos.
+Se você tem qualquer dúvida sobre nosso compromisso com o disposto aqui e/ou se você sente incerto sobre quaisquer aspectos dele, entre em contato pelo email [inspire@usp.br](mailto:inspire@usp.br) ou mande mensagem privada para os administradores do grupo do telegram e lista de emails, e nós poderemos prover maiores esclarecimentos.
 
 # Princípios Gerais
 
 ## Escutar as pessoas
 
 Nós interagimos na comunidade reconhecendo que somos membros dela, compartilhando objetivos pessoais complementares, sejam eles quais for. Quando algo acontece e alguém se sente desconfortável, o primeiro caminho é resolver o problema através de discussão. Quando se faz isso, procuramos ouvir uns aos outros em primeiro lugar, e:
-  - Ouvimos ativamente, fazendo perguntas primeiro ao invés de afirmações.
-  - Damos tempo e espaço para as pessoas responderem.
-  - Ajustamos nosso comportamento apropriadamente quando solicitado.
-  - Temos consciência que é desrespeitoso manter comportamentos danosos repetitivos após sermos notificados a respeito.
-  - Evitamos nós mesmos e ajudamos outros a identificar quando estão se comportando inadequadamente.
+- Ouvimos ativamente, fazendo perguntas primeiro ao invés de afirmações.
+- Damos tempo e espaço para as pessoas responderem.
+- Ajustamos nosso comportamento apropriadamente quando solicitado.
+- Temos consciência que é desrespeitoso manter comportamentos danosos repetitivos após sermos notificados a respeito.
+- Evitamos nós mesmos e ajudamos outros a identificar quando estão se comportando inadequadamente.
 
 ## Praticar consentimento
 
-  Nem todo mundo se sente confortável com o mesmo tipo de contato online. Nesses casos vale:
-  - Perguntar primeiro se você pode compartilhar informações envolvendo a pessoa ou organização,
-  - Respeitar o direito de qualquer um de se afastar a qualquer momento,
-  - Se você ver ou experienciar uma violação de consentimento numa interação online entre pessoas da comunidade, contate os organizadores do projeto imediatamente.
-	
-  Muitas formas de assédio não se parecem com abusos, mas ainda podem cair nessa categoria. Não consentimento pode incluir exibir imagens de outros em espaços públicos, intimidação deliberada, perseguição, “stalking”, fotografar ou gravar sem permissão, interrupção frequente de conversações, contato com mensagens impróprias e galanteios sexuais não solicitados.
+Nem todo mundo se sente confortável com o mesmo tipo de contato online. Nesses casos vale:
+- Perguntar primeiro se você pode compartilhar informações envolvendo a pessoa ou organização,
+- Respeitar o direito de qualquer um de se afastar a qualquer momento,
+- Se você ver ou experienciar uma violação de consentimento numa interação online entre pessoas da comunidade, contate os organizadores do projeto imediatamente.
+
+Muitas formas de assédio não se parecem com abusos, mas ainda podem cair nessa categoria. Não consentimento pode incluir exibir imagens de outros em espaços públicos, intimidação deliberada, perseguição, “stalking”, fotografar ou gravar sem permissão, interrupção frequente de conversações, contato com mensagens impróprias e galanteios sexuais não solicitados.
 
 # Guia de Boas Práticas
 
@@ -81,21 +78,20 @@ Temos um sistema interno de tripla notificação antes de tomada de medidas, o q
 2. Mandar um resumo das ações sendo tomadas para o grupo do resto dos moderadores que deliberou sobre o assunto;
 3. Se a violação aconteceu em algum lugar de acesso público (lista de email, chat, repositório do github etc), notificar nesse mesmo espaço que um dos participantes foi colocado em moderação com uma pequena explicação do que não foi tolerado.
 
-Se você foi colocado em moderação e gostaria de sair dessa situação, responda ao email enviado a você por inspire@usp.br.
+Se você foi colocado em moderação e gostaria de sair dessa situação, responda ao email enviado a você por [inspire@usp.br](mailto:inspire@usp.br).
 
 # Como reportar um problema
- 
- - Através do perfil pessoal de um membro moderador nos espaços de comunicação online, ou através do email pessoal de um membro moderador.
- - Através do email inspire@usp.br
 
- - **Nunca** reportar um problema através de mensagens não-privadas em redes sociais.
- 
- # Consequências a violações
- 
-   - Qualquer um a que for solicitado para o comportamento que viola este Código de Conduta é esperado que o mesmo obedeça imediatamente, mesmo discordando da solicitação
-   - Os moderadores podem tomar qualquer ação decidida como necessária e apropriada como consequẽncia das ações violadoras deste Código, sem desrespeitar quaisquer leis que possam se aplicar e dentro dos seus poderes, podendo por exemplo explusar a pessoa violadora sem qualquer aviso.
-   - Os organizadores do projeto Inspire Poli-USP se reservam no direito de poder proibir a participação de qualquer um que tenha violado sériamente o disposto neste Código de Conduta, seja no presente projeto deste repositório (Inspire OpenLung) ou em quaisquer projetos futuros.
- 
+- Através do perfil pessoal de um membro moderador nos espaços de comunicação online, ou através do email pessoal de um membro moderador.
+- Através do email [inspire@usp.br](mailto:inspire@usp.br).
+- **Nunca** reportar um problema através de mensagens não-privadas em redes sociais.
+
+# Consequências a violações
+
+- Qualquer um a que for solicitado para o comportamento que viola este Código de Conduta é esperado que o mesmo obedeça imediatamente, mesmo discordando da solicitação
+- Os moderadores podem tomar qualquer ação decidida como necessária e apropriada como consequẽncia das ações violadoras deste Código, sem desrespeitar quaisquer leis que possam se aplicar e dentro dos seus poderes, podendo por exemplo explusar a pessoa violadora sem qualquer aviso.
+- Os organizadores do projeto Inspire Poli-USP se reservam no direito de poder proibir a participação de qualquer um que tenha violado sériamente o disposto neste Código de Conduta, seja no presente projeto deste repositório (Inspire OpenLung) ou em quaisquer projetos futuros.
+
 # Referências deste Código de Conduta
 
-  Este código de conduta é baseado no [Código de Conduta do Gathering for Open Source Hardware (GOSH) de 2017](http://openhardware.science/gosh-2017/gosh-code-of-conduct/), que por sua vez foi baseado em vários outros de diferentes comunidades de open source software, hardware e ciência aberta.
+Este código de conduta é baseado no [Código de Conduta do Gathering for Open Source Hardware (GOSH) de 2017](http://openhardware.science/gosh-2017/gosh-code-of-conduct/), que por sua vez foi baseado em vários outros de diferentes comunidades de open source software, hardware e ciência aberta.

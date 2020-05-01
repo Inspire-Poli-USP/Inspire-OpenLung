@@ -41,28 +41,28 @@ Desenvolvemos uma solução que ainda pode melhorar, então por isso abrimos o p
   
 ## Recursos Necessários
 
-  Para este desafio assumimos que você tem acesso a:
-  - Alguma maneira de criar uma pressão de ar, como por exemplo:
-    - Bomba de ar,
-    - Assoprador,
-    - Cilindro de ar comprimido, etc;
-  - Alguma maneira de medir pressão, por exemplo:
-    - Sensores eletrônicos de pressão,
-    - Coluna de água num tubo transparente, etc;
-  - Eletrônica de prototipagem rápida para testes de controle da sua válvula PEEP, por exemplo:
-    - Arduino (qualquer modelo).
-  
+Para este desafio assumimos que você tem acesso a:
+- Alguma maneira de criar uma pressão de ar, como por exemplo:
+  - Bomba de ar,
+  - Assoprador,
+  - Cilindro de ar comprimido, etc;
+- Alguma maneira de medir pressão, por exemplo:
+  - Sensores eletrônicos de pressão,
+  - Coluna de água num tubo transparente, etc;
+- Eletrônica de prototipagem rápida para testes de controle da sua válvula PEEP, por exemplo:
+  - Arduino (qualquer modelo).
+
 ## Entregas
 
-  Ajudar nesse desafio significa que você vai entregar completa ou parcialmente:
-  - Imagens ou vídeos que mostrem como funciona o seu sistema;
-  - Especificações dos materiais que vocẽ usou;
-  - Gráficos e tabelas com dados que você mediu;
-  - Códigos de controle usados nos testes que você fez.
+Ajudar nesse desafio significa que você vai entregar completa ou parcialmente:
+- Imagens ou vídeos que mostrem como funciona o seu sistema;
+- Especificações dos materiais que vocẽ usou;
+- Gráficos e tabelas com dados que você mediu;
+- Códigos de controle usados nos testes que você fez.
 
 ## Local de Discussão
 
-  Coloquem suas propostas, dados de medição, fotos, links para vídeos, desenhos, especificações e quaisquer outras informações relacionadas a este desafio no [Issue #43](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43).
+Coloquem suas propostas, dados de medição, fotos, links para vídeos, desenhos, especificações e quaisquer outras informações relacionadas a este desafio no [Issue #43](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43).
   - Se você não tem uma conta no github, crie e uma e contribua por lá! Essa parte do repositório funciona como um fórum de internet, então não se preocupe por enquanto com "commits", "pull-requests" e outros "palavrões" do github.
   - Você também pode discutir [pelo Telegram](https://t.me/openlungpoliusp), mas não coloque informações lá em detrimento do [Issue #43](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43). O [Issue #43](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/43) é o melhor lugar para todos acompanharem de uma maneira rápida e mais organizada o que você está fazendo, além de deixar minimamente registrado neste repositório a sua contribuição.
   

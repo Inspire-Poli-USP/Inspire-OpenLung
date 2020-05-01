@@ -26,7 +26,7 @@ Através da discussão no [Issue 14](https://github.com/Inspire-Poli-USP/Inspire
 
 4. [ABNT NBR IEC 60601-1-6:2011 Versão Corrigida 2013](https://www.abntcatalogo.com.br/norma.aspx?ID=307130) - Equipamento eletromédico - Parte 1-6: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Usabilidade
 
-5. [ABNT NBR IEC 60601-1-8:2014 Versão Corrigida 2015](https://www.abntcatalogo.com.br/norma.aspx?ID=348135) - Equipamento eletromédico - Parte 1-8: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Requisitos gerais, ensaios e diretrizes para sistemas de alarme em equipamentos eletromédicos e sistemas eletromédicos 
+5. [ABNT NBR IEC 60601-1-8:2014 Versão Corrigida 2015](https://www.abntcatalogo.com.br/norma.aspx?ID=348135) - Equipamento eletromédico - Parte 1-8: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Requisitos gerais, ensaios e diretrizes para sistemas de alarme em equipamentos eletromédicos e sistemas eletromédicos
 
 6. [ABNT NBR IEC 60601-1-10:2010 Versão Corrigida 2013](https://www.abntcatalogo.com.br/norma.aspx?ID=307136) - Equipamento eletromédico - Parte 1-10: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Requisitos para o desenvolvimento de controladores fisiológicos em malha fechada
 

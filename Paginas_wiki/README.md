@@ -1,6 +1,6 @@
 # Páginas da Wiki
 
-Este repositório possui uma [Wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki). Nela, além de relatórios das nossas atividade, é o local de conteúdos explicativos, tutoriais, informaçõe, recursos gerais e etc.
+Este repositório possui uma [Wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki). Nela, além de relatórios das nossas atividade, é o local de conteúdos explicativos, tutoriais, informações, recursos gerais e etc.
 
 As páginas da Wiki devem ter arquivos redundantes em markdown nesta pasta. Fazemos isso como medida de melhorar a contribuição da comunidade com informações úteis na Wiki, usando o próprio sistema de versionamento git deste repositório.
 
