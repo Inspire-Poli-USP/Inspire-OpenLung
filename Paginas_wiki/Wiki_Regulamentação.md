@@ -18,25 +18,25 @@ Outra possibilidade é destrinchar todos os testes necessários e dialogar de ma
 
 Através da discussão no [Issue 14](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues/14), existe a seguinte lista de normas que o ventilador emergencial precisará (links e informações adicionais providos pelo @ArturGasparetto):
 
-1. [ABNT NBR IEC 60601-1:2010](https://www.abntcatalogo.com.br/norma.aspx?ID=80437) - Equipamento eletromédico - Parte 1: Requisitos gerais para segurança básica e desempenho essencial
+1.  [ABNT NBR IEC 60601-1:2010](https://www.abntcatalogo.com.br/norma.aspx?ID=80437) - Equipamento eletromédico - Parte 1: Requisitos gerais para segurança básica e desempenho essencial
 
-2. [ABNT NBR IEC 60601-1:2010 Emenda 1:2016](https://www.abntcatalogo.com.br/norma.aspx?ID=355495) - Equipamento eletromédico - Parte 1: Requisitos gerais para segurança básica e desempenho essencial
+2.  [ABNT NBR IEC 60601-1:2010 Emenda 1:2016](https://www.abntcatalogo.com.br/norma.aspx?ID=355495) - Equipamento eletromédico - Parte 1: Requisitos gerais para segurança básica e desempenho essencial
 
-3. [ABNT NBR IEC 60601-1-2:2017](https://www.abntcatalogo.com.br/norma.aspx?ID=383029) - Equipamento eletromédico - Parte 1-2: Requisitos gerais para segurança básica e desempenho essencial - Norma Colateral: Perturbações eletromagnéticas - Requisitos e ensaios
+3.  [ABNT NBR IEC 60601-1-2:2017](https://www.abntcatalogo.com.br/norma.aspx?ID=383029) - Equipamento eletromédico - Parte 1-2: Requisitos gerais para segurança básica e desempenho essencial - Norma Colateral: Perturbações eletromagnéticas - Requisitos e ensaios
 
-4. [ABNT NBR IEC 60601-1-6:2011 Versão Corrigida 2013](https://www.abntcatalogo.com.br/norma.aspx?ID=307130) - Equipamento eletromédico - Parte 1-6: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Usabilidade
+4.  [ABNT NBR IEC 60601-1-6:2011 Versão Corrigida 2013](https://www.abntcatalogo.com.br/norma.aspx?ID=307130) - Equipamento eletromédico - Parte 1-6: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Usabilidade
 
-5. [ABNT NBR IEC 60601-1-8:2014 Versão Corrigida 2015](https://www.abntcatalogo.com.br/norma.aspx?ID=348135) - Equipamento eletromédico - Parte 1-8: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Requisitos gerais, ensaios e diretrizes para sistemas de alarme em equipamentos eletromédicos e sistemas eletromédicos
+5.  [ABNT NBR IEC 60601-1-8:2014 Versão Corrigida 2015](https://www.abntcatalogo.com.br/norma.aspx?ID=348135) - Equipamento eletromédico - Parte 1-8: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Requisitos gerais, ensaios e diretrizes para sistemas de alarme em equipamentos eletromédicos e sistemas eletromédicos
 
-6. [ABNT NBR IEC 60601-1-10:2010 Versão Corrigida 2013](https://www.abntcatalogo.com.br/norma.aspx?ID=307136) - Equipamento eletromédico - Parte 1-10: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Requisitos para o desenvolvimento de controladores fisiológicos em malha fechada
+6.  [ABNT NBR IEC 60601-1-10:2010 Versão Corrigida 2013](https://www.abntcatalogo.com.br/norma.aspx?ID=307136) - Equipamento eletromédico - Parte 1-10: Requisitos gerais para segurança básica e desempenho essencial - Norma colateral: Requisitos para o desenvolvimento de controladores fisiológicos em malha fechada
 
-7. [ABNT NBR IEC 60601-1-10:2010 Emenda 1:2017](https://www.abntcatalogo.com.br/norma.aspx?ID=371257) - Equipamento eletromédico - Parte 1-10: Requisitos gerais para segurança básica e desempenho essencial — Norma colateral: Requisitos para o desenvolvimento de controladores fisiológicos em malha fechada
+7.  [ABNT NBR IEC 60601-1-10:2010 Emenda 1:2017](https://www.abntcatalogo.com.br/norma.aspx?ID=371257) - Equipamento eletromédico - Parte 1-10: Requisitos gerais para segurança básica e desempenho essencial — Norma colateral: Requisitos para o desenvolvimento de controladores fisiológicos em malha fechada
 
-8. [ABNT NBR ISO 80601-2-12:2014](https://www.abntcatalogo.com.br/norma.aspx?ID=326196) - Equipamento eletromédico - Parte 2-12: Requisitos particulares para a segurança básica e o desempenho essencial de ventiladores para cuidados críticos
+8.  [ABNT NBR ISO 80601-2-12:2014](https://www.abntcatalogo.com.br/norma.aspx?ID=326196) - Equipamento eletromédico - Parte 2-12: Requisitos particulares para a segurança básica e o desempenho essencial de ventiladores para cuidados críticos
 
-*Obs.: As normas técnicas listadas acima foram aprovadas pela Instrução Normativa do Ministério da Saúde nº 49 de 27 de Novembro de 2019 (IN 49 Ministério da Saúde-NOVEMBRO DE 2019.pdf), cujos parâmetros devem ser adotados para a certificação de conformidade, no âmbito do Sistema Brasileiro de Avaliação da Conformidade (SBAC), dos equipamentos sob regime de Vigilância Sanitária.*
+_Obs.: As normas técnicas listadas acima foram aprovadas pela Instrução Normativa do Ministério da Saúde nº 49 de 27 de Novembro de 2019 (IN 49 Ministério da Saúde-NOVEMBRO DE 2019.pdf), cujos parâmetros devem ser adotados para a certificação de conformidade, no âmbito do Sistema Brasileiro de Avaliação da Conformidade (SBAC), dos equipamentos sob regime de Vigilância Sanitária._
 
-9. [ABNT NBR ISO 14971:2009](https://www.abntcatalogo.com.br/norma.aspx?ID=55540) - Produtos para a saúde — Aplicação de gerenciamento de risco a produtos para a saúde
+9.  [ABNT NBR ISO 14971:2009](https://www.abntcatalogo.com.br/norma.aspx?ID=55540) - Produtos para a saúde — Aplicação de gerenciamento de risco a produtos para a saúde
 
 10. [ABNT NBR ISO TR 24971:2014](https://www.abntcatalogo.com.br/norma.aspx?ID=325424) - Produtos para a saúde - Orientações para a aplicação da ABNT NBR ISO 14971
 

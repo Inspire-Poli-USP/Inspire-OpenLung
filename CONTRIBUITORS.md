@@ -1,55 +1,53 @@
-Contribuidores do Projeto - Incluido aqueles não mostrados pelo Git
-============================================
+# Contribuidores do Projeto - Incluido aqueles não mostrados pelo Git
 
-* **[Otto Heringer](https://github.com/OttoHeringer)**
+-   **[Otto Heringer](https://github.com/OttoHeringer)**
 
-* **[Breno Helfstein Moura](https://github.com/breno-helf/)**
+-   **[Breno Helfstein Moura](https://github.com/breno-helf/)**
 
-  * Organização do repositório e explicações de git para organizadores
+    -   Organização do repositório e explicações de git para organizadores
 
-* **[Emerson Moretto](https://github.com/emersonmoretto)**
+-   **[Emerson Moretto](https://github.com/emersonmoretto)**
 
-* **[Matheus Tavares](https://github.com/matheustavares)**
+-   **[Matheus Tavares](https://github.com/matheustavares)**
 
-* **[Wendell Pereira da Silva](https://github.com/silvawp)**
+-   **[Wendell Pereira da Silva](https://github.com/silvawp)**
 
-* **[João Antônio Cardoso](https://github.com/joaoantoniocardoso)**
+-   **[João Antônio Cardoso](https://github.com/joaoantoniocardoso)**
 
-* **Marcelo Knörich Zuffo**
+-   **Marcelo Knörich Zuffo**
 
-  * Coordenador do projeto
+    -   Coordenador do projeto
 
-* **Raúl gonzalez lima**
+-   **Raúl gonzalez lima**
 
-  * Coordenador do projeto
+    -   Coordenador do projeto
 
-* **Alembert eistein lino alvarado**
+-   **Alembert eistein lino alvarado**
 
-  * Equipe Técnica
+    -   Equipe Técnica
 
-* **Dario GramorellI**
+-   **Dario GramorellI**
 
-  * Equipe Técnica
+    -   Equipe Técnica
 
-* **Felipe Fava de Lima**
+-   **Felipe Fava de Lima**
 
-  * Equipe Técnica
+    -   Equipe Técnica
 
-* **Francisco Baccaro Nigro**
+-   **Francisco Baccaro Nigro**
 
-  * Equipe Técnica
+    -   Equipe Técnica
 
-* **Henrique Takachi Moriya**
+-   **Henrique Takachi Moriya**
 
-  * Equipe Técnica
+    -   Equipe Técnica
 
-* **Silvio Andrade Figueiredo**
+-   **Silvio Andrade Figueiredo**
 
-  * Equipe Técnica
+    -   Equipe Técnica
 
-* **Renato de Lima Vitorasso**
+-   **Renato de Lima Vitorasso**
 
-  * Equipe Técnica
+    -   Equipe Técnica
 
 **[Lista de contribuidores com conta no github atualizada](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/graphs/contributors).**
-
