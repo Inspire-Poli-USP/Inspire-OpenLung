@@ -14,7 +14,7 @@ Comentários sobre o trabalho desenvolvido no dia 2 de Abril. Foi apresentado o 
 
 # 6 de Abril
 
-Comentários sobre o algorítmo de controle utilizado no INSPIRE. 
+Comentários sobre o algorítmo de controle utilizado no INSPIRE.
 
 [![Vídeo relatório 6 de Abril](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio06-04.png)](https://www.youtube.com/watch?v=ZsHDVqar_dg&)
 
