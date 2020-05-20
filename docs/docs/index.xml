@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overview on Inspire POLI-USP - Wiki e Documentação</title>
+    <link>http://breno-helf.github.io/Inspire-OpenLung/docs/</link>
+    <description>Recent content in Overview on Inspire POLI-USP - Wiki e Documentação</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2020 19:21:31 -0300</lastBuildDate>
+    
+	<atom:link href="http://breno-helf.github.io/Inspire-OpenLung/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://breno-helf.github.io/Inspire-OpenLung/docs/faq/faq/</link>
+      <pubDate>Wed, 20 May 2020 19:20:05 -0300</pubDate>
+      
+      <guid>http://breno-helf.github.io/Inspire-OpenLung/docs/faq/faq/</guid>
+      <description>Esse é um FAQ (Frequent asked questions) onde temos uma coletânea das perguntas mais feitas, principalmente em nosso grupo do telegram.</description>
+    </item>
+    
+    <item>
+      <title>Videos Relatorio</title>
+      <link>http://breno-helf.github.io/Inspire-OpenLung/docs/videos_relatorio/videos_relatorio/</link>
+      <pubDate>Wed, 20 May 2020 19:26:10 -0300</pubDate>
+      
+      <guid>http://breno-helf.github.io/Inspire-OpenLung/docs/videos_relatorio/videos_relatorio/</guid>
+      <description>Abaixo estão todos os vídeos relatório gravados, em ordem cronológica. Todos os vídeos podem ser encontrados no Canal do YouTube da POLI-USP.</description>
+    </item>
+    
+    <item>
+      <title>Entenda o problema</title>
+      <link>http://breno-helf.github.io/Inspire-OpenLung/docs/entenda_o_problema/entenda_o_problema/</link>
+      <pubDate>Wed, 20 May 2020 19:25:16 -0300</pubDate>
+      
+      <guid>http://breno-helf.github.io/Inspire-OpenLung/docs/entenda_o_problema/entenda_o_problema/</guid>
+      <description>Respiração auxiliada por máquinas é um tópico de estudo da medicina com muitos detalhes. Aqui limitamos enormemente o escopo deste assunto focando em descrever principalmente quais são os os inputs (entradas do sistema) para controle de respiração que um respirador precisa ter.</description>
+    </item>
+    
+    <item>
+      <title>Regulamentação</title>
+      <link>http://breno-helf.github.io/Inspire-OpenLung/docs/regulamenta%C3%A7%C3%A3o/regulamenta%C3%A7%C3%A3o/</link>
+      <pubDate>Wed, 20 May 2020 19:25:54 -0300</pubDate>
+      
+      <guid>http://breno-helf.github.io/Inspire-OpenLung/docs/regulamenta%C3%A7%C3%A3o/regulamenta%C3%A7%C3%A3o/</guid>
+      <description>Esta página contém informações sobre a regulamentação necessária para um respirador feito com o projeto deste repositório ser devidamente usado em pacientes com COVID-19 numa situação emergencial.</description>
+    </item>
+    
+    <item>
+      <title>Sistema de Testes</title>
+      <link>http://breno-helf.github.io/Inspire-OpenLung/docs/sistema_de_testes/sistema_de_testes/</link>
+      <pubDate>Wed, 20 May 2020 19:26:25 -0300</pubDate>
+      
+      <guid>http://breno-helf.github.io/Inspire-OpenLung/docs/sistema_de_testes/sistema_de_testes/</guid>
+      <description>Para testar o funcionamento do nosso sistema com base no que nos propomos fazer, temos acesso a um sistema padronizado de testes de equipamentos médicos que envolvem ventilação artificial, com o acesso gentilmente cedido pelo prof.</description>
+    </item>
+    
+    <item>
+      <title>Válvula PEEP</title>
+      <link>http://breno-helf.github.io/Inspire-OpenLung/docs/v%C3%A1lvula_peep/v%C3%A1lvula_peep/</link>
+      <pubDate>Wed, 20 May 2020 19:26:35 -0300</pubDate>
+      
+      <guid>http://breno-helf.github.io/Inspire-OpenLung/docs/v%C3%A1lvula_peep/v%C3%A1lvula_peep/</guid>
+      <description>Estamos desenvolvendo nossa própria solução, mas também acreditamos que a comunidade pode desenvolver uma solução mais rapidamente e talvez melhor do que a nossa.</description>
+    </item>
+    
+    <item>
+      <title>Midia</title>
+      <link>http://breno-helf.github.io/Inspire-OpenLung/docs/midia/midia/</link>
+      <pubDate>Wed, 20 May 2020 19:25:31 -0300</pubDate>
+      
+      <guid>http://breno-helf.github.io/Inspire-OpenLung/docs/midia/midia/</guid>
+      <description>Abaixo estão algumas das aparições do ventilador pulmonar da USP, o INSPIRE, na mídia. Acreditamos que é importante documentar as aparições na mídia, por ordem cronológica e por jornais, para que se tenha ideia do que é comunicado para a comunidade externa em relação ao projeto.</description>
+    </item>
+    
+  </channel>
+</rss>
