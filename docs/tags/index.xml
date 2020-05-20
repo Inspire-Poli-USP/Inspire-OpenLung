@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Inspire POLI-USP - Wiki e Documentação</title>
-    <link>http://breno-helf.github.io/Inspire-OpenLung/tags/</link>
+    <link>https://inspire-poli-usp.github.io/Inspire-OpenLung/tags/</link>
     <description>Recent content in Tags on Inspire POLI-USP - Wiki e Documentação</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://breno-helf.github.io/Inspire-OpenLung/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://inspire-poli-usp.github.io/Inspire-OpenLung/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
