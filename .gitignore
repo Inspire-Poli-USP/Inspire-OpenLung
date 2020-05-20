@@ -6,3 +6,4 @@
 *.log
 *.out
 node_modules
+docs/hugo/
