@@ -89,3 +89,33 @@ Apresentação da última versão disponível do projeto INSPIRE, além de uma d
 Vídeo em agradecimento a fundação Mapfre.
 
 [![Vídeo relatório 7 de Maio - agradecimento a Mapfre](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio07-05-Mapfre.png)](https://www.youtube.com/watch?v=c5Oz3sfg-Bc&)
+
+# 11 de Maio
+
+Mostrando a montagem de placas
+
+[![Vídeo relatório 11 de Maio](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio11-05.png)](https://www.youtube.com/watch?v=nM5DBFZ39Sc&)
+
+# 16 de Maio
+
+Mostrando a montagem dos respiradores
+
+[![Vídeo relatório 16 de Maio](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio16-05.png)](https://www.youtube.com/watch?v=zLtI14aLwO0&)
+
+# 17 de Maio
+
+Teste conceitual para alimentar o inspire com baterias externas
+
+[![Vídeo relatório 17 de Maio](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio17-05.png)](https://www.youtube.com/watch?v=GDAn07QxqBs&)
+
+# 20 de Maio
+
+Apresentação do ventilador pulmar inspire, versão 1.0, revisão A. É demonstrado os respectivos alarmes sendo disparados, como requerido pela Anvisa.
+
+[![Vídeo relatório 20 de Maio](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio20-05.png)](https://www.youtube.com/watch?v=67cH9n0KaH0&)
+
+# 23 de Maio
+
+Apresentação do time do Inspire, demonstrando o funcionamento do respirador. É também notado que a maioria das peças usadas no Inspire podem ser obtidas no mercado nacional.
+
+[![Vídeo relatório 7 de Maio](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio23-05.png)](https://www.youtube.com/watch?v=zmSFLScwdpU&)
