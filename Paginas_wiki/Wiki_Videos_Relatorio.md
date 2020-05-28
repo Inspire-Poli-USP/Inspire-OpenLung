@@ -118,4 +118,4 @@ Apresentação do ventilador pulmar inspire, versão 1.0, revisão A. É demonst
 
 Apresentação do time do Inspire, demonstrando o funcionamento do respirador. É também notado que a maioria das peças usadas no Inspire podem ser obtidas no mercado nacional.
 
-[![Vídeo relatório 7 de Maio](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio23-05.png)](https://www.youtube.com/watch?v=zmSFLScwdpU&)
+[![Vídeo relatório 23 de Maio](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/images/ScreenshotVideoRelatorio23-05.png)](https://www.youtube.com/watch?v=zmSFLScwdpU&)
