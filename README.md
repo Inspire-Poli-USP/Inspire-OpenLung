@@ -1,5 +1,19 @@
 # Inspire-OpenLung
 
+<p align="center">
+<a href="https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/LICENSE" alt="License CERN Open Hardware V2">
+        <img src="https://img.shields.io/badge/license-CERN_Open_Hardware_V2-green" /></a>
+
+<a href="https://t.me/openlungpoliusp" alt="Chat em grupo no Telegram">
+        <img src="https://img.shields.io/badge/Telegram_chat_%F0%9F%92%AC-blue" /></a>
+
+<a href="https://groups.google.com/forum/#!forum/inspireopenlung" alt="Lista de email">
+        <img src="https://img.shields.io/badge/mail_list_%F0%9F%93%A7-blueviolet" /></a>
+
+<a href="https://inspire-poli-usp.github.io/Inspire-OpenLung/" alt="Docs website">
+        <img src="https://img.shields.io/badge/Docs_website-yellow" /></a>
+</p>
+
 Seja muito bem vindo ao repositório do projeto de hardware livre OpenLung! Um respirador emergencial brasileiro para enfrentamento da COVID-19!
 
 Um projeto da iniciativa [Inspire Poli-USP](https://www.poli.usp.br/inspire), uma de oito iniciativas da Universidade de São Paulo envolvendo viabilização de respiradores para enfrentamento à pandemia. Para saber mais sobre essa e outras iniciativas [veja esse link](https://prp.usp.br/usp-e-covid-19/).
@@ -21,33 +35,11 @@ Considere também apoiar o financiamento de pesquisas na USP para o combate à C
 -   **O projeto em seu estado atual NÃO DEVE SER USADO EM ANIMAIS sem aprovação de comitês de ética legítimos.**
 -   **Caso futuramente aprovado por autoridades competentes, o projeto NÃO DEVE SER FABRICADO E DISTRIBUÍDO SEM OS CONTROLES DE QUALIDADE necessários para seu uso.**
 -   **As entidades e pessoas envolvidas no desenvolvimento desse projeto NÃO SE RESPONSABILIZAM pelo uso de má fé das informações deste projeto ou de projetos derivados deste, que possam por exemplo, mas não limitando-se a, ferir, prejudicar, ludibriar, adoecer, contaminar ou lesar quaisquer pessoas. Caso você julgue ter observado o mau uso deste projeto em quaisquer circunstâncias, nos informe imediatamente pelo contato [inspire@usp.br](mailto:inspire@usp.br) . Sua colaboração é importante para a segurança deste projeto.**
--   **Este projeto usa a licença [CERN-OHL-S 2.0](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/License.md).**
+-   **Este projeto usa a licença [CERN-OHL-S 2.0](https://github.com/emersonmoretto/CITI-OpenLung/blob/master/LICENSE).**
 
 * * *
 
-# Índice
-
-1.  [Porque mais um projeto como esse?](#porque-mais-um-projeto-como-esse)
-2.  [Motivação](#motivação)
-3.  [Onde queremos chegar](#onde-queremos-chegar)
-4.  [Questão Regulatória](#questão-regulatória)
-5.  [Como colaborar](#como-colaborar)
-6.  [Nossa Abordagem de Trabalho e Princícios de Design](#nossa-abordagem-de-trabalho-e-princípios-de-design)
-7.  [Andamento do projeto](#andamento-do-projeto)</br>
-    7.1 [Tarefas pendentes](#tarefas-pendentes)
-8.  [Principais Especificações](#principais-especificações)
-9.  [Lista de Materiais](#lista-de-materiais)</br>
-    9.1 [Partes Mecânicas](#partes-mecânicas)</br>
-    9.2 [Partes Eletrônicas](#partes-eletrônicas)</br>
-    9.3 [Partes "Médicas"](#partes-médicas)
-10. [Contato e Ajuda](#contato-e-ajuda)
-
-| [Nossa Wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki) | [Issues do Projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) | [Pull-Requests](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/pulls) | [Licença de Uso](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/License.md) |
-| ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-
-* * *
-
-### :exclamation: ATUALIZAÇÃO IMPORTANTE :exclamation:
+## :exclamation: ATUALIZAÇÃO IMPORTANTE :exclamation:
 
 Devido a questões jurídicas, o entendimento dos coordenadores do projeto é de que o software que realiza o controle do Ambu, bem como os dados experimentais associados aos testes dos algoritmos de controle, permanecerão **privados** até o término dos testes.
 
@@ -57,13 +49,40 @@ Existem outros repositórios **independentes da iniciativa Inspire** que estão 
 
 Caso tenha alguma dúvida, pedido ou reclamação, entre em contato com [inspire@usp.br](mailto:inspire@usp.br).
 
+Vale notar que, desde o dia 14 de Abril, o projeto não recebe atualizações em relação ao respirador. Portanto, o que se encontra nesse repositório é tudo que foi feito até essa data e não incorre em problemas jurídicos para equipe do Inspire. Você pode acompanhar as últimas atualizações através dos [Vídeos Relatórios](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/LICENSE) e das [Aparições na mídia](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Apari%C3%A7%C3%B5es-na-m%C3%ADdia)
+
 * * *
 
-# Por que mais um projeto como esse?
+# Índice
+
+| [Nossa Wiki](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki) | [Issues do Projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) | [Pull-Requests](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/pulls) | [Licença de Uso](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/LICENSE) |
+| ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+
+1.  [Porque mais um projeto como esse?](#porque-mais-um-projeto-como-esse)
+2.  [Motivação](#motivação)
+3.  [Onde queremos chegar](#onde-queremos-chegar)
+4.  [Questão Regulatória](#questão-regulatória)
+5.  [Como colaborar](#como-colaborar)
+6.  [Nossa Abordagem de Trabalho e Princícios de Design](#nossa-abordagem-de-trabalho-e-princípios-de-design)
+7.  [Andamento do projeto](#andamento-do-projeto)</br>
+    7.1 [Tarefas pendentes](#tarefas-pendentes)
+8.  [Principais Especificações Desejadas](#principais-especificações-desejadas)
+9.  [Lista de Materiais](#lista-de-materiais)</br>
+    9.1 [Partes Mecânicas](#partes-mecânicas)</br>
+    9.2 [Partes Eletrônicas](#partes-eletrônicas)</br>
+    9.3 [Partes "Médicas"](#partes-médicas)
+10. [Contato e Ajuda](#contato-e-ajuda)
+11. [Doe para o projeto](#doe-para-o-projeto)
+12. [Licença](#licença)
+
+
+# Por que mais um projeto como esse
 
 Este é mais um projeto de design de ventilador pulmonar de acesso aberto com o intuito de ser barato, de fácil transporte e utilizando poucos materiais, usando principalmente um Ambu como gerador de fluxo de ar.
 
 Iniciamos este projeto porque até então haviam apenas propostas online com conteúdo parcialmente disponível, e apenas levando em consideração o contexto dos países em que tais propostas estavam/estão sendo desenvolvidas. Nosso projeto se baseia em [Princípios](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md) que colocam um peso maior na indisponibilidade de recursos e custo.
+
+Vale notar também que o ventilador pulmonar inspire utiliza em sua maioria produtos que podem ser encontrados com realativa facilidade no mercado Brasileiro.
 
 # Motivação
 
@@ -137,6 +156,8 @@ Essa é uma resumida linha do tempo do projeto:
 -   1 de Abril a 12 de Abril: Implementações e testes de diferentes algoritmos de controle e testes de capacidade em diferentes cenários reais.
 -   13 de Abril a 16 de Abil: [Testes em animais](https://www1.folha.uol.com.br/colunas/monicabergamo/2020/04/ventilador-da-poli-sera-testado-em-animais-e-pessoas-e-pode-ser-lancado-em-uma-semana.shtml)
 
+Vale notar que essa linha do tempo não é atualizada desde 14 de abril. Você pode acompanhar as últimas atualizações através dos [Vídeos Relatórios](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/LICENSE) e das [Aparições na mídia](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Apari%C3%A7%C3%B5es-na-m%C3%ADdia).
+
 ## Tarefas Pendentes
 
 -   Testes em Humanos (devidamente regularizado e aprovado por comitês de ética competentes)
@@ -198,5 +219,16 @@ _(OBS: as "Partes Médicas" podem variar de nome em cada região; outros produto
 # Contato e Ajuda
 
 Se as informações aqui ainda não forem exatamente o que você está procurando, preencha [esse formulário rápido](https://forms.gle/2u1fxgFx3JDqjxeX7) que falaremos com você assim que possível!
+
+# Doe para o projeto
+
+Caso você queira demonstrar seu suporte ao projeto, você tem a opção de doar para a iniciativa Inspire, através do [link](
+https://www.vakinha.com.br/vaquinha/inspire-respirador-da-escola-politecnica-da-usp-fase-2 ). Toda doação é bem vinda.
+
+Caso não possa doar, não tem problema. Você também pode demonstrar suporte ao projeto colocando uma ⭐️ nesse repositório. Obrigado!
+
+# Licença
+
+[CERN Open Hardware V2](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/LICENSE)
 
 **Obrigado por visitar nosso repositório e se interessar pelo projeto!**
