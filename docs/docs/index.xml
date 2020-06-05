@@ -74,5 +74,14 @@
       <description>Abaixo estão algumas das aparições do ventilador pulmonar da USP, o INSPIRE, na mídia. Acreditamos que é importante documentar as aparições na mídia, por ordem cronológica e por jornais, para que se tenha ideia do que é comunicado para a comunidade externa em relação ao projeto.</description>
     </item>
     
+    <item>
+      <title>Outros Projetos</title>
+      <link>https://inspire-poli-usp.github.io/Inspire-OpenLung/docs/outros_projetos/outros_projetos/</link>
+      <pubDate>Fri, 05 Jun 2020 15:34:10 -0300</pubDate>
+      
+      <guid>https://inspire-poli-usp.github.io/Inspire-OpenLung/docs/outros_projetos/outros_projetos/</guid>
+      <description>Abaixo estão aglguns outros projetos Open Source que estão desenvolvendo respiradores para o combate à COVID19. Os projetos aqui descritos não representam uma recomendação ou opinião oficial da equipe Inspire POLI-USP, mas sim uma lista de projetos que estão sendo desenvolvidos com a mesma finalidade.</description>
+    </item>
+    
   </channel>
 </rss>
