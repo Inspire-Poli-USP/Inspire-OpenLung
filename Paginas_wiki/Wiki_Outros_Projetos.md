@@ -8,13 +8,13 @@ A seguinte [Lista de projetos ranqueados](https://soptechint.com/ventilators) é
 
 - [Ambovent](https://members.smoove.io//view.ashx?message=h44741568O122392748O219654O122323322&r=1009) - Respirador open source Israelense. Esse projeto é conhecido por ser muito aberto e comunicativo com a comunidade Maker.
 
-- [Project Open Air](https://projectopenair.org/pt/open-source-ventilator/) - Respirador Open Source português. 
+- [Project Open Air](https://projectopenair.org/pt/open-source-ventilator/) - Respirador Open Source português.
 
 - [Medtronic PB560](http://newsroom.medtronic.com/news-releases/news-release-details/medtronic-shares-ventilation-design-specifications-accelerate) - Ventilador PB560 da empresa médica Medtronic, introduzido em 2010 e vendido e utilizado em mais de 35 países.
 
 - [Corovent](https://www.micomedical.cz/) - Ventilador europeu com design open source, certificado para uso na europa.
 
-- [Mur Project](https://mur-project.org/) - Ventilador open source francês. 
+- [Mur Project](https://mur-project.org/) - Ventilador open source francês.
 
 - [PAPR](https://github.com/jcl5m1/ventilator) - Ventilador de baixo custo, "Powered Air Purifying Respirator"
 
