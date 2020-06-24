@@ -19,3 +19,5 @@ A seguinte [Lista de projetos ranqueados](https://soptechint.com/ventilators) é
 - [PAPR](https://github.com/jcl5m1/ventilator) - Ventilador de baixo custo, "Powered Air Purifying Respirator"
 
 - [MakAir](https://github.com/makers-for-life/makair) - Ventilador de baixo custo feito para ser produzido em massa.
+
+Vale notar que a equipe do Inspire Poli USP usou durante o desenvolvimento do projeto as placas Open Source [Caninos Loucos](https://github.com/caninos-loucos), mais especificamente as placas Pulga e Labrador. É possível ver isso nos vídeos relatórios.
