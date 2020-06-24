@@ -44,6 +44,12 @@ Abaixo estão algumas das aparições do ventilador pulmonar da USP, o INSPIRE, 
 
 - _(11/05/2020)_ [Até 50/dia: Marinha inicia produção de ventilador pulmonar barato da USP](https://www.uol.com.br/tilt/noticias/redacao/2020/05/11/ate-50dia-marinha-inicia-producao-de-ventilador-pulmonar-barato-da-usp.htm)
 
+## Outras Mídias
+
+Aqui estão mídias interessantes relacionadas a respiradores e a pandemia em um contexto mais geral.
+
+- _(27/03/2020)_ [Desafios para o suprimento de respiradores para pandemia de covid-19](https://jornal.usp.br/artigos/desafios-para-o-suprimento-de-respiradores-para-pandemia-de-covid-19/)
+
 ## Conclusão
 
 Acreditamos que documentar as aparições na mídia seja importante para a transparência do projeto e para o entendimento de como a Universidade e a Escola Politécnica estão se comunicando com a sociedade civil.
